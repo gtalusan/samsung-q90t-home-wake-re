@@ -1,0 +1,326 @@
+openjdk version "25.0.5.0.2" 2026-10-22
+OpenJDK Runtime Environment Homebrew (build 25.0.5.0.2)
+OpenJDK 64-Bit Server VM Homebrew (build 25.0.5.0.2, mixed mode)
+INFO  Using log config file: jar:file:/opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: ~/Library/ghidra/ghidra_12.2_PUBLIC/application.log (LoggingInitialization)  
+INFO  Loading user preferences: ~/Library/ghidra/ghidra_12.2_PUBLIC/preferences (Preferences)  
+INFO  Loading previous preferences: ~/.ghidra/.ghidra_9.1.2_PUBLIC/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (549 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Loaded 25 trusted CA certificates from the OS trust store. (DefaultTrustManagerFactory)  
+INFO  Loaded 110 trusted CA certificates from the Java default trust store. (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (6127 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 60 extension points (19 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    ~/build/samsung/CleanFrame/.local/q90t
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/Decompiler/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/FunctionID/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/FileFormats/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/8051/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/VersionTracking/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/BSim/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/Atmel/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/Swift/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/DATA/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Debug/Debugger/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/JVM/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/PIC/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/PDB/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/BytePatterns/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/PyGhidra/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/Base/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Creating temporary project: /tmp/cf-ghidra-proj/libcommon (HeadlessAnalyzer)  
+INFO  Creating project: /tmp/cf-ghidra-proj/libcommon (DefaultProject)  
+INFO  REPORT: Processing input files:  (HeadlessAnalyzer)  
+INFO       project: /tmp/cf-ghidra-proj/libcommon (HeadlessAnalyzer)  
+INFO  IMPORTING: file://~/build/samsung/CleanFrame/.local/q90t/bin/libapp-context-manager-common.so (HeadlessAnalyzer)  
+INFO  Using Loader: Executable and Linking Format (ELF) (ProgramLoader)  
+INFO  Using Language/Compiler: ARM:LE:32:v8:default (ProgramLoader)  
+INFO  Using Library Search Path: [., /System/Library/dyld/dyld_shared_cache_arm64e, /System/Library/dyld/dyld_shared_cache_x86_64, /System/Library/dyld/dyld_shared_cache_x86_64h, /System/Cryptexes/OS/System/Library/dyld/dyld_shared_cache_arm64e, /System/Cryptexes/OS/System/Library/dyld/dyld_shared_cache_x86_64, /System/Cryptexes/OS/System/Library/dyld/dyld_shared_cache_x86_64h, ~/Library/Java/Extensions, /Library/Java/Extensions, /Network/Library/Java/Extensions, /System/Library/Java/Extensions, /usr/lib/java] (ProgramLoader)  
+INFO  Additional info:
+Loading file://~/build/samsung/CleanFrame/.local/q90t/bin/libapp-context-manager-common.so?MD5=7e48cb4820ec6ac14cf74519aeba7657...
+Setting block .init_array to read-only
+Setting block .fini_array to read-only
+Setting block .jcr to read-only
+Setting block .data.rel.ro to read-only
+Setting block .dynamic to read-only
+------------------------------------------------
+
+Linking the External Programs of 'libapp-context-manager-common.so' to imported libraries...
+  [libglib-2.0.so.0] -> not found in project
+  [libgobject-2.0.so.0] -> not found in project
+  [libgio-2.0.so.0] -> not found in project
+  [libjson-glib-1.0.so.0] -> not found in project
+  [libecore_input.so.1] -> not found in project
+  [libvd-win-util.so.0] -> not found in project
+  [libvirtualscreen-linker.so.0] -> not found in project
+  [libtzplatform-config-2.0.so.2] -> not found in project
+  [libaul.so.0] -> not found in project
+  [libbundle.so.0] -> not found in project
+  [libvconf.so.0] -> not found in project
+  [libdlog.so.0] -> not found in project
+  [libecore_wl2.so.1] -> not found in project
+  [libecore.so.1] -> not found in project
+  [libpthread.so.0] -> not found in project
+  [libeina.so.1] -> not found in project
+  [libaul-ex.so.0] -> not found in project
+  [libcapi-appfw-app-operation-tv.so.0] -> not found in project
+  [libaul-extension.so.0] -> not found in project
+  [libwas_db_api.so] -> not found in project
+  [libcapi-system-info.so.0] -> not found in project
+  [libsyspopup_caller.so.0.1.0] -> not found in project
+  [libwas_launcher_api.so] -> not found in project
+  [libtvs-ht.so] -> not found in project
+  [libpkgmgr-info.so.0] -> not found in project
+  [libdeviced.so.1] -> not found in project
+  [libautoinput.so.0] -> not found in project
+  [libttrace.so.1] -> not found in project
+  [libSLP-db-util.so.0] -> not found in project
+  [libsqlite3.so.0] -> not found in project
+  [libcapi-system-system-settings.so.0] -> not found in project
+  [libCLogger.so] -> not found in project
+  [libnotification.so.0] -> not found in project
+  [libgcc_s.so.1] -> not found in project
+  [libc.so.6] -> not found in project
+  [ld-linux.so.3] -> not found in project
+------------------------------------------------
+
+Resolving External Symbols of [/libapp-context-manager-common.so] - 272 unresolved symbols, no external libraries configured - skipping
+ (ProgramLoader)  
+INFO  IMPORTING: Loaded 0 additional files (HeadlessAnalyzer)  
+INFO  ANALYZING all memory and code: file://~/build/samsung/CleanFrame/.local/q90t/bin/libapp-context-manager-common.so (HeadlessAnalyzer)  
+INFO  DWARF external debug information found: [BuildIdDebugInfo [buildId=[-78, -122, -109, 99, -71, -9, -45, -34, -107, -115, -104, -13, -128, 121, 74, 59, -57, -120, -3, -15], objectType=DEBUGINFO, ]] (ExternalDebugFileSectionProvider)  
+INFO  Unable to find DWARF information, skipping DWARF analysis (DWARFAnalyzer)  
+WARN  WARNING! Repairing body of function at 45e9d4b0 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Removing function with bad body at 45ea8a48 (ClearFlowAndRepairCmd)  
+WARN  Decompiling 45e98c0c, pcode error at 45eca190: Unable to disassemble EXTERNAL block location: 45eca190 (DecompileCallback)  
+WARN  Decompiling 45e98b68, pcode error at 45eca148: Unable to disassemble EXTERNAL block location: 45eca148 (DecompileCallback)  
+INFO  Packed database cache: /var/tmp/george-ghidra/packed-db-cache (PackedDatabaseCache)  
+INFO  Applied data type archive: generic_clib (ApplyDataArchiveAnalyzer)  
+INFO  -----------------------------------------------------
+    ARM Constant Reference Analyzer            0.601 secs
+    ARM Symbol                                 0.001 secs
+    ASCII Strings                              0.123 secs
+    Apply Data Archives                        0.246 secs
+    Call Convention ID                         0.872 secs
+    Call-Fixup Installer                       0.128 secs
+    Create Address Tables                      0.020 secs
+    Create Address Tables - One Time           0.003 secs
+    Create Function                            0.160 secs
+    DWARF                                      0.004 secs
+    Data Reference                             0.639 secs
+    Decompiler Switch Analysis                 2.550 secs
+    Demangler GNU                              0.072 secs
+    Disassemble                                0.030 secs
+    Disassemble Entry Points                   0.938 secs
+    Embedded Media                             0.003 secs
+    External Entry References                  0.002 secs
+    Function ID                                0.022 secs
+    Function Start Pre Search                  0.005 secs
+    Function Start Search                      0.047 secs
+    Function Start Search After Code           0.024 secs
+    Function Start Search After Data           0.032 secs
+    Function Start Search delayed - One Time   0.004 secs
+    GCC Exception Handlers                     0.004 secs
+    Non-Returning Functions - Discovered       0.061 secs
+    Non-Returning Functions - Known            0.002 secs
+    Reference                                  0.805 secs
+    Shared Return Calls                        0.024 secs
+    Source Language Support                    0.003 secs
+    Stack                                      0.353 secs
+    Subroutine References                      0.117 secs
+    Subroutine References - One Time           0.000 secs
+    Variadic Function Signature Override       1.811 secs
+-----------------------------------------------------
+     Total Time   9 secs
+-----------------------------------------------------
+ (AutoAnalysisManager)  
+INFO  REPORT: Analysis succeeded for file: file://~/build/samsung/CleanFrame/.local/q90t/bin/libapp-context-manager-common.so (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: FunctionStrings.java  (HeadlessAnalyzer)  
+INFO  SCRIPT: ~/build/samsung/CleanFrame/.local/q90t/FunctionStrings.java (HeadlessAnalyzer)  
+INFO  FunctionStrings.java> ######## util_get_appbooting_supported_webapp_byappid @ 45e9d4b0 (GhidraScript)  
+INFO  FunctionStrings.java>   45e9d526 -> 45eb1388 : http://samsung.com/tv/metadata/disable.appbooting (GhidraScript)  
+INFO  FunctionStrings.java>   45e9d528 -> 45eb1380 : true (GhidraScript)  
+INFO  FunctionStrings.java>   45e9d538 -> 45eb10b4 : false (GhidraScript)  
+INFO  FunctionStrings.java>   45e9d53a -> 45eb1488 : http://samsung.com/tv/metadata/multitasking.support (GhidraScript)  
+INFO  FunctionStrings.java>   45e9d53e -> 45eb13bc : http://samsung.com/tv/metadata/transparent.support (GhidraScript)  
+INFO  FunctionStrings.java>   45e9d540 -> 45eb13bc : http://samsung.com/tv/metadata/transparent.support (GhidraScript)  
+INFO  FunctionStrings.java>   45e9d546 -> 45eb1380 : true (GhidraScript)  
+INFO  FunctionStrings.java>   45e9d548 -> 45eb13bc : http://samsung.com/tv/metadata/transparent.support (GhidraScript)  
+INFO  FunctionStrings.java>   45e9d562 -> 45eb1380 : true (GhidraScript)  
+INFO  FunctionStrings.java>   45e9d566 -> 45eb13f0 : http://samsung.com/tv/metadata/transparent.opaque.support (GhidraScript)  
+INFO  FunctionStrings.java>   45e9d58c -> 45eafec3 : util.c (GhidraScript)  
+INFO  FunctionStrings.java>   45e9d590 -> 45eafa8c : tvctx-manager (GhidraScript)  
+INFO  FunctionStrings.java>   45e9d596 -> 45eaf1d8 : util_get_appbooting_supported_webapp_byappid (GhidraScript)  
+INFO  FunctionStrings.java>   45e9d598 -> 45eb142c : %s: %s(%d) > multitasking %d, transparent %d, opaque %d (GhidraScript)  
+INFO  FunctionStrings.java>   45e9d5d0 -> 45eaf1d8 : util_get_appbooting_supported_webapp_byappid (GhidraScript)  
+INFO  FunctionStrings.java>   45e9d5d2 -> 45eafec3 : util.c (GhidraScript)  
+INFO  FunctionStrings.java>   45e9d5dc -> 45eb14bc : %s: %s(%d) > %s does not support appbooting (GhidraScript)  
+INFO  FunctionStrings.java>   45e9d5de -> 45eafa8c : tvctx-manager (GhidraScript)  
+INFO  FunctionStrings.java>   45e9d5fe -> 45eafec3 : util.c (GhidraScript)  
+INFO  FunctionStrings.java>   45e9d60c -> 45eaf1d8 : util_get_appbooting_supported_webapp_byappid (GhidraScript)  
+INFO  FunctionStrings.java>   45e9d60e -> 45eb142c : %s: %s(%d) > multitasking %d, transparent %d, opaque %d (GhidraScript)  
+INFO  FunctionStrings.java>   45e9d61a -> 45eafa8c : tvctx-manager (GhidraScript)  
+INFO  FunctionStrings.java>   45e9d63e -> 45eaf1d8 : util_get_appbooting_supported_webapp_byappid (GhidraScript)  
+INFO  FunctionStrings.java>   45e9d640 -> 45eafec3 : util.c (GhidraScript)  
+INFO  FunctionStrings.java>   45e9d648 -> 45eb1464 : %s: %s(%d) > %s is app-booting app (GhidraScript)  
+INFO  FunctionStrings.java>   45e9d64c -> 45eafa8c : tvctx-manager (GhidraScript)  
+INFO  FunctionStrings.java>   45e9d65c -> 45eb13bc : http://samsung.com/tv/metadata/transparent.support (GhidraScript)  
+INFO  FunctionStrings.java>   45e9d682 -> 45eaf1d8 : util_get_appbooting_supported_webapp_byappid (GhidraScript)  
+INFO  FunctionStrings.java>   45e9d684 -> 45eafec3 : util.c (GhidraScript)  
+INFO  FunctionStrings.java>   45e9d692 -> 45eb1358 : %s: %s(%d) > failed to get appinfo %d (GhidraScript)  
+INFO  FunctionStrings.java>   45e9d694 -> 45eafa8c : tvctx-manager (GhidraScript)  
+INFO  FunctionStrings.java>   45e9d6b0 -> 45eafec3 : util.c (GhidraScript)  
+INFO  FunctionStrings.java>   45e9d6bc -> 45eaf1d8 : util_get_appbooting_supported_webapp_byappid (GhidraScript)  
+INFO  FunctionStrings.java>   45e9d6be -> 45eb1314 : %s: %s(%d) > failed to get SYSTEM_INFO_KEY_MULTITASKING_SUPPORT %d (GhidraScript)  
+INFO  FunctionStrings.java>   45e9d6c2 -> 45eafa8c : tvctx-manager (GhidraScript)  
+INFO  FunctionStrings.java>   45e9d6e4 -> 45eaf1d8 : util_get_appbooting_supported_webapp_byappid (GhidraScript)  
+INFO  FunctionStrings.java>   45e9d6e6 -> 45eafec3 : util.c (GhidraScript)  
+INFO  FunctionStrings.java>   45e9d6f0 -> 45eb05c0 : %s: %s(%d) > out of memory (GhidraScript)  
+INFO  FunctionStrings.java>   45e9d6f2 -> 45eafa8c : tvctx-manager (GhidraScript)  
+INFO  FunctionStrings.java> ######## util_get_uiapp_has_metadata_byappid @ 45e9cae8 (GhidraScript)  
+INFO  FunctionStrings.java>   45e9cb3e -> 45eb0684 : uiapp (GhidraScript)  
+INFO  FunctionStrings.java>   45e9cb86 -> 45eaf114 : util_get_uiapp_has_metadata_byappid (GhidraScript)  
+INFO  FunctionStrings.java>   45e9cb88 -> 45eafec3 : util.c (GhidraScript)  
+INFO  FunctionStrings.java>   45e9cb92 -> 45eafa8c : tvctx-manager (GhidraScript)  
+INFO  FunctionStrings.java>   45e9cb94 -> 45eb102c : %s: %s(%d) > %s has metadata key: %s (GhidraScript)  
+INFO  FunctionStrings.java>   45e9cbba -> 45eaf114 : util_get_uiapp_has_metadata_byappid (GhidraScript)  
+INFO  FunctionStrings.java>   45e9cbbc -> 45eafec3 : util.c (GhidraScript)  
+INFO  FunctionStrings.java>   45e9cbc4 -> 45eb065c : %s: %s(%d) > failed to get component (GhidraScript)  
+INFO  FunctionStrings.java>   45e9cbc6 -> 45eafa8c : tvctx-manager (GhidraScript)  
+INFO  FunctionStrings.java>   45e9cbe4 -> 45eaf114 : util_get_uiapp_has_metadata_byappid (GhidraScript)  
+INFO  FunctionStrings.java>   45e9cbe6 -> 45eafec3 : util.c (GhidraScript)  
+INFO  FunctionStrings.java>   45e9cbf2 -> 45eb0580 : %s: %s(%d) > invalid data (GhidraScript)  
+INFO  FunctionStrings.java>   45e9cbf4 -> 45eafa8c : tvctx-manager (GhidraScript)  
+INFO  FunctionStrings.java>   45e9cc14 -> 45eaf114 : util_get_uiapp_has_metadata_byappid (GhidraScript)  
+INFO  FunctionStrings.java>   45e9cc16 -> 45eafec3 : util.c (GhidraScript)  
+INFO  FunctionStrings.java>   45e9cc24 -> 45eb1004 : %s: %s(%d) > failed to get PMINFO: %s (GhidraScript)  
+INFO  FunctionStrings.java>   45e9cc26 -> 45eafa8c : tvctx-manager (GhidraScript)  
+INFO  FunctionStrings.java> ######## FUN_45ea1a10 @ 45ea1a10 (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1aea -> 45eafadb : task-mgr.c (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1aea -> 45eaf57c : itr_window_stack (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1af8 -> 45eafa8c : tvctx-manager (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1afa -> 45eafa8c : tvctx-manager (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1b08 -> 45eb0c38 : %s: %s(%d) > pid %d, vis %d, opaque %d (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1b5e -> 45eb2a38 : portland_on_portrait (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1b9e -> 45eb2abc : ocl_banner_visible (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1bc6 -> 45eb0498 : com.samsung.tv.aod (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1c32 -> 45eb1520 : webapp (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1c74 -> 45eafadb : task-mgr.c (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1c7a -> 45eafa8c : tvctx-manager (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1c82 -> 45eb0c04 : %s: %s(%d) > aul_window_info_get_opaque failed %d (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1c84 -> 45eaf57c : itr_window_stack (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1ca2 -> 45eafadb : task-mgr.c (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1ca8 -> 45eafa8c : tvctx-manager (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1cb0 -> 45eb0bcc : %s: %s(%d) > aul_window_info_get_visibility failed %d (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1cb2 -> 45eaf57c : itr_window_stack (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1cda -> 45eafadb : task-mgr.c (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1cda -> 45eaf57c : itr_window_stack (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1ce2 -> 45eafa8c : tvctx-manager (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1ce4 -> 45eb0b9c : %s: %s(%d) > aul_window_info_get_pid failed %d (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1d08 -> 45eb1150 : org.tizen.tv-viewer (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1d24 -> 45eafa8c : tvctx-manager (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1d26 -> 45eb0c60 : %s: %s(%d) > aul_window_info_get_geometry failed %d (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1d28 -> 45eaf57c : itr_window_stack (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1d2c -> 45eafadb : task-mgr.c (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1d4c -> 45eaf57c : itr_window_stack (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1d4e -> 45eafadb : task-mgr.c (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1d56 -> 45eb0c94 : %s: %s(%d) > aul_app_get_appid_bypid failed (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1d58 -> 45eafa8c : tvctx-manager (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1d74 -> 45eb0498 : com.samsung.tv.aod (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1d8a -> 45eb2a50 : org.tizen.channel-manager (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1d9a -> 45eb2a6c : org.tizen.epg (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1daa -> 45eb2a7c : com.samsung.tv.bbplayer (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1dd6 -> 45eb2b58 : %s: %s(%d) > put aod to bg wall with pig(%s) (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1dd8 -> 45eafa8c : tvctx-manager (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1ddc -> 45eaf57c : itr_window_stack (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1de2 -> 45eafadb : task-mgr.c (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1de8 -> 45eb0498 : com.samsung.tv.aod (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1dfc -> 45eaf57c : itr_window_stack (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1e00 -> 45eafa8c : tvctx-manager (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1e06 -> 45eafadb : task-mgr.c (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1e08 -> 45eb2a94 : %s: %s(%d) > failed to activate below (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1e1a -> 45eb2b24 : http://samsung.com/tv/metadata/appbootingsupport (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1e3a -> 45eaf57c : itr_window_stack (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1e3c -> 45eafadb : task-mgr.c (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1e44 -> 45eb2ad0 : %s: %s(%d) > app booting appid updated by PIG (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1e46 -> 45eafa8c : tvctx-manager (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1e64 -> 45eaf57c : itr_window_stack (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1e66 -> 45eafadb : task-mgr.c (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1e6e -> 45eafa8c : tvctx-manager (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1e72 -> 45eb2b00 : %s: %s(%d) > %s(%d) task not found (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1e84 -> 45eb1e58 : app-source (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1e86 -> 45eb03dc : memory/volt/last_service (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1e9c -> 45eb03dc : memory/volt/last_service (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1ea6 -> 45eaf57c : itr_window_stack (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1ea8 -> 45eafadb : task-mgr.c (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1eb2 -> 45eb039c : %s: %s(%d) > failed to set %s (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1eb4 -> 45eafa8c : tvctx-manager (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1ec0 -> 45eb163c : memory/volt/last_service_app_booting (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1ed6 -> 45eb163c : memory/volt/last_service_app_booting (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1ee0 -> 45eaf57c : itr_window_stack (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1ee2 -> 45eafadb : task-mgr.c (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1eec -> 45eb039c : %s: %s(%d) > failed to set %s (GhidraScript)  
+INFO  FunctionStrings.java>   45ea1eee -> 45eafa8c : tvctx-manager (GhidraScript)  
+INFO  FunctionStrings.java> ######## context_set_booting_appid_vconf @ 45e9a7e4 (GhidraScript)  
+INFO  FunctionStrings.java>   45e9a7f0 -> 45eb0380 : memory/appfw/booting_appid (GhidraScript)  
+INFO  FunctionStrings.java>   45e9a800 -> 45eb03bc : db/appfw/booting_appid_backup (GhidraScript)  
+INFO  FunctionStrings.java>   45e9a814 -> 45eb03bc : db/appfw/booting_appid_backup (GhidraScript)  
+INFO  FunctionStrings.java>   45e9a81e -> 45eaed2c : context_set_booting_appid_vconf (GhidraScript)  
+INFO  FunctionStrings.java>   45e9a820 -> 45eafbe3 : context.cpp (GhidraScript)  
+INFO  FunctionStrings.java>   45e9a82a -> 45eb039c : %s: %s(%d) > failed to set %s (GhidraScript)  
+INFO  FunctionStrings.java>   45e9a82c -> 45eafa8c : tvctx-manager (GhidraScript)  
+INFO  FunctionStrings.java>   45e9a844 -> 45eb0380 : memory/appfw/booting_appid (GhidraScript)  
+INFO  FunctionStrings.java>   45e9a84e -> 45eaed2c : context_set_booting_appid_vconf (GhidraScript)  
+INFO  FunctionStrings.java>   45e9a850 -> 45eafbe3 : context.cpp (GhidraScript)  
+INFO  FunctionStrings.java>   45e9a85a -> 45eb039c : %s: %s(%d) > failed to set %s (GhidraScript)  
+INFO  FunctionStrings.java>   45e9a85c -> 45eafa8c : tvctx-manager (GhidraScript)  
+INFO  FunctionStrings.java> ######## context_init_pre @ 45e9dd24 (GhidraScript)  
+INFO  FunctionStrings.java>   45e9dd48 -> 45eb163c : memory/volt/last_service_app_booting (GhidraScript)  
+INFO  FunctionStrings.java>   45e9dd56 -> 45eb1664 : db/menu/app_booting (GhidraScript)  
+INFO  FunctionStrings.java>   45e9dd64 -> 45eb0380 : memory/appfw/booting_appid (GhidraScript)  
+INFO  FunctionStrings.java>   45e9dd72 -> 45eb1678 : db/menu_widget/language (GhidraScript)  
+INFO  FunctionStrings.java> ######## context_add_livetv_appid @ 45e9b034 (GhidraScript)  
+INFO  FunctionStrings.java>   45e9b06a -> 45eaee58 : context_add_livetv_appid (GhidraScript)  
+INFO  FunctionStrings.java>   45e9b06c -> 45eafbe3 : context.cpp (GhidraScript)  
+INFO  FunctionStrings.java>   45e9b072 -> 45eb0580 : %s: %s(%d) > invalid data (GhidraScript)  
+INFO  FunctionStrings.java>   45e9b074 -> 45eafa8c : tvctx-manager (GhidraScript)  
+INFO  FunctionStrings.java> ######## FUN_45e9f8a8 @ 45e9f8a8 (GhidraScript)  
+INFO  FunctionStrings.java>   45e9f8d6 -> 45eb2014 : %s: %s(%d) > app booting state changed (%d) (GhidraScript)  
+INFO  FunctionStrings.java>   45e9f8da -> 45eafa8c : tvctx-manager (GhidraScript)  
+INFO  FunctionStrings.java>   45e9f8e2 -> 45eaf40c : app_booting_state_changed (GhidraScript)  
+INFO  FunctionStrings.java>   45e9f8e4 -> 45eafbe3 : context.cpp (GhidraScript)  
+INFO  FunctionStrings.java>   45e9f8ee -> 45eb2040 : app_booting_mode (GhidraScript)  
+INFO  FunctionStrings.java>   45e9f90a -> 45eb2080 : autorun_last_app (GhidraScript)  
+INFO  FunctionStrings.java>   45e9f91a -> 45eafa8c : tvctx-manager (GhidraScript)  
+INFO  FunctionStrings.java>   45e9f91c -> 45eaf40c : app_booting_state_changed (GhidraScript)  
+INFO  FunctionStrings.java>   45e9f91e -> 45eb20c8 : %s: %s(%d) > app booting disabled (%d) (GhidraScript)  
+INFO  FunctionStrings.java>   45e9f920 -> 45eafbe3 : context.cpp (GhidraScript)  
+INFO  FunctionStrings.java>   45e9f94c -> 45eaf40c : app_booting_state_changed (GhidraScript)  
+INFO  FunctionStrings.java>   45e9f94e -> 45eafbe3 : context.cpp (GhidraScript)  
+INFO  FunctionStrings.java>   45e9f958 -> 45eb2054 : %s: %s(%d) > state changed. enabled (%d) (GhidraScript)  
+INFO  FunctionStrings.java>   45e9f95e -> 45eafa8c : tvctx-manager (GhidraScript)  
+INFO  FunctionStrings.java>   45e9f994 -> 45eb2080 : autorun_last_app (GhidraScript)  
+INFO  FunctionStrings.java>   45e9f99c -> 45eaf40c : app_booting_state_changed (GhidraScript)  
+INFO  FunctionStrings.java>   45e9f99e -> 45eafa8c : tvctx-manager (GhidraScript)  
+INFO  FunctionStrings.java>   45e9f9a4 -> 45eafbe3 : context.cpp (GhidraScript)  
+INFO  FunctionStrings.java>   45e9f9b6 -> 45eb2094 : %s: %s(%d) > app booting enabled (%d) appid (%s) (GhidraScript)  
+INFO  FunctionStrings.java>   45e9f9d4 -> 45eaf40c : app_booting_state_changed (GhidraScript)  
+INFO  FunctionStrings.java>   45e9f9d6 -> 45eafbe3 : context.cpp (GhidraScript)  
+INFO  FunctionStrings.java>   45e9f9de -> 45eafbf0 : %s: %s(%d) > bad arugments (GhidraScript)  
+INFO  FunctionStrings.java>   45e9f9e0 -> 45eafa8c : tvctx-manager (GhidraScript)  
+INFO  ANALYZING changes made by post scripts: file://~/build/samsung/CleanFrame/.local/q90t/bin/libapp-context-manager-common.so (HeadlessAnalyzer)  
+INFO  REPORT: Post-analysis succeeded for file: file://~/build/samsung/CleanFrame/.local/q90t/bin/libapp-context-manager-common.so (HeadlessAnalyzer)  
+INFO  /libapp-context-manager-common.so: file created (george) (LocalFileSystem)  
+INFO  REPORT: Save succeeded for: /libapp-context-manager-common.so (libcommon:/libapp-context-manager-common.so) (HeadlessAnalyzer)  
+INFO  REPORT: Import succeeded (HeadlessAnalyzer)  

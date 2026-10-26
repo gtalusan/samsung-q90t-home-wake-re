@@ -1,0 +1,277 @@
+openjdk version "25.0.5.0.2" 2026-10-22
+OpenJDK Runtime Environment Homebrew (build 25.0.5.0.2)
+OpenJDK 64-Bit Server VM Homebrew (build 25.0.5.0.2, mixed mode)
+INFO  Using log config file: jar:file:/opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: ~/Library/ghidra/ghidra_12.2_PUBLIC/application.log (LoggingInitialization)  
+INFO  Loading user preferences: ~/Library/ghidra/ghidra_12.2_PUBLIC/preferences (Preferences)  
+INFO  Loading previous preferences: ~/.ghidra/.ghidra_9.1.2_PUBLIC/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (538 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Loaded 25 trusted CA certificates from the OS trust store. (DefaultTrustManagerFactory)  
+INFO  Loaded 110 trusted CA certificates from the Java default trust store. (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (6184 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 60 extension points (19 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    ~/build/samsung/CleanFrame/.local/q90t
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/Decompiler/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/FunctionID/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/FileFormats/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/8051/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/VersionTracking/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/BSim/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/Atmel/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/Swift/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/DATA/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Debug/Debugger/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/JVM/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/PIC/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/PDB/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/BytePatterns/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/PyGhidra/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/Base/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Creating temporary project: /tmp/cf-ghidra-proj/deviced (HeadlessAnalyzer)  
+INFO  Creating project: /tmp/cf-ghidra-proj/deviced (DefaultProject)  
+INFO  REPORT: Processing input files:  (HeadlessAnalyzer)  
+INFO       project: /tmp/cf-ghidra-proj/deviced (HeadlessAnalyzer)  
+INFO  IMPORTING: file://~/build/samsung/CleanFrame/.local/q90t/bin/deviced (HeadlessAnalyzer)  
+INFO  Using Loader: Executable and Linking Format (ELF) (ProgramLoader)  
+INFO  Using Language/Compiler: ARM:LE:32:v8:default (ProgramLoader)  
+INFO  Using Library Search Path: [., /System/Library/dyld/dyld_shared_cache_arm64e, /System/Library/dyld/dyld_shared_cache_x86_64, /System/Library/dyld/dyld_shared_cache_x86_64h, /System/Cryptexes/OS/System/Library/dyld/dyld_shared_cache_arm64e, /System/Cryptexes/OS/System/Library/dyld/dyld_shared_cache_x86_64, /System/Cryptexes/OS/System/Library/dyld/dyld_shared_cache_x86_64h, ~/Library/Java/Extensions, /Library/Java/Extensions, /Network/Library/Java/Extensions, /System/Library/Java/Extensions, /usr/lib/java] (ProgramLoader)  
+INFO  Additional info:
+Loading file://~/build/samsung/CleanFrame/.local/q90t/bin/deviced?MD5=7a3088ddc6c36130234ddc71e60d486e...
+Setting block .init_array to read-only
+Setting block .fini_array to read-only
+Setting block .jcr to read-only
+Setting block .data.rel.ro to read-only
+Setting block .dynamic to read-only
+------------------------------------------------
+
+Linking the External Programs of 'deviced' to imported libraries...
+  [librt.so.1] -> not found in project
+  [libecore.so.1] -> not found in project
+  [libefl.so.1] -> not found in project
+  [libeo.so.1] -> not found in project
+  [libedbus.so.1] -> not found in project
+  [libdbus-1.so.3] -> not found in project
+  [libpthread.so.0] -> not found in project
+  [libeina.so.1] -> not found in project
+  [libgio-2.0.so.0] -> not found in project
+  [libgobject-2.0.so.0] -> not found in project
+  [libglib-2.0.so.0] -> not found in project
+  [libtzplatform-config-2.0.so.2] -> not found in project
+  [libproc-stat.so.5] -> not found in project
+  [libvconf.so.0] -> not found in project
+  [libttrace.so.1] -> not found in project
+  [libsmart-deadlock.so] -> not found in project
+  [libcapi-system-info.so.0] -> not found in project
+  [libcapi-base-common.so.0] -> not found in project
+  [libfactory-interface.so] -> not found in project
+  [libfconfig.so] -> not found in project
+  [libdlog.so.0] -> not found in project
+  [liblwipc.so] -> not found in project
+  [libpower-defs.so.0] -> not found in project
+  [libtvsystem.so.0] -> not found in project
+  [libpower-control-c-glue.so.0] -> not found in project
+  [libpower-control.so.0] -> not found in project
+  [libdisplay-panel-c-glue.so.0] -> not found in project
+  [libdisplay-panel.so.0] -> not found in project
+  [libdl.so.2] -> not found in project
+  [libm.so.6] -> not found in project
+  [libudev.so.1] -> not found in project
+  [libc.so.6] -> not found in project
+  [ld-linux.so.3] -> not found in project
+  [libgcc_s.so.1] -> not found in project
+------------------------------------------------
+
+Resolving External Symbols of [/deviced] - 243 unresolved symbols, no external libraries configured - skipping
+ (ProgramLoader)  
+INFO  IMPORTING: Loaded 0 additional files (HeadlessAnalyzer)  
+INFO  ANALYZING all memory and code: file://~/build/samsung/CleanFrame/.local/q90t/bin/deviced (HeadlessAnalyzer)  
+INFO  DWARF external debug information found: [BuildIdDebugInfo [buildId=[-104, 30, 37, -5, -1, -27, 120, -90, -24, 112, 67, -43, 95, -113, -8, 93, -11, -4, -126, -112], objectType=DEBUGINFO, ], DebugLinkDebugInfo [filename=deviced.debug, crc=1564344813]] (ExternalDebugFileSectionProvider)  
+INFO  Unable to find DWARF information, skipping DWARF analysis (DWARFAnalyzer)  
+WARN  Decompiling 00016048, pcode error at 0005a3b8: Unable to disassemble EXTERNAL block location: 0005a3b8 (DecompileCallback)  
+WARN  Decompiling 00016018, pcode error at 0005a364: Unable to disassemble EXTERNAL block location: 0005a364 (DecompileCallback)  
+INFO  Packed database cache: /var/tmp/george-ghidra/packed-db-cache (PackedDatabaseCache)  
+INFO  Applied data type archive: generic_clib (ApplyDataArchiveAnalyzer)  
+INFO  -----------------------------------------------------
+    ARM Constant Reference Analyzer            0.601 secs
+    ARM Symbol                                 0.002 secs
+    ASCII Strings                              0.125 secs
+    Apply Data Archives                        0.235 secs
+    Call Convention ID                         0.223 secs
+    Call-Fixup Installer                       0.057 secs
+    Create Address Tables                      0.024 secs
+    Create Address Tables - One Time           0.018 secs
+    Create Function                            0.104 secs
+    DWARF                                      0.003 secs
+    Data Reference                             0.641 secs
+    Decompiler Switch Analysis                 2.791 secs
+    Demangler GNU                              0.086 secs
+    Disassemble Entry Points                   0.859 secs
+    Embedded Media                             0.002 secs
+    External Entry References                  0.000 secs
+    Function ID                                0.021 secs
+    Function Start Pre Search                  0.007 secs
+    Function Start Search                      0.067 secs
+    Function Start Search After Code           0.035 secs
+    Function Start Search After Data           0.040 secs
+    GCC Exception Handlers                     0.004 secs
+    Non-Returning Functions - Discovered       0.028 secs
+    Non-Returning Functions - Known            0.004 secs
+    Reference                                  0.643 secs
+    Shared Return Calls                        0.020 secs
+    Source Language Support                    0.003 secs
+    Stack                                      0.420 secs
+    Subroutine References                      0.024 secs
+    Subroutine References - One Time           0.000 secs
+    Variadic Function Signature Override       4.472 secs
+-----------------------------------------------------
+     Total Time   11 secs
+-----------------------------------------------------
+ (AutoAnalysisManager)  
+INFO  REPORT: Analysis succeeded for file: file://~/build/samsung/CleanFrame/.local/q90t/bin/deviced (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: DecompileByName.java 'power_get_poweroff_extra_info'  (HeadlessAnalyzer)  
+INFO  SCRIPT: ~/build/samsung/CleanFrame/.local/q90t/DecompileByName.java (HeadlessAnalyzer)  
+INFO  DecompileByName.java> ######## power_get_poweroff_extra_info @ 00020cc0 (GhidraScript)  
+INFO  DecompileByName.java> 
+void power_get_poweroff_extra_info(undefined1 *param_1)
+
+{
+  undefined1 uVar1;
+  undefined1 uVar2;
+  int iVar3;
+  int iVar4;
+  char *pcVar5;
+  char *pcVar6;
+  int iVar7;
+  int iVar8;
+  int *piVar9;
+  int iVar10;
+  int iVar11;
+  int local_28;
+  int local_24;
+  int local_20;
+  int local_1c;
+  
+  piVar9 = *(int **)(DAT_0002122c + 0x20cd0 + DAT_00021230);
+  local_1c = *piVar9;
+  if (param_1 == (undefined1 *)0x0) goto LAB_00020d38;
+  if (*(char *)(DAT_00021234 + 0x20d7b) == '\0') {
+    iVar10 = DAT_00021240 + 0x20d68;
+    local_28 = -1;
+    local_20 = -1;
+    local_24 = 1;
+    iVar3 = vconf_get_int(iVar10,&local_28);
+    if (iVar3 != 0) {
+      __dlog_print(2,6,DAT_000212e0 + 0x210b0,DAT_000212dc + 0x210ac,DAT_000212d8 + 0x210bc,
+                   DAT_000212d4 + 0x210fc,0x7f,iVar10);
+    }
+    iVar10 = DAT_00021244 + 0x20d98;
+    *(bool *)(DAT_00021248 + 0x20da0) = local_28 != -1;
+    iVar3 = vconf_get_int(iVar10,&local_24);
+    if (iVar3 != 0) {
+      __dlog_print(2,6,DAT_000212d0 + 0x21064,DAT_000212cc + 0x21060,DAT_000212c8 + 0x21070,
+                   DAT_000212c4 + 0x210b0,0x86,iVar10);
+    }
+    iVar10 = DAT_0002124c + 0x20dcc;
+    *(bool *)(DAT_00021250 + 0x20dd5) = local_24 != 0;
+    iVar3 = vconf_get_int(iVar10,&local_20);
+    if (iVar3 != 0) {
+      __dlog_print(2,6,DAT_000212c0 + 0x21018,DAT_000212bc + 0x21014,DAT_000212b8 + 0x21024,
+                   DAT_000212b4 + 0x21064,0x8d,iVar10);
+    }
+    iVar3 = DAT_00021254;
+    iVar10 = DAT_00021258 + 0x20e04;
+    *(bool *)(DAT_00021254 + 0x20e02) = local_20 != -1;
+    pcVar5 = (char *)vconf_get_str(iVar10);
+    if (pcVar5 == (char *)0x0) {
+      iVar7 = DAT_000212a4 + 0x20fc0;
+      iVar4 = DAT_000212a8 + 0x21018;
+      iVar8 = DAT_000212ac + 0x20fb4;
+      iVar11 = DAT_000212b0 + 0x20fc4;
+      *(undefined1 *)(iVar3 + 0x20e03) = 0;
+      iVar3 = local_24;
+      iVar10 = local_20;
+      __dlog_print(2,4,iVar11,iVar8,iVar7,iVar4,0x9d,local_28,local_24,local_20,0);
+    }
+    else {
+      snprintf((char *)(iVar3 + 0x20e03),0x80,(char *)(DAT_0002125c + 0x20e2c),pcVar5);
+      iVar3 = local_24;
+      iVar10 = local_20;
+      pcVar6 = pcVar5;
+      __dlog_print(2,4,DAT_00021268 + 0x20e74,DAT_0002126c + 0x20e84,DAT_00021264 + 0x20e90,
+                   DAT_00021260 + 0x20ec8,0x9d,local_28,local_24,local_20,pcVar5);
+      free(pcVar5);
+      pcVar5 = pcVar6;
+    }
+    iVar11 = DAT_00021270 + 0x20ea8;
+    iVar4 = vconf_notify_key_changed(iVar11,DAT_00021274 + 0x20eac,0);
+    if (iVar4 == 0) {
+      iVar11 = DAT_00021278 + 0x20ec8;
+      iVar4 = vconf_notify_key_changed(iVar11,DAT_0002127c + 0x20ecc);
+      if (iVar4 == 0) {
+        iVar11 = DAT_00021280 + 0x20ee8;
+        iVar3 = vconf_notify_key_changed(iVar11,DAT_00021284 + 0x20eec);
+        if (iVar3 == 0) {
+          iVar11 = DAT_00021288 + 0x20f08;
+          iVar3 = vconf_notify_key_changed(iVar11,DAT_0002128c + 0x20f0c);
+          if (iVar3 == 0) {
+            __dlog_print(0,3,DAT_0002129c + 0x20f54,DAT_00021298 + 0x20f50,DAT_00021294 + 0x20f68,
+                         DAT_00021290 + 0x20fbc,0x72);
+            *(undefined1 *)(DAT_000212a0 + 0x20fe7) = 1;
+            goto LAB_00020d00;
+          }
+          __dlog_print(2,6,DAT_00021320 + 0x211d8,DAT_0002131c + 0x211d4,DAT_00021318 + 0x211e4,
+                       (int)&DAT_00021234 + DAT_00021314,0x6e,iVar11);
+        }
+        else {
+          __dlog_print(2,6,DAT_00021330 + 0x21224,DAT_0002132c + 0x21220,
+                       (int)&DAT_00021230 + DAT_00021328,(int)&DAT_00021280 + DAT_00021324,0x68,
+                       iVar11);
+        }
+      }
+      else {
+        __dlog_print(2,6,DAT_00021310 + 0x2118c,DAT_0002130c + 0x21188,DAT_00021308 + 0x21198,
+                     DAT_00021304 + 0x211e8,0x62,iVar11,iVar3,iVar10,pcVar5);
+      }
+    }
+    else {
+      __dlog_print(2,6,DAT_000212f0 + 0x210fc,DAT_000212ec + 0x210f8,DAT_000212e8 + 0x21108,
+                   DAT_000212e4 + 0x21158,0x5c,iVar11,iVar3,iVar10,pcVar5);
+    }
+    __dlog_print(2,6,DAT_00021300 + 0x21140,DAT_000212fc + 0x2113c,DAT_000212f8 + 0x21150,
+                 DAT_000212f4 + 0x21190,0xa4,iVar11);
+  }
+LAB_00020d00:
+  pcVar6 = (char *)(DAT_00021238 + 0x20d1b);
+  pcVar5 = (char *)(DAT_0002123c + 0x20d20);
+  uVar1 = *(undefined1 *)(DAT_00021238 + 0x20d18);
+  uVar2 = *(undefined1 *)(DAT_00021238 + 0x20d1a);
+  param_1[1] = *(undefined1 *)(DAT_00021238 + 0x20d19);
+  *param_1 = uVar1;
+  param_1[2] = uVar2;
+  snprintf(param_1 + 3,0x80,pcVar5,pcVar6);
+LAB_00020d38:
+  if (local_1c != *piVar9) {
+                    /* WARNING: Subroutine does not return */
+    __stack_chk_fail();
+  }
+  return;
+}
+
+ (GhidraScript)  
+INFO  ANALYZING changes made by post scripts: file://~/build/samsung/CleanFrame/.local/q90t/bin/deviced (HeadlessAnalyzer)  
+INFO  REPORT: Post-analysis succeeded for file: file://~/build/samsung/CleanFrame/.local/q90t/bin/deviced (HeadlessAnalyzer)  
+INFO  /deviced: file created (george) (LocalFileSystem)  
+INFO  REPORT: Save succeeded for: /deviced (deviced:/deviced) (HeadlessAnalyzer)  
+INFO  REPORT: Import succeeded (HeadlessAnalyzer)  

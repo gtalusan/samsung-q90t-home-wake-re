@@ -1,0 +1,1683 @@
+openjdk version "25.0.5.0.2" 2026-10-22
+OpenJDK Runtime Environment Homebrew (build 25.0.5.0.2)
+OpenJDK 64-Bit Server VM Homebrew (build 25.0.5.0.2, mixed mode)
+INFO  Using log config file: jar:file:/opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: ~/Library/ghidra/ghidra_12.2_PUBLIC/application.log (LoggingInitialization)  
+INFO  Loading user preferences: ~/Library/ghidra/ghidra_12.2_PUBLIC/preferences (Preferences)  
+INFO  Loading previous preferences: ~/.ghidra/.ghidra_9.1.2_PUBLIC/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (540 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Loaded 25 trusted CA certificates from the OS trust store. (DefaultTrustManagerFactory)  
+INFO  Loaded 110 trusted CA certificates from the Java default trust store. (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (6188 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 60 extension points (19 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    ~/build/samsung/CleanFrame/.local/q90t
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/Decompiler/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/FunctionID/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/FileFormats/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/8051/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/VersionTracking/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/BSim/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/Atmel/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/Swift/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/DATA/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Debug/Debugger/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/JVM/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/PIC/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/PDB/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/BytePatterns/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/PyGhidra/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/Base/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Creating temporary project: /tmp/cf-ghidra-proj/libcommon (HeadlessAnalyzer)  
+INFO  Creating project: /tmp/cf-ghidra-proj/libcommon (DefaultProject)  
+INFO  REPORT: Processing input files:  (HeadlessAnalyzer)  
+INFO       project: /tmp/cf-ghidra-proj/libcommon (HeadlessAnalyzer)  
+INFO  IMPORTING: file://~/build/samsung/CleanFrame/.local/q90t/bin/libapp-context-manager-common.so (HeadlessAnalyzer)  
+INFO  Using Loader: Executable and Linking Format (ELF) (ProgramLoader)  
+INFO  Using Language/Compiler: ARM:LE:32:v8:default (ProgramLoader)  
+INFO  Using Library Search Path: [., /System/Library/dyld/dyld_shared_cache_arm64e, /System/Library/dyld/dyld_shared_cache_x86_64, /System/Library/dyld/dyld_shared_cache_x86_64h, /System/Cryptexes/OS/System/Library/dyld/dyld_shared_cache_arm64e, /System/Cryptexes/OS/System/Library/dyld/dyld_shared_cache_x86_64, /System/Cryptexes/OS/System/Library/dyld/dyld_shared_cache_x86_64h, ~/Library/Java/Extensions, /Library/Java/Extensions, /Network/Library/Java/Extensions, /System/Library/Java/Extensions, /usr/lib/java] (ProgramLoader)  
+INFO  Additional info:
+Loading file://~/build/samsung/CleanFrame/.local/q90t/bin/libapp-context-manager-common.so?MD5=7e48cb4820ec6ac14cf74519aeba7657...
+Setting block .init_array to read-only
+Setting block .fini_array to read-only
+Setting block .jcr to read-only
+Setting block .data.rel.ro to read-only
+Setting block .dynamic to read-only
+------------------------------------------------
+
+Linking the External Programs of 'libapp-context-manager-common.so' to imported libraries...
+  [libglib-2.0.so.0] -> not found in project
+  [libgobject-2.0.so.0] -> not found in project
+  [libgio-2.0.so.0] -> not found in project
+  [libjson-glib-1.0.so.0] -> not found in project
+  [libecore_input.so.1] -> not found in project
+  [libvd-win-util.so.0] -> not found in project
+  [libvirtualscreen-linker.so.0] -> not found in project
+  [libtzplatform-config-2.0.so.2] -> not found in project
+  [libaul.so.0] -> not found in project
+  [libbundle.so.0] -> not found in project
+  [libvconf.so.0] -> not found in project
+  [libdlog.so.0] -> not found in project
+  [libecore_wl2.so.1] -> not found in project
+  [libecore.so.1] -> not found in project
+  [libpthread.so.0] -> not found in project
+  [libeina.so.1] -> not found in project
+  [libaul-ex.so.0] -> not found in project
+  [libcapi-appfw-app-operation-tv.so.0] -> not found in project
+  [libaul-extension.so.0] -> not found in project
+  [libwas_db_api.so] -> not found in project
+  [libcapi-system-info.so.0] -> not found in project
+  [libsyspopup_caller.so.0.1.0] -> not found in project
+  [libwas_launcher_api.so] -> not found in project
+  [libtvs-ht.so] -> not found in project
+  [libpkgmgr-info.so.0] -> not found in project
+  [libdeviced.so.1] -> not found in project
+  [libautoinput.so.0] -> not found in project
+  [libttrace.so.1] -> not found in project
+  [libSLP-db-util.so.0] -> not found in project
+  [libsqlite3.so.0] -> not found in project
+  [libcapi-system-system-settings.so.0] -> not found in project
+  [libCLogger.so] -> not found in project
+  [libnotification.so.0] -> not found in project
+  [libgcc_s.so.1] -> not found in project
+  [libc.so.6] -> not found in project
+  [ld-linux.so.3] -> not found in project
+------------------------------------------------
+
+Resolving External Symbols of [/libapp-context-manager-common.so] - 272 unresolved symbols, no external libraries configured - skipping
+ (ProgramLoader)  
+INFO  IMPORTING: Loaded 0 additional files (HeadlessAnalyzer)  
+INFO  ANALYZING all memory and code: file://~/build/samsung/CleanFrame/.local/q90t/bin/libapp-context-manager-common.so (HeadlessAnalyzer)  
+INFO  DWARF external debug information found: [BuildIdDebugInfo [buildId=[-78, -122, -109, 99, -71, -9, -45, -34, -107, -115, -104, -13, -128, 121, 74, 59, -57, -120, -3, -15], objectType=DEBUGINFO, ]] (ExternalDebugFileSectionProvider)  
+INFO  Unable to find DWARF information, skipping DWARF analysis (DWARFAnalyzer)  
+WARN  WARNING! Repairing body of function at 45e9d4b0 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Removing function with bad body at 45ea8a48 (ClearFlowAndRepairCmd)  
+WARN  Decompiling 45e98b68, pcode error at 45eca148: Unable to disassemble EXTERNAL block location: 45eca148 (DecompileCallback)  
+WARN  Decompiling 45e98c0c, pcode error at 45eca190: Unable to disassemble EXTERNAL block location: 45eca190 (DecompileCallback)  
+INFO  Packed database cache: /var/tmp/george-ghidra/packed-db-cache (PackedDatabaseCache)  
+INFO  Applied data type archive: generic_clib (ApplyDataArchiveAnalyzer)  
+INFO  -----------------------------------------------------
+    ARM Constant Reference Analyzer            0.534 secs
+    ARM Symbol                                 0.001 secs
+    ASCII Strings                              0.128 secs
+    Apply Data Archives                        0.230 secs
+    Call Convention ID                         0.897 secs
+    Call-Fixup Installer                       0.132 secs
+    Create Address Tables                      0.019 secs
+    Create Address Tables - One Time           0.004 secs
+    Create Function                            0.170 secs
+    DWARF                                      0.003 secs
+    Data Reference                             0.617 secs
+    Decompiler Switch Analysis                 2.575 secs
+    Demangler GNU                              0.069 secs
+    Disassemble                                0.026 secs
+    Disassemble Entry Points                   0.911 secs
+    Embedded Media                             0.003 secs
+    External Entry References                  0.002 secs
+    Function ID                                0.021 secs
+    Function Start Pre Search                  0.005 secs
+    Function Start Search                      0.043 secs
+    Function Start Search After Code           0.028 secs
+    Function Start Search After Data           0.040 secs
+    Function Start Search delayed - One Time   0.005 secs
+    GCC Exception Handlers                     0.005 secs
+    Non-Returning Functions - Discovered       0.053 secs
+    Non-Returning Functions - Known            0.004 secs
+    Reference                                  0.739 secs
+    Shared Return Calls                        0.022 secs
+    Source Language Support                    0.002 secs
+    Stack                                      0.309 secs
+    Subroutine References                      0.121 secs
+    Subroutine References - One Time           0.000 secs
+    Variadic Function Signature Override       1.816 secs
+-----------------------------------------------------
+     Total Time   9 secs
+-----------------------------------------------------
+ (AutoAnalysisManager)  
+INFO  REPORT: Analysis succeeded for file: file://~/build/samsung/CleanFrame/.local/q90t/bin/libapp-context-manager-common.so (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: DecompileStrings.java  (HeadlessAnalyzer)  
+INFO  SCRIPT: ~/build/samsung/CleanFrame/.local/q90t/DecompileStrings.java (HeadlessAnalyzer)  
+INFO  DecompileStrings.java> ===== STRING @ 45eaeb1c : booting_appid_changed  (3 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION FUN_45e99120 @ 45e99120 (ref from 45e99148) (GhidraScript)  
+INFO  DecompileStrings.java> 
+void FUN_45e99120(undefined4 param_1,int param_2)
+
+{
+  int iVar1;
+  undefined4 uVar2;
+  
+  if (param_2 == 0) {
+    __dlog_print(0,6,DAT_45e991e4 + 0x45e9919a,DAT_45e991e0 + 0x45e99198,DAT_45e991dc + 0x45e991c7,
+                 DAT_45e991d8 + 0x45e991c4,0x3e1);
+    return;
+  }
+  iVar1 = vconf_keynode_get_str();
+  if (iVar1 == 0) {
+    __dlog_print(0,6,DAT_45e991f4 + 0x45e991c4,DAT_45e991f0 + 0x45e991c2,DAT_45e991ec + 0x45e991f3,
+                 (int)&DAT_45e991f0 + DAT_45e991e8,1000);
+  }
+  else {
+    __dlog_print(0,4,DAT_45e991d4 + 0x45e9915a,DAT_45e991d0 + 0x45e99158,DAT_45e991cc + 0x45e99185,
+                 DAT_45e991c8 + 0x45e99182,0x3ea,iVar1);
+    if (*(int *)(param_2 + 0x38) != 0) {
+      g_free();
+      *(undefined4 *)(param_2 + 0x38) = 0;
+    }
+    uVar2 = g_strdup(iVar1);
+    *(undefined4 *)(param_2 + 0x38) = uVar2;
+  }
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 45eaed2c : context_set_booting_appid_vconf  (2 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION context_set_booting_appid_vconf @ 45e9a7e4 (ref from 45e9a81e) (GhidraScript)  
+INFO  DecompileStrings.java> 
+void context_set_booting_appid_vconf(undefined4 param_1)
+
+{
+  int iVar1;
+  int iVar2;
+  
+  iVar2 = DAT_45e9a864 + 0x45e9a7f2;
+  iVar1 = vconf_set_str(iVar2,param_1);
+  if (iVar1 != 0) {
+    __dlog_print(0,6,DAT_45e9a888 + 0x45e9a860,DAT_45e9a884 + 0x45e9a85e,DAT_45e9a880 + 0x45e9a889,
+                 DAT_45e9a87c + 0x45e9aa96,0x5d0,iVar2);
+  }
+  iVar2 = DAT_45e9a868 + 0x45e9a802;
+  iVar1 = vconf_set_str(iVar2,param_1);
+  if (iVar1 != 0) {
+    __dlog_print(0,6,DAT_45e9a878 + 0x45e9a830,DAT_45e9a874 + 0x45e9a82e,DAT_45e9a870 + 0x45e9a859,
+                 DAT_45e9a86c + 0x45e9aa66,0x5d4,iVar2);
+  }
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 45eaee58 : context_add_livetv_appid  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION context_add_livetv_appid @ 45e9b034 (ref from 45e9b06a) (GhidraScript)  
+INFO  DecompileStrings.java> 
+void context_add_livetv_appid(int param_1)
+
+{
+  int iVar1;
+  undefined4 uVar2;
+  
+  iVar1 = DAT_45e9b080;
+  if (param_1 == 0) {
+    __dlog_print(0,6,DAT_45e9b090 + 0x45e9b078,DAT_45e9b08c + 0x45e9b076,DAT_45e9b088 + 0x45e9b0a5,
+                 DAT_45e9b084 + 0x45e9b3de,0x4b0);
+    return;
+  }
+  uVar2 = g_strdup();
+  uVar2 = g_list_append(*(undefined4 *)(context_check_is_overlay_event_emitter + iVar1 + 4),uVar2);
+  *(undefined4 *)(context_check_is_overlay_event_emitter + iVar1 + 4) = uVar2;
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 45eaf1d8 : util_get_appbooting_supported_webapp_byappid  (7 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION util_get_appbooting_supported_webapp_byappid @ 45e9d4b0 (ref from 45e9d596) (GhidraScript)  
+INFO  DecompileStrings.java> 
+void util_get_appbooting_supported_webapp_byappid(undefined4 param_1,undefined4 *param_2)
+
+{
+  byte bVar1;
+  int iVar2;
+  int iVar3;
+  undefined4 uVar4;
+  int *piVar5;
+  int iVar6;
+  int iVar7;
+  char local_31;
+  int local_30;
+  int local_2c;
+  
+  piVar5 = *(int **)(DAT_45e9d700 + 0x45e9d4b8 + DAT_45e9d704);
+  iVar6 = 1;
+  local_31 = '\x01';
+  local_2c = *piVar5;
+  local_30 = 0;
+  iVar2 = system_info_get_value_bool(0x11e,&local_31);
+  if (iVar2 < 0) {
+    uVar4 = 0xffffffff;
+    __dlog_print(0,6,DAT_45e9d780 + 0x45e9d6c6,DAT_45e9d784 + 0x45e9d6c2,DAT_45e9d778 + 0x45e9d6e9,
+                 DAT_45e9d77c + 0x45e9ddb4,0x32f,iVar2);
+    goto LAB_45e9d4ee;
+  }
+  if (local_31 == '\0') {
+    *param_2 = 0;
+    uVar4 = 0;
+    goto LAB_45e9d4ee;
+  }
+  iVar2 = pkgmgrinfo_appinfo_get_appinfo(param_1,&local_30);
+  if (iVar2 != 0) {
+    uVar4 = 0xffffffff;
+    __dlog_print(0,6,DAT_45e9d774 + 0x45e9d698,DAT_45e9d770 + 0x45e9d696,DAT_45e9d76c + 0x45e9d6bd,
+                 DAT_45e9d768 + 0x45e9dd76,0x339,iVar2);
+    goto LAB_45e9d4ee;
+  }
+  if (local_30 == 0) {
+    uVar4 = 0xffffffff;
+    __dlog_print(0,6,DAT_45e9d794 + 0x45e9d6f6,DAT_45e9d790 + 0x45e9d6f4,DAT_45e9d78c + 0x45e9d71f,
+                 DAT_45e9d788 + 0x45e9ddd8,0x33d);
+    goto LAB_45e9d4ee;
+  }
+  iVar7 = DAT_45e9d708 + 0x45e9d528;
+  iVar2 = FUN_45e99520(local_30,DAT_45e9d70c + 0x45e9d52a,iVar7);
+  if (iVar2 == 0) {
+    iVar3 = DAT_45e9d718 + 0x45e9d542;
+    bVar1 = FUN_45e99520(local_30,DAT_45e9d714 + 0x45e9d53e,DAT_45e9d710 + 0x45e9d53c);
+    bVar1 = bVar1 ^ 1;
+    iVar2 = FUN_45e99520(local_30,iVar3,iVar7);
+    if (iVar2 == 0) {
+      iVar6 = FUN_45e99520(local_30,iVar3,DAT_45e9d764 + 0x45e9d662);
+      iVar2 = iVar6;
+    }
+    iVar7 = FUN_45e99520(local_30,DAT_45e9d720 + 0x45e9d56a,DAT_45e9d71c + 0x45e9d566);
+    if (iVar7 == 0) {
+      __dlog_print(0,4,DAT_45e9d72c + 0x45e9d594,DAT_45e9d730 + 0x45e9d59c,DAT_45e9d728 + 0x45e9d5c9
+                   ,DAT_45e9d724 + 0x45e9dc7a,0x352,bVar1,iVar6,0);
+      if ((bVar1 != 0) && (iVar2 == 0)) {
+LAB_45e9d626:
+        __dlog_print(0,4,DAT_45e9d760 + 0x45e9d650,DAT_45e9d75c + 0x45e9d64c,
+                     DAT_45e9d758 + 0x45e9d679,DAT_45e9d754 + 0x45e9dd30,0x35c,param_1,iVar6,iVar7);
+        *param_2 = 1;
+        goto LAB_45e9d5b0;
+      }
+    }
+    else {
+      iVar7 = 1;
+      __dlog_print(0,4,DAT_45e9d74c + 0x45e9d61e,DAT_45e9d750 + 0x45e9d612,DAT_45e9d744 + 0x45e9d639
+                   ,DAT_45e9d748 + 0x45e9dd00,0x352,bVar1,iVar6,1);
+      if (bVar1 != 0) goto LAB_45e9d626;
+    }
+    *param_2 = 0;
+  }
+  else {
+    __dlog_print(0,4,DAT_45e9d740 + 0x45e9d5e2,DAT_45e9d73c + 0x45e9d5e0,DAT_45e9d738 + 0x45e9d60b,
+                 DAT_45e9d734 + 0x45e9dcc2,0x345,param_1);
+    *param_2 = 0;
+  }
+LAB_45e9d5b0:
+  pkgmgrinfo_appinfo_destroy_appinfo(local_30);
+  uVar4 = 0;
+LAB_45e9d4ee:
+  if (local_2c != *piVar5) {
+                    /* WARNING: Subroutine does not return */
+    __stack_chk_fail(uVar4);
+  }
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 45eaf340 : __firstscreen_ui_state_changed  (3 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION FUN_45e9eeb8 @ 45e9eeb8 (ref from 45e9eeea) (GhidraScript)  
+INFO  DecompileStrings.java> 
+void FUN_45e9eeb8(undefined4 param_1,undefined4 param_2)
+
+{
+  undefined4 uVar1;
+  int iVar2;
+  int iVar3;
+  undefined4 uVar4;
+  int iVar5;
+  
+  uVar1 = vconf_keynode_get_str();
+  iVar2 = task_mgr_task_find_name(DAT_45e9efe4 + 0x45e9eece,param_2);
+  if (iVar2 == 0) {
+    __dlog_print(0,6,DAT_45e9f02c + 0x45e9efc4,DAT_45e9f028 + 0x45e9efc2,DAT_45e9f024 + 0x45e9eff1,
+                 DAT_45e9f020 + 0x45e9f812,0x72b);
+    return;
+  }
+  __dlog_print(0,4,DAT_45e9eff4 + 0x45e9ef00,DAT_45e9eff0 + 0x45e9eefa,DAT_45e9efec + 0x45e9ef25,
+               DAT_45e9efe8 + 0x45e9f746,0x72f,uVar1);
+  iVar5 = *(int *)(iVar2 + 0x14);
+  iVar3 = g_strcmp0(uVar1,DAT_45e9eff8 + 0x45e9ef0c);
+  if (iVar3 == 0) {
+    iVar3 = 9;
+    *(undefined4 *)(iVar2 + 0x14) = 9;
+  }
+  else {
+    iVar3 = 2;
+    *(undefined4 *)(iVar2 + 0x14) = 2;
+  }
+  if (iVar5 != iVar3) {
+    uVar1 = task_to_type_string();
+    __dlog_print(0,4,DAT_45e9f008 + 0x45e9ef46,DAT_45e9f004 + 0x45e9ef42,DAT_45e9f000 + 0x45e9ef6d,
+                 DAT_45e9effc + 0x45e9f78e,0x738,uVar1);
+    if (*(int *)(DAT_45e9f00c + 0x45e9ef7a) != 0) {
+      g_source_remove();
+    }
+    iVar3 = DAT_45e9f010;
+    uVar1 = g_idle_add(DAT_45e9f014 + 0x45e9ef60,param_2);
+    iVar5 = *(int *)(iVar2 + 0x30);
+    *(undefined4 *)(iVar3 + 0x45e9ef8a) = uVar1;
+    *(undefined4 *)(iVar3 + 0x45e9ef96) = 0;
+    if (iVar5 == 3) {
+      if (*(int *)(iVar2 + 0x14) == 2) {
+        context_set_partial_appid_vconf(*(undefined4 *)(DAT_45e9f030 + 0x45e9efd2));
+        handle_listen(*(undefined4 *)(iVar3 + 0x45e9ef76),iVar2,param_2);
+      }
+      else {
+        uVar4 = *(undefined4 *)(DAT_45e9f018 + 0x45e9ef86);
+        uVar1 = context_get_current_partial_appid();
+        iVar2 = g_strcmp0(uVar4,uVar1);
+        if (iVar2 == 0) {
+          context_set_partial_appid_vconf(DAT_45e9f01c + 0x45e9ef9c);
+        }
+      }
+    }
+  }
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 45eaf3a4 : set_last_livetv  (3 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION FUN_45e9f27c @ 45e9f27c (ref from 45e9f404) (GhidraScript)  
+INFO  DecompileStrings.java> 
+void FUN_45e9f27c(int param_1,int param_2)
+
+{
+  int iVar1;
+  int iVar2;
+  undefined4 uVar3;
+  int iVar4;
+  int iVar5;
+  int iVar6;
+  
+  if (param_2 == 0 || param_1 == 0) {
+    __dlog_print(0,6,DAT_45e9f534 + 0x45e9f36e,DAT_45e9f530 + 0x45e9f36c,DAT_45e9f52c + 0x45e9f399,
+                 DAT_45e9f528 + 0x45e9fc0e,0x3a5);
+    return;
+  }
+  if (*(int *)(DAT_45e9f4f4 + 0x45e9f2d6) != 0) {
+    iVar1 = g_strcmp0();
+    if ((iVar1 == 0) &&
+       ((*(int *)(param_2 + 0x34) != 0 ||
+        (iVar1 = g_strcmp0(param_1,DAT_45e9f508 + 0x45e9f2dc), iVar1 == 0)))) {
+      __dlog_print(0,3,DAT_45e9f504 + 0x45e9f2ca,DAT_45e9f500 + 0x45e9f2c8,DAT_45e9f4fc + 0x45e9f2f3
+                   ,DAT_45e9f4f8 + 0x45e9fb68,0x3ab,param_1);
+      return;
+    }
+    iVar1 = DAT_45e9f50c;
+    if (*(int *)(DAT_45e9f50c + 0x45e9f328) != 0) {
+      g_free();
+      *(undefined4 *)(iVar1 + 0x45e9f328) = 0;
+    }
+  }
+  iVar6 = DAT_45e9f510 + 0x45e9f2fa;
+  iVar2 = g_strcmp0(param_1,iVar6);
+  iVar1 = DAT_45e9f514;
+  if (iVar2 == 0) {
+    if (*(char *)(DAT_45e9f514 + 0x45e9f344) != '\0') {
+      __dlog_print(0,4,DAT_45e9f520 + 0x45e9f332,DAT_45e9f524 + 0x45e9f336,DAT_45e9f51c + 0x45e9f361
+                   ,DAT_45e9f518 + 0x45e9fbd4,0x3b8,param_1);
+      uVar3 = g_strdup(iVar6);
+      *(undefined4 *)(iVar1 + 0x45e9f348) = uVar3;
+      return;
+    }
+  }
+  else {
+    iVar1 = context_find_running_task_byappid(param_1,param_2);
+    if (iVar1 == 0) {
+      iVar4 = DAT_45e9f56c + 0x45e9f45e;
+      iVar6 = DAT_45e9f564 + 0x45e9fd0c;
+      iVar1 = DAT_45e9f570 + 0x45e9f468;
+      iVar2 = DAT_45e9f568 + 0x45e9f497;
+      __dlog_print(0,4,iVar4,DAT_45e9f574 + 0x45e9f46a,iVar2,iVar6,0x3c2,param_1,iVar1);
+      uVar3 = g_strdup(iVar1);
+      iVar1 = DAT_45e9f57c + 0x45e9f4a6;
+      *(undefined4 *)(DAT_45e9f578 + 0x45e9f4ce) = uVar3;
+      __dlog_print(0,4,iVar4,iVar1,iVar2,iVar6,0x3c6,param_1,uVar3);
+      if (*(int *)(param_2 + 0x34) != 0) {
+        task_unref();
+        *(undefined4 *)(param_2 + 0x34) = 0;
+      }
+      task_mgr_task_find_name(DAT_45e9f580 + 0x45e9f4b8,param_2);
+      iVar1 = task_ref();
+      *(int *)(param_2 + 0x34) = iVar1;
+    }
+    else {
+      uVar3 = g_strdup(param_1);
+      iVar2 = DAT_45e9f53c + 0x45e9fc58;
+      iVar4 = DAT_45e9f540 + 0x45e9f3e3;
+      iVar5 = DAT_45e9f544 + 0x45e9f3ba;
+      iVar6 = DAT_45e9f548 + 0x45e9f3c0;
+      *(undefined4 *)(DAT_45e9f538 + 0x45e9f3de) = uVar3;
+      __dlog_print(0,4,iVar6,iVar5,iVar4,iVar2,0x3c6,param_1,uVar3);
+      if (*(int *)(param_2 + 0x34) != 0) {
+        task_unref();
+        *(undefined4 *)(param_2 + 0x34) = 0;
+      }
+      iVar1 = task_ref(iVar1);
+      *(int *)(param_2 + 0x34) = iVar1;
+    }
+    if (iVar1 == 0) {
+      __dlog_print(0,6,DAT_45e9f590 + 0x45e9f4e6,DAT_45e9f58c + 0x45e9f4e4,DAT_45e9f588 + 0x45e9f511
+                   ,DAT_45e9f584 + 0x45e9fd96,0x395,param_1,uVar3);
+    }
+    else {
+      iVar5 = DAT_45e9f554 + 0x45e9f3f8;
+      iVar4 = DAT_45e9f54c + 0x45e9fcb8;
+      iVar6 = DAT_45e9f550 + 0x45e9f433;
+      __dlog_print(0,4,iVar5,DAT_45e9f558 + 0x45e9f404,iVar6,iVar4,0x399,*(undefined4 *)(iVar1 + 4),
+                   uVar3);
+      iVar2 = DAT_45e9f55c + 0x45e9f416;
+      iVar1 = vconf_set_str(iVar2,*(undefined4 *)(*(int *)(param_2 + 0x34) + 4));
+      if (iVar1 != 0) {
+        __dlog_print(0,6,iVar5,DAT_45e9f560 + 0x45e9f436,iVar6,iVar4,0x39d,iVar2);
+      }
+    }
+  }
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 45eaf40c : app_booting_state_changed  (5 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION FUN_45e9f8a8 @ 45e9f8a8 (ref from 45e9f8e2) (GhidraScript)  
+INFO  DecompileStrings.java> 
+void FUN_45e9f8a8(undefined4 param_1,int param_2)
+
+{
+  bool bVar1;
+  int iVar2;
+  int iVar3;
+  undefined4 uVar4;
+  int iVar5;
+  int iVar6;
+  int iVar7;
+  
+  iVar6 = DAT_45e9f9f0;
+  if (param_2 == 0) {
+    __dlog_print(0,6,DAT_45e9fa3c + 0x45e9f9e4,DAT_45e9fa38 + 0x45e9f9e2,DAT_45e9fa34 + 0x45e9fa0f,
+                 DAT_45e9fa30 + 0x45ea02fc,0x40a);
+    return;
+  }
+  iVar2 = vconf_keynode_get_int();
+  iVar7 = DAT_45e9f9f8 + 0x45e9f8d4;
+  iVar6 = iVar6 + 0x45ea01fc;
+  iVar5 = DAT_45e9f9f4 + 0x45e9f90f;
+  __dlog_print(0,4,iVar7,DAT_45e9f9fc + 0x45e9f8da,iVar5,iVar6,0x40f,iVar2);
+  iVar3 = context_system_property_check(DAT_45e9fa00 + 0x45e9f8f2);
+  bVar1 = iVar3 != 0 && iVar2 != 0;
+  if (bVar1) {
+    context_system_property_add(DAT_45e9fa24 + 0x45e9f998);
+    __dlog_print(0,4,iVar7,DAT_45e9fa2c + 0x45e9f9ba,iVar5,iVar6,0x414,iVar2,
+                 *(undefined4 *)(DAT_45e9fa28 + 0x45e9f9e8));
+  }
+  else {
+    context_system_property_remove(DAT_45e9fa04 + 0x45e9f90e);
+    __dlog_print(0,4,iVar7,DAT_45e9fa08 + 0x45e9f922,iVar5,iVar6,0x418,iVar2);
+  }
+  iVar6 = DAT_45e9fa0c;
+  if ((bool)*(char *)(DAT_45e9fa0c + 0x45e9f96c) != bVar1) {
+    iVar2 = DAT_45e9fa18 + 0x45e9f954;
+    __dlog_print(0,4,DAT_45e9fa20 + 0x45e9f962,DAT_45e9fa1c + 0x45e9f95c,DAT_45e9fa14 + 0x45e9f987,
+                 DAT_45e9fa10 + 0x45ea0274,0x41c,bVar1);
+    uVar4 = context_get_last_source_key();
+    vconf_ignore_key_changed(uVar4,iVar2);
+    *(bool *)(iVar6 + 0x45e9f96c) = bVar1;
+    uVar4 = context_get_last_source_key();
+    vconf_notify_key_changed(uVar4,iVar2,param_2);
+    FUN_45e9f7c4(param_2);
+  }
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 45eafdfc : com.samsung/featureconf/graphics.max_resolution_width  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION FUN_45e996e4 @ 45e996e4 (ref from 45e996f6) (GhidraScript)  
+INFO  DecompileStrings.java> 
+void FUN_45e996e4(void)
+
+{
+  int iVar1;
+  
+  iVar1 = DAT_45e99738;
+  system_info_get_custom_int(DAT_45e9973c + 0x45e996fa,DAT_45e99738 + 0x45e996f8);
+  system_info_get_custom_int(DAT_45e99740 + 0x45e99706,iVar1 + 0x45e996fc);
+  __dlog_print(0,4,DAT_45e9974c + 0x45e99726,DAT_45e99750 + 0x45e9972e,DAT_45e99748 + 0x45e99753,
+               (int)&DAT_45e997f8 + DAT_45e99744,699,*(undefined4 *)(iVar1 + 0x45e996f8),
+               *(undefined4 *)(iVar1 + 0x45e996fc));
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 45eafe34 : com.samsung/featureconf/graphics.max_resolution_height  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 45eafef0 : org.volt.firstscreen  (3 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION _add_args_to_task @ 45ea1798 (ref from 45ea1860) (GhidraScript)  
+INFO  DecompileStrings.java> 
+int _add_args_to_task(undefined4 param_1,int param_2,int param_3)
+
+{
+  undefined4 *puVar1;
+  int iVar2;
+  int *piVar3;
+  int iVar4;
+  undefined4 *puVar5;
+  undefined4 uVar6;
+  int iVar7;
+  char *pcVar8;
+  int iVar9;
+  char *pcVar10;
+  int *piVar11;
+  int iVar12;
+  int iVar13;
+  int iVar14;
+  
+  puVar1 = (undefined4 *)FUN_45e98f58(param_1,param_3 + 4);
+  if (puVar1 == (undefined4 *)0x0 || param_2 == 0) {
+    __dlog_print(0,6,DAT_45ea1a0c + 0x45ea19a0,DAT_45ea1a08 + 0x45ea199e,DAT_45ea1a04 + 0x45ea19c9,
+                 DAT_45ea1a00 + 0x45ea2412,0xb9,param_1);
+    iVar7 = -1;
+  }
+  else {
+    iVar2 = bundle_create();
+    piVar3 = (int *)g_strsplit(param_2,DAT_45ea19a8 + 0x45ea17d0,0);
+    iVar7 = DAT_45ea19b8;
+    iVar4 = *piVar3;
+    iVar12 = iVar2;
+    if (iVar4 != 0) {
+      iVar9 = DAT_45ea19ac + 0x45ea1825;
+      iVar14 = DAT_45ea19b4 + 0x45ea17f8;
+      iVar13 = DAT_45ea19b0 + 0x45ea227c;
+      piVar11 = piVar3;
+LAB_45ea182a:
+      do {
+        puVar5 = (undefined4 *)g_strsplit(iVar4,iVar14,2);
+        if (puVar5 == (undefined4 *)0x0) {
+          __dlog_print(0,6,DAT_45ea19f8 + 0x45ea1968,DAT_45ea19fc + 0x45ea196c,
+                       DAT_45ea19f4 + 0x45ea1995,DAT_45ea19f0 + 0x45ea23de,0xc3,param_2);
+LAB_45ea193c:
+          iVar12 = 0;
+          bundle_free(iVar2);
+          break;
+        }
+        pcVar10 = (char *)*puVar5;
+        if ((((pcVar10 == (char *)0x0) || (pcVar8 = (char *)puVar5[1], pcVar8 == (char *)0x0)) ||
+            (*pcVar10 == '\0')) || (*pcVar8 == '\0')) {
+          __dlog_print(0,6,DAT_45ea19e8 + 0x45ea192a,DAT_45ea19ec + 0x45ea1930,
+                       DAT_45ea19e4 + 0x45ea1957,DAT_45ea19e0 + 0x45ea23a0,0xc3,param_2);
+          g_strfreev(puVar5);
+          goto LAB_45ea193c;
+        }
+        if (*(int *)(iVar7 + 0x45ea180a) != 0) {
+          iVar4 = g_strcmp0(DAT_45ea19c0 + 0x45ea1864);
+          if ((iVar4 == 0) || (iVar4 = g_strcmp0(DAT_45ea19bc + 0x45ea1808,puVar5[1]), iVar4 == 0))
+          {
+            __dlog_print(0,6,DAT_45ea19c4 + 0x45ea1878,DAT_45ea19c8 + 0x45ea1880,iVar9,iVar13,0xce);
+            bundle_add(iVar2,*puVar5,*(undefined4 *)(DAT_45ea19cc + 0x45ea189c));
+            g_strfreev(puVar5);
+            piVar11 = piVar11 + 1;
+            iVar4 = *piVar11;
+            if (iVar4 == 0) break;
+            goto LAB_45ea182a;
+          }
+          pcVar10 = (char *)*puVar5;
+          pcVar8 = (char *)puVar5[1];
+        }
+        bundle_add(iVar2,pcVar10,pcVar8);
+        g_strfreev(puVar5);
+        piVar11 = piVar11 + 1;
+        iVar4 = *piVar11;
+      } while (iVar4 != 0);
+    }
+    g_strfreev(piVar3);
+    __dlog_print(0,4,DAT_45ea19d8 + 0x45ea18e2,DAT_45ea19dc + 0x45ea18e6,DAT_45ea19d4 + 0x45ea190f,
+                 DAT_45ea19d0 + 0x45ea234e,0xda,*puVar1,puVar1[1],puVar1[8],param_2);
+    if (iVar12 == 0) {
+      uVar6 = puVar1[10];
+    }
+    else {
+      uVar6 = g_list_append(puVar1[10],iVar12);
+      puVar1[10] = uVar6;
+    }
+    iVar7 = g_list_length(uVar6);
+    iVar7 = iVar7 + -1;
+  }
+  return iVar7;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION FUN_45e9989c @ 45e9989c (ref from 45e998f6) (GhidraScript)  
+INFO  DecompileStrings.java> 
+void FUN_45e9989c(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 *param_4)
+
+{
+  int iVar1;
+  undefined4 uVar2;
+  undefined4 uVar3;
+  int *piVar4;
+  int iVar5;
+  int iVar6;
+  int iVar7;
+  int iVar8;
+  int iVar9;
+  
+  uVar2 = bundle_create();
+  uVar3 = json_node_get_object(param_3);
+  piVar4 = (int *)json_object_get_members();
+  iVar1 = DAT_45e99970;
+  if (piVar4 == (int *)0x0) {
+LAB_45e99952:
+    uVar2 = g_list_append(*param_4,uVar2);
+    *param_4 = uVar2;
+    return;
+  }
+  if (*piVar4 != 0) {
+    iVar9 = DAT_45e99968 + 0x45e999e6;
+    iVar8 = DAT_45e99974 + 0x45e998e2;
+    iVar7 = DAT_45e9996c + 0x45e99919;
+    do {
+      iVar5 = json_object_get_string_member(uVar3);
+      if (iVar5 == 0) break;
+      if ((*(int *)(iVar1 + 0x45e998e8) != 0) &&
+         ((iVar6 = g_strcmp0(iVar8,iVar5), iVar6 == 0 ||
+          (iVar6 = g_strcmp0(DAT_45e99978 + 0x45e99908,iVar5), iVar6 == 0)))) {
+        __dlog_print(0,6,DAT_45e99980 + 0x45e99926,DAT_45e9997c + 0x45e99920,iVar7,iVar9,0x7a);
+        iVar5 = *(int *)(DAT_45e99984 + 0x45e9993a);
+      }
+      bundle_add(uVar2,*piVar4,iVar5);
+      piVar4 = (int *)piVar4[1];
+      if (piVar4 == (int *)0x0) goto LAB_45e99952;
+    } while (*piVar4 != 0);
+  }
+  bundle_free(uVar2);
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION task_mgr_task_attach_above @ 45ea43a4 (ref from 45ea441e) (GhidraScript)  
+INFO  DecompileStrings.java> 
+undefined4 task_mgr_task_attach_above(int param_1,int param_2,int param_3,int param_4)
+
+{
+  int iVar1;
+  undefined4 uVar2;
+  
+  if (param_3 == 0 || (param_1 == 0 || param_4 == 0)) {
+    __dlog_print(0,6,DAT_45ea45a4 + 0x45ea452c,DAT_45ea45a0 + 0x45ea4528,DAT_45ea459c + 0x45ea4555,
+                 DAT_45ea4598 + 0x45ea522c,0x9fb,param_3);
+    uVar2 = 0xffffffff;
+  }
+  else {
+    iVar1 = context_check_mask(0x20000400,param_4);
+    if (iVar1 != 0 && param_2 == 0) {
+      uVar2 = 0xfffffffd;
+    }
+    else {
+      iVar1 = test_blocker(param_1,0xe,param_4);
+      if (iVar1 != 0 && param_2 == 0) {
+        __dlog_print(0,3,DAT_45ea45b0 + 0x45ea4558,DAT_45ea45b4 + 0x45ea455a,
+                     DAT_45ea45ac + 0x45ea4585,DAT_45ea45a8 + 0x45ea525e,0xa03,
+                     *(undefined4 *)(param_1 + 4));
+        uVar2 = 0xfffffffd;
+      }
+      else {
+        if ((*(int *)(DAT_45ea4568 + 0x45ea4416) != 0) &&
+           ((iVar1 = g_strcmp0(DAT_45ea456c + 0x45ea4422,param_3), iVar1 == 0 ||
+            (iVar1 = g_strcmp0(DAT_45ea4594 + 0x45ea44f2,param_3), iVar1 == 0)))) {
+          param_3 = *(int *)(DAT_45ea4570 + 0x45ea442e);
+        }
+        iVar1 = task_mgr_check_visible(*(undefined4 *)(param_1 + 4),0,0,param_4);
+        if ((iVar1 == 0) || (iVar1 = task_mgr_check_visible(param_3,0,0,param_4), iVar1 == 0)) {
+          __dlog_print(0,4,DAT_45ea457c + 0x45ea4466,DAT_45ea4580 + 0x45ea446a,
+                       DAT_45ea4578 + 0x45ea4493,DAT_45ea4574 + 0x45ea516c,0xa11,param_3,
+                       *(undefined4 *)(param_1 + 4),*(undefined4 *)(param_1 + 0x2c));
+          if (*(int *)(param_1 + 0x4c) != 0) {
+            iVar1 = g_strcmp0(*(int *)(param_1 + 0x4c),param_3);
+            if (iVar1 == 0) {
+              return 0;
+            }
+            g_free(*(undefined4 *)(param_1 + 0x4c));
+            *(undefined4 *)(param_1 + 0x4c) = 0;
+          }
+          uVar2 = g_strdup(param_3);
+          *(undefined4 *)(param_1 + 0x4c) = uVar2;
+          return 0;
+        }
+        __dlog_print(0,6,DAT_45ea458c + 0x45ea44c0,DAT_45ea4590 + 0x45ea44c2,
+                     DAT_45ea4588 + 0x45ea44e9,DAT_45ea4584 + 0x45ea51c4,0xa0d,
+                     *(undefined4 *)(param_1 + 4),param_3);
+        uVar2 = 0xffffffff;
+      }
+    }
+  }
+  return uVar2;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 45eaff08 : %s: %s(%d) > legacy firstscreen appid found  (2 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 45eb0380 : memory/appfw/booting_appid  (3 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION context_init_pre @ 45e9dd24 (ref from 45e9dd64) (GhidraScript)  
+INFO  DecompileStrings.java> 
+void context_init_pre(int param_1)
+
+{
+  undefined4 uVar1;
+  
+  *(undefined4 *)(DAT_45e9dd7c + 0x45e9dd62) = *(undefined4 *)(param_1 + 0x24);
+  uVar1 = context_get_last_source_key();
+  vconf_notify_key_changed(uVar1,DAT_45e9dd80 + 0x45e9dd3e,param_1);
+  util_vconf_add_handler(DAT_45e9dd88 + 0x45e9dd4c,DAT_45e9dd84 + 0x45e9dd4a,param_1);
+  util_vconf_add_handler(DAT_45e9dd90 + 0x45e9dd5a,DAT_45e9dd8c + 0x45e9dd58,param_1);
+  util_vconf_add_handler(DAT_45e9dd98 + 0x45e9dd68,DAT_45e9dd94 + 0x45e9dd66,param_1);
+  util_vconf_add_handler(DAT_45e9dda0 + 0x45e9dd76,DAT_45e9dd9c + 0x45e9dd74,param_1);
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 45eb03bc : db/appfw/booting_appid_backup  (2 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 45eb068c : http://developer.samsung.com/tizen/metadata/livetv  (2 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION find_task @ 45ea2bf4 (ref from 45ea2e92) (GhidraScript)  
+INFO  DecompileStrings.java> 
+void find_task(undefined4 param_1,int param_2,int param_3)
+
+{
+  undefined4 uVar1;
+  undefined4 *puVar2;
+  int iVar3;
+  undefined4 *puVar4;
+  int iVar5;
+  undefined4 uVar6;
+  int *piVar7;
+  int iVar8;
+  int iVar9;
+  undefined4 local_3c [2];
+  undefined4 local_34;
+  undefined4 *local_30;
+  int local_2c;
+  
+  iVar5 = DAT_45ea3008;
+  piVar7 = *(int **)(DAT_45ea3000 + 0x45ea2c0a + DAT_45ea3004);
+  local_34 = 0;
+  local_2c = *piVar7;
+  local_3c[0] = param_1;
+  puVar2 = (undefined4 *)g_hash_table_lookup(*(undefined4 *)(DAT_45ea3008 + 0x45ea2c42),local_3c);
+  if (puVar2 == (undefined4 *)0x0) {
+LAB_45ea2ce8:
+    iVar5 = DAT_45ea302c;
+    if (param_2 == 0) {
+      __dlog_print(0,6,DAT_45ea3084 + 0x45ea2f48,DAT_45ea3080 + 0x45ea2f46,DAT_45ea307c + 0x45ea2f71
+                   ,DAT_45ea3078 + 0x45ea3ada,0x54a);
+      puVar4 = (undefined4 *)0x0;
+      goto LAB_45ea2c9e;
+    }
+    iVar3 = DAT_45ea302c + 0x45ea38aa;
+    iVar9 = DAT_45ea3034 + 0x45ea2d16;
+    iVar8 = DAT_45ea3030 + 0x45ea2d53;
+    __dlog_print(0,3,iVar9,DAT_45ea3038 + 0x45ea2d1a,iVar8,iVar3,0x54e,param_2);
+    puVar4 = (undefined4 *)FUN_45e99c30(param_2,param_3);
+    if (puVar4 == (undefined4 *)0x0) {
+      __dlog_print(0,3,iVar9,DAT_45ea305c + 0x45ea2e2a,iVar8,iVar3,0x553,param_2);
+      uVar1 = local_3c[0];
+      local_30 = puVar4;
+      puVar4 = (undefined4 *)util_malloc_s(0x58);
+      if (puVar4 != (undefined4 *)0x0) {
+        iVar3 = util_get_apptype_byappid(param_2,puVar4 + 2);
+        if (iVar3 != 0) {
+          __dlog_print(0,6,iVar9,DAT_45ea3088 + 0x45ea2f6e,iVar8,iVar5 + 0x45ea38b6,0x304,param_2);
+        }
+        iVar5 = g_strcmp0(puVar4[2],DAT_45ea3060 + 0x45ea2e5e);
+        if (iVar5 == 0) {
+          __dlog_print(0,4,DAT_45ea30a4 + 0x45ea2fca,DAT_45ea30a8 + 0x45ea2fce,
+                       DAT_45ea30a0 + 0x45ea2ff9,DAT_45ea309c + 0x45ea3b6c,0x307,param_2,uVar1);
+          g_free(puVar4[2]);
+          g_free(puVar4);
+          puVar4 = (undefined4 *)0x0;
+        }
+        else {
+          puVar4[0xb] = uVar1;
+          uVar6 = g_strdup(param_2);
+          puVar4[1] = uVar6;
+          FUN_45ea29e0(uVar1,puVar4,param_3);
+          FUN_45ea2880(puVar4,param_3);
+          iVar5 = util_get_uiapp_has_metadata_byappid(puVar4[1],DAT_45ea3064 + 0x45ea2e96,&local_30)
+          ;
+          if (iVar5 != 0) {
+            __dlog_print(0,3,DAT_45ea3098 + 0x45ea2f9e,DAT_45ea3094 + 0x45ea2f9c,
+                         DAT_45ea3090 + 0x45ea2fc5,DAT_45ea308c + 0x45ea3b38,0x314,param_2);
+          }
+          if ((local_30 != (undefined4 *)0x0) || (puVar4[7] != 0)) {
+            iVar5 = DAT_45ea3068 + 0x45ea2ef7;
+            iVar8 = DAT_45ea3070 + 0x45ea2eca;
+            iVar3 = (int)&DAT_45ea3a80 + DAT_45ea306c;
+            __dlog_print(0,4,iVar8,DAT_45ea3074 + 0x45ea2ed2,iVar5,iVar3,0x317,param_2);
+            puVar4[7] = 1;
+            puVar2 = (undefined4 *)
+                     task_create(*puVar4,puVar4[1],puVar4[2],puVar4[3],puVar4[4],puVar4[5],1,0,1,0);
+            if (puVar2 == (undefined4 *)0x0) {
+              __dlog_print(0,6,iVar8,DAT_45ea30ac + 0x45ea2ff8,iVar5,iVar3,0x31d);
+            }
+            else {
+              g_hash_table_insert(*(undefined4 *)(param_3 + 0x1c),*puVar2);
+            }
+          }
+        }
+      }
+      goto LAB_45ea2c9e;
+    }
+    if (puVar4[1] == 0) {
+      __dlog_print(0,3,iVar9,DAT_45ea3054 + 0x45ea2dda,iVar8,iVar3,0x558,param_2);
+      puVar2 = (undefined4 *)*puVar4;
+    }
+    else {
+      util_bundle_import_by_pid(local_3c[0],&local_34);
+      __dlog_print(0,3,iVar9,DAT_45ea303c + 0x45ea2d60,iVar8,iVar3,0x55c,param_2);
+      puVar2 = (undefined4 *)FUN_45e99e00(puVar4,local_34);
+      if (puVar2 == (undefined4 *)0x0) {
+        __dlog_print(0,3,iVar9,DAT_45ea3058 + 0x45ea2dfe,iVar8,iVar3,0x55f,param_2);
+        puVar4 = (undefined4 *)g_list_first(puVar4);
+        puVar2 = (undefined4 *)find_master_task();
+      }
+      bundle_free(local_34);
+    }
+    g_list_free(puVar4);
+    puVar4 = (undefined4 *)0x0;
+    if (puVar2 == (undefined4 *)0x0) goto LAB_45ea2c9e;
+  }
+  else {
+    iVar3 = util_get_time_in_millis();
+    if ((int)puVar2[1] < iVar3 + -9999) {
+      __dlog_print(0,4,DAT_45ea3028 + 0x45ea2cdc,DAT_45ea3024 + 0x45ea2cd6,DAT_45ea301c + 0x45ea2d01
+                   ,DAT_45ea3020 + 0x45ea3876,0x543,local_3c[0]);
+      g_hash_table_remove(*(undefined4 *)(iVar5 + 0x45ea2c42),local_3c);
+      goto LAB_45ea2ce8;
+    }
+    puVar2 = (undefined4 *)*puVar2;
+    if (puVar2 == (undefined4 *)0x0) {
+      __dlog_print(0,4,DAT_45ea3050 + 0x45ea2dba,DAT_45ea304c + 0x45ea2db4,DAT_45ea3044 + 0x45ea2dd9
+                   ,DAT_45ea3040 + 0x45ea3942,0x541,local_3c[0],DAT_45ea3048 + 0x45ea2db0);
+      g_hash_table_remove(*(undefined4 *)(iVar5 + 0x45ea2c42),local_3c);
+      goto LAB_45ea2ce8;
+    }
+    __dlog_print(0,4,DAT_45ea3018 + 0x45ea2c80,DAT_45ea3014 + 0x45ea2c78,DAT_45ea300c + 0x45ea2c97,
+                 DAT_45ea3010 + 0x45ea3814,0x541,local_3c[0],*puVar2);
+    g_hash_table_remove(*(undefined4 *)(iVar5 + 0x45ea2c42),local_3c);
+  }
+  puVar4 = (undefined4 *)task_clone(puVar2);
+  FUN_45ea29e0(local_3c[0],puVar4,param_3);
+LAB_45ea2c9e:
+  if (local_2c != *piVar7) {
+                    /* WARNING: Subroutine does not return */
+    __stack_chk_fail(puVar4);
+  }
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java>   xref from 45e9b1dc : (no function) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 45eb06c0 : %s: %s(%d) > add livetv appid %s  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java>   xref from 45e9b34c : (no function) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 45eb102c : %s: %s(%d) > %s has metadata key: %s  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION util_get_uiapp_has_metadata_byappid @ 45e9cae8 (ref from 45e9cb94) (GhidraScript)  
+INFO  DecompileStrings.java> 
+void util_get_uiapp_has_metadata_byappid(int param_1,int param_2,undefined4 *param_3)
+
+{
+  int iVar1;
+  int iVar2;
+  int *piVar3;
+  undefined4 local_30;
+  undefined4 local_2c;
+  undefined4 local_28;
+  int local_24;
+  
+  piVar3 = *(int **)(DAT_45e9cc34 + 0x45e9caf6 + DAT_45e9cc38);
+  local_28 = 0;
+  local_2c = 0;
+  local_30 = 0;
+  local_24 = *piVar3;
+  if (param_1 == 0 || param_2 == 0) {
+    iVar1 = -1;
+    __dlog_print(0,6,DAT_45e9cc6c + 0x45e9cbf8,DAT_45e9cc68 + 0x45e9cbf6,DAT_45e9cc64 + 0x45e9cc1f,
+                 DAT_45e9cc60 + 0x45e9d214,0x41a);
+  }
+  else {
+    iVar1 = FUN_45e9ca6c(param_1,&local_28);
+    if (iVar1 == 0) {
+      iVar1 = pkgmgrinfo_appinfo_get_component_type(local_28,&local_30);
+      if (iVar1 < 0) {
+        __dlog_print(0,6,DAT_45e9cc5c + 0x45e9cbca,DAT_45e9cc58 + 0x45e9cbc8,
+                     DAT_45e9cc54 + 0x45e9cbf5,DAT_45e9cc50 + 0x45e9d1ea,0x426);
+      }
+      iVar2 = DAT_45e9cc3c + 0x45e9cb42;
+      *param_3 = 0;
+      iVar2 = g_strcmp0(local_30,iVar2);
+      if ((iVar2 == 0) &&
+         (iVar1 = pkgmgrinfo_appinfo_get_metadata_value(local_28,param_2,&local_2c), iVar1 == 0)) {
+        __dlog_print(0,4,DAT_45e9cc48 + 0x45e9cb96,DAT_45e9cc4c + 0x45e9cb98,
+                     DAT_45e9cc44 + 0x45e9cbc1,DAT_45e9cc40 + 0x45e9d1b6,0x42d,param_1,param_2);
+        *param_3 = 1;
+      }
+      pkgmgrinfo_appinfo_destroy_appinfo(local_28);
+    }
+    else {
+      iVar1 = -1;
+      __dlog_print(0,6,DAT_45e9cc7c + 0x45e9cc2a,DAT_45e9cc78 + 0x45e9cc28,DAT_45e9cc74 + 0x45e9cc4f
+                   ,DAT_45e9cc70 + 0x45e9d242,0x420,param_1);
+    }
+  }
+  if (local_24 != *piVar3) {
+                    /* WARNING: Subroutine does not return */
+    __stack_chk_fail(iVar1);
+  }
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 45eb1388 : http://samsung.com/tv/metadata/disable.appbooting  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 45eb14bc : %s: %s(%d) > %s does not support appbooting  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 45eb163c : memory/volt/last_service_app_booting  (3 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION FUN_45ea1a10 @ 45ea1a10 (ref from 45ea1ec0) (GhidraScript)  
+INFO  DecompileStrings.java> 
+void FUN_45ea1a10(undefined4 param_1,int param_2)
+
+{
+  int iVar1;
+  uint uVar2;
+  int iVar3;
+  uint uVar4;
+  int *piVar5;
+  int iVar6;
+  int iVar7;
+  int iVar8;
+  char *pcVar9;
+  byte local_149;
+  int local_148;
+  undefined4 local_144;
+  undefined4 local_140;
+  undefined4 local_13c;
+  undefined4 local_138;
+  int local_134;
+  uint local_130;
+  char acStack_12c [256];
+  int local_2c;
+  
+  piVar5 = *(int **)(DAT_45ea1f04 + 0x45ea1a28 + DAT_45ea1f08);
+  local_134 = 0;
+  local_2c = *piVar5;
+  local_130 = 0xffffffff;
+  local_138 = 0;
+  local_149 = 0;
+  local_13c = 0;
+  local_140 = 0;
+  local_144 = 0;
+  local_148 = 0;
+  memset(acStack_12c,0,0xff);
+  iVar1 = aul_window_info_get_pid(param_1,&local_134);
+  if (iVar1 < 0) {
+    __dlog_print(0,6,DAT_45ea1f68 + 0x45ea1ce6,DAT_45ea1f6c + 0x45ea1ce8,DAT_45ea1f60 + 0x45ea1d0b,
+                 &LAB_45ea2770 + DAT_45ea1f64,0x357,iVar1);
+  }
+  if (0 < local_134) {
+    iVar1 = aul_window_info_get_visibility(param_1,&local_130);
+    if (iVar1 < 0) {
+      __dlog_print(0,6,DAT_45ea1f58 + 0x45ea1cac,DAT_45ea1f5c + 0x45ea1cb4,DAT_45ea1f50 + 0x45ea1cdd
+                   ,(int)&DAT_45ea2748 + DAT_45ea1f54,0x35d,iVar1);
+    }
+    iVar1 = aul_window_info_get_opaque(param_1,&local_149);
+    if (iVar1 < 0) {
+      __dlog_print(0,6,DAT_45ea1f48 + 0x45ea1c7e,DAT_45ea1f4c + 0x45ea1c86,DAT_45ea1f40 + 0x45ea1caf
+                   ,DAT_45ea1f44 + 0x45ea271a,0x362,iVar1);
+    }
+    uVar2 = (uint)local_149;
+    iVar7 = DAT_45ea1f0c + 0x45ea2580;
+    iVar6 = DAT_45ea1f10 + 0x45ea1b21;
+    iVar1 = DAT_45ea1f14 + 0x45ea1afc;
+    uVar4 = local_130;
+    __dlog_print(0,3,iVar1,DAT_45ea1f18 + 0x45ea1b0c,iVar6,iVar7,0x364,local_134,local_130,uVar2);
+    if ((local_149 != 0) && (local_130 < 2)) {
+      iVar3 = aul_window_info_get_geometry(param_1,&local_138,&local_13c,&local_140,&local_144);
+      if (iVar3 < 0) {
+        __dlog_print(0,6,iVar1,DAT_45ea1f74 + 0x45ea1d2a,iVar6,iVar7,0x36a,iVar3,uVar4,uVar2);
+      }
+      uVar2 = util_is_fullscreen_geometry(local_138,local_13c,local_140,local_144);
+      iVar1 = context_system_property_check(DAT_45ea1f1c + 0x45ea1b62);
+      uVar4 = 0;
+      if (iVar1 != 0) {
+        uVar4 = util_is_portrait_pig_geometry(local_138,local_13c,local_140,local_144);
+      }
+      if (((uVar4 | uVar2) & 0xff) != 0) {
+        iVar1 = aul_app_get_appid_bypid(local_134,acStack_12c,0xff);
+        if (iVar1 == 0) {
+          if (uVar4 != 0) {
+            iVar6 = DAT_45ea1f8c + 0x45ea1d72;
+            *(undefined1 *)(DAT_45ea1f88 + 0x45ea1da2) = 1;
+            iVar1 = task_mgr_check_visible(iVar6,0,0,param_2);
+            if ((((iVar1 == 0) &&
+                 (iVar1 = g_strcmp0(acStack_12c,DAT_45ea1f90 + 0x45ea1d8e), iVar1 != 0)) &&
+                (iVar1 = g_strcmp0(acStack_12c,DAT_45ea1f94 + 0x45ea1d9e), iVar1 != 0)) &&
+               (iVar1 = g_strcmp0(acStack_12c,DAT_45ea1f98 + 0x45ea1dae), iVar1 != 0)) {
+              iVar8 = (int)&DAT_45ea2868 + DAT_45ea1f9c;
+              iVar3 = DAT_45ea1fa4 + 0x45ea1dd6;
+              iVar7 = DAT_45ea1fa0 + 0x45ea1e11;
+              pcVar9 = acStack_12c;
+              __dlog_print(0,4,iVar3,DAT_45ea1fa8 + 0x45ea1dda,iVar7,iVar8,0x37d,acStack_12c);
+              iVar1 = aul_extension_app_group_relocate_below_base_appid(acStack_12c,iVar6);
+              if (iVar1 < 0) {
+                __dlog_print(0,6,iVar3,DAT_45ea1fac + 0x45ea1e0c,iVar7,iVar8,0x37f,pcVar9);
+              }
+            }
+          }
+          iVar1 = context_check_mask(0x20000,param_2);
+          if (((iVar1 == 0) &&
+              (iVar1 = context_system_property_check(DAT_45ea1f20 + 0x45ea1ba2), iVar1 == 0)) ||
+             (iVar1 = g_strcmp0(acStack_12c,DAT_45ea1f70 + 0x45ea1d0c), iVar1 != 0)) {
+            FUN_45e9ce90(acStack_12c,local_134,param_2);
+            iVar1 = util_is_ambient_type_appid(acStack_12c);
+            if (((iVar1 == 0) &&
+                (iVar1 = g_strcmp0(acStack_12c,DAT_45ea1f24 + 0x45ea1bca), iVar1 != 0)) &&
+               (iVar1 = g_strcmp0(acStack_12c,*(undefined4 *)(DAT_45ea1f28 + 0x45ea1bd8)),
+               iVar1 != 0)) {
+              if ((*(char *)(DAT_45ea1f2c + 0x45ea1c1a) == '\0') || (uVar2 == 0)) {
+                if ((*(char *)(DAT_45ea1f30 + 0x45ea1d7e) == '\0') ||
+                   (iVar1 = g_strcmp0(acStack_12c,DAT_45ea1f30 + 0x45ea1d7e), iVar1 != 0)) {
+                  iVar1 = task_mgr_task_find_pid(local_134,param_2);
+                  if (iVar1 == 0) {
+                    __dlog_print(0,6,DAT_45ea1fcc + 0x45ea1e72,DAT_45ea1fd0 + 0x45ea1e76,
+                                 DAT_45ea1fc8 + 0x45ea1e9f,DAT_45ea1fc4 + 0x45ea28fc,0x3a0,
+                                 acStack_12c,local_134);
+                  }
+                  else {
+                    snprintf((char *)(DAT_45ea1f34 + 0x45ea1dac),0xff,
+                             (char *)(DAT_45ea1f38 + 0x45ea1c2c),acStack_12c);
+                    iVar1 = g_strcmp0(*(undefined4 *)(iVar1 + 8),DAT_45ea1f3c + 0x45ea1c36);
+                    if (iVar1 == 0) {
+                      iVar1 = util_get_appbooting_supported_webapp_byappid(acStack_12c,&local_148);
+                    }
+                    else {
+                      iVar1 = util_get_uiapp_has_metadata_byappid
+                                        (acStack_12c,DAT_45ea1fb0 + 0x45ea1e1e,&local_148);
+                    }
+                    if (iVar1 < 0) {
+                      local_148 = 0;
+                    }
+                    else if (local_148 == 1) {
+                      iVar6 = DAT_45ea1fd4 + 0x45ea1e86;
+                      iVar1 = vconf_set_str(iVar6,DAT_45ea1fd8 + 0x45ea1e88);
+                      if (iVar1 < 0) {
+                        __dlog_print(0,6,DAT_45ea1fe8 + 0x45ea1eb8,DAT_45ea1fe4 + 0x45ea1eb6,
+                                     DAT_45ea1fe0 + 0x45ea1ee1,DAT_45ea1fdc + 0x45ea293e,0x3b2,iVar6
+                                    );
+                      }
+                      iVar6 = DAT_45ea1fec + 0x45ea1ec2;
+                      iVar1 = vconf_set_str(iVar6,acStack_12c);
+                      if (iVar1 < 0) {
+                        __dlog_print(0,6,DAT_45ea1ffc + 0x45ea1ef2,DAT_45ea1ff8 + 0x45ea1ef0,
+                                     DAT_45ea1ff4 + 0x45ea1f1b,DAT_45ea1ff0 + 0x45ea2978,0x3b5,iVar6
+                                    );
+                      }
+                      context_set_booting_appid_vconf(acStack_12c);
+                      goto LAB_45ea1b12;
+                    }
+                    FUN_45eacab8(param_2 + 0x34);
+                  }
+                }
+              }
+              else {
+                __dlog_print(0,5,DAT_45ea1fc0 + 0x45ea1e4a,DAT_45ea1fbc + 0x45ea1e48,
+                             DAT_45ea1fb8 + 0x45ea1e75,DAT_45ea1fb4 + 0x45ea28d2,0x398);
+              }
+            }
+          }
+        }
+        else {
+          __dlog_print(0,6,DAT_45ea1f84 + 0x45ea1d5c,DAT_45ea1f80 + 0x45ea1d5a,
+                       DAT_45ea1f7c + 0x45ea1d87,DAT_45ea1f78 + 0x45ea27e4,0x375);
+        }
+      }
+    }
+  }
+LAB_45ea1b12:
+  if (local_2c != *piVar5) {
+                    /* WARNING: Subroutine does not return */
+    __stack_chk_fail();
+  }
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 45eb1664 : db/menu/app_booting  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 45eb1cd4 : firstscreen  (3 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION FUN_45ea29e0 @ 45ea29e0 (ref from 45ea2a2a) (GhidraScript)  
+INFO  DecompileStrings.java> 
+void FUN_45ea29e0(undefined4 param_1,undefined4 *param_2,int param_3)
+
+{
+  int iVar1;
+  void *__ptr;
+  undefined4 uVar2;
+  undefined4 uVar3;
+  int iVar4;
+  int *piVar5;
+  int iVar6;
+  int iVar7;
+  undefined4 local_30;
+  int local_2c;
+  
+  piVar5 = *(int **)(DAT_45ea2bac + 0x45ea29f4 + DAT_45ea2bb0);
+  local_2c = *piVar5;
+  if (param_2 == (undefined4 *)0x0 || param_3 == 0) {
+    uVar3 = 0xffffffff;
+  }
+  else {
+    iVar1 = g_strcmp0(*param_2,DAT_45ea2bb4 + 0x45ea2a0a);
+    if ((iVar1 != 0) && (iVar1 = g_strcmp0(*param_2,DAT_45ea2bb8 + 0x45ea2a2e), iVar1 != 0)) {
+      local_30 = param_1;
+      if (param_2[0x14] != 1) {
+        uVar3 = param_2[1];
+        iVar1 = g_strcmp0(uVar3,DAT_45ea2bbc + 0x45ea2a4a);
+        if ((iVar1 == 0) || (iVar1 = g_strcmp0(uVar3,DAT_45ea2bc0 + 0x45ea2a56), iVar1 == 0)) {
+          __ptr = (void *)g_strdup(DAT_45ea2bc4 + 0x45ea2a62);
+        }
+        else {
+          iVar1 = g_strcmp0(uVar3,DAT_45ea2be8 + 0x45ea2b34);
+          if (iVar1 == 0) {
+            __ptr = (void *)g_strdup(DAT_45ea2bf0 + 0x45ea2ba0);
+          }
+          else {
+            __ptr = (void *)aul_extension_app_get_last_operation(uVar3);
+          }
+        }
+        if (__ptr != (void *)0x0) {
+          iVar4 = DAT_45ea2bcc + 0x45ea2ac7;
+          iVar6 = DAT_45ea2bc8 + 0x45ea360a;
+          iVar7 = DAT_45ea2bd0 + 0x45ea2a9c;
+          __dlog_print(0,4,iVar7,DAT_45ea2bd4 + 0x45ea2aa4,iVar4,iVar6,0x2be,param_2[1],local_30,
+                       __ptr);
+          iVar1 = FUN_45e993fc(__ptr);
+          if ((iVar1 != 0) && (iVar1 = g_strcmp0(param_2[3],__ptr), iVar1 != 0)) {
+            g_free(param_2[3]);
+            uVar3 = g_strdup(__ptr);
+            param_2[3] = uVar3;
+            iVar1 = g_hash_table_lookup(*(undefined4 *)(param_3 + 0x20),&local_30);
+            if (iVar1 != 0) {
+              __dlog_print(0,4,iVar7,DAT_45ea2bec + 0x45ea2b82,iVar4,iVar6,0x2cc,*param_2);
+              g_free(*param_2);
+              FUN_45ea2880(param_2,param_3);
+            }
+          }
+          free(__ptr);
+        }
+      }
+      uVar3 = aul_app_get_last_caller_pid(param_1);
+      __dlog_print(0,4,DAT_45ea2be4 + 0x45ea2ae6,DAT_45ea2be0 + 0x45ea2ae0,DAT_45ea2bdc + 0x45ea2b0b
+                   ,DAT_45ea2bd8 + 0x45ea3668,0x2e5,param_1,uVar3);
+      iVar1 = task_mgr_task_find_pid(uVar3,param_3);
+      if (iVar1 != 0) {
+        if (*(int *)(iVar1 + 0x28) != 0) {
+          uVar3 = g_list_first();
+          uVar3 = g_list_position(uVar3,*(undefined4 *)(iVar1 + 0x28));
+          param_2[0x11] = uVar3;
+        }
+        if (iVar1 != param_2[0x10]) {
+          if (param_2[0x10] != 0) {
+            task_unref();
+          }
+          uVar2 = task_ref(iVar1);
+          uVar3 = 0;
+          param_2[0x10] = uVar2;
+          goto LAB_45ea2a12;
+        }
+      }
+    }
+    uVar3 = 0;
+  }
+LAB_45ea2a12:
+  if (local_2c != *piVar5) {
+                    /* WARNING: Subroutine does not return */
+    __stack_chk_fail(uVar3);
+  }
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION FUN_45ea0188 @ 45ea0188 (ref from 45ea0242) (GhidraScript)  
+INFO  DecompileStrings.java> 
+void FUN_45ea0188(undefined4 *param_1)
+
+{
+  int iVar1;
+  undefined4 uVar2;
+  undefined4 uVar3;
+  undefined4 *puVar4;
+  int iVar5;
+  int *piVar6;
+  void *local_1948;
+  undefined1 auStack_1944 [896];
+  undefined1 auStack_15c4 [2316];
+  undefined1 auStack_cb8 [896];
+  undefined1 auStack_938 [2316];
+  int local_2c;
+  
+  iVar1 = DAT_45ea0478;
+  iVar5 = DAT_45ea0464;
+  piVar6 = *(int **)(DAT_45ea045c + 0x45ea019a + DAT_45ea0460);
+  local_1948 = (void *)0x0;
+  local_2c = *piVar6;
+  if (*(int *)(DAT_45ea0464 + 0x45ea01ae) == 0) {
+    __dlog_print(0,6,DAT_45ea0508 + 0x45ea0454,DAT_45ea0504 + 0x45ea0452,DAT_45ea0500 + 0x45ea047f,
+                 DAT_45ea04fc + 0x45ea0dbc,0x29b);
+  }
+  else {
+    __dlog_print(0,4,DAT_45ea0470 + 0x45ea01e6,DAT_45ea0474 + 0x45ea01ea,DAT_45ea046c + 0x45ea0215,
+                 DAT_45ea0468 + 0x45ea0b50,0x28e,*(int *)(DAT_45ea0464 + 0x45ea01ae));
+    uVar2 = bundle_create();
+    bundle_add(uVar2,iVar1 + 0x45ea01f4,DAT_45ea047c + 0x45ea0200);
+    uVar2 = g_list_append(0,uVar2);
+    uVar3 = bundle_create();
+    bundle_add(uVar3,iVar1 + 0x45ea01f4,DAT_45ea0480 + 0x45ea021a);
+    uVar2 = g_list_append(uVar2,uVar3);
+    puVar4 = (undefined4 *)
+             task_create(DAT_45ea0488 + 0x45ea0246,*(undefined4 *)(iVar5 + 0x45ea01ae),
+                         DAT_45ea0484 + 0x45ea023e,0,3,2,1,0,0,uVar2);
+    g_hash_table_insert(*param_1,*puVar4);
+  }
+  iVar5 = was_get_emanual_id(&local_1948);
+  if ((iVar5 == 0) && (local_1948 != (void *)0x0)) {
+    iVar5 = was_get_app_info(local_1948,auStack_cb8);
+    if (iVar5 == 0) {
+      __dlog_print(0,4,DAT_45ea0494 + 0x45ea02a2,DAT_45ea0498 + 0x45ea02a6,DAT_45ea048c + 0x45ea02c7
+                   ,DAT_45ea0490 + 0x45ea0c10,0x2a0,local_1948,auStack_938);
+      puVar4 = (undefined4 *)
+               task_create(DAT_45ea049c + 0x45ea02c4,auStack_938,DAT_45ea04a0 + 0x45ea02ca,0,3,2,1,0
+                           ,0,0);
+      g_hash_table_insert(*param_1,*puVar4);
+    }
+    else {
+      __dlog_print(0,6,DAT_45ea04f8 + 0x45ea042c,DAT_45ea04f4 + 0x45ea042a,DAT_45ea04f0 + 0x45ea0457
+                   ,DAT_45ea04ec + 0x45ea0d94,0x2a4);
+    }
+  }
+  else {
+    __dlog_print(0,6,DAT_45ea04b0 + 0x45ea0302,DAT_45ea04ac + 0x45ea0300,DAT_45ea04a8 + 0x45ea032d,
+                 DAT_45ea04a4 + 0x45ea0c6a,0x2a7);
+  }
+  free(local_1948);
+  local_1948 = (void *)0x0;
+  iVar5 = system_info_get_value_string(0x16e,&local_1948);
+  if ((iVar5 == 0) && (local_1948 != (void *)0x0)) {
+    iVar5 = was_get_app_info(local_1948,auStack_1944);
+    if (iVar5 == 0) {
+      __dlog_print(0,4,DAT_45ea04c0 + 0x45ea0360,DAT_45ea04bc + 0x45ea035e,DAT_45ea04b8 + 0x45ea0385
+                   ,DAT_45ea04b4 + 0x45ea0cc2,0x2af,local_1948,auStack_15c4);
+      puVar4 = (undefined4 *)
+               task_create(DAT_45ea04c4 + 0x45ea037a,auStack_15c4,DAT_45ea04c8 + 0x45ea0380,0,3,9,1,
+                           0,0,0);
+      g_hash_table_insert(*param_1,*puVar4);
+    }
+    else {
+      __dlog_print(0,6,DAT_45ea04e8 + 0x45ea0402,DAT_45ea04e4 + 0x45ea0400,DAT_45ea04e0 + 0x45ea042d
+                   ,DAT_45ea04dc + 0x45ea0d6a,0x2b3);
+    }
+  }
+  else {
+    __dlog_print(0,6,DAT_45ea04d8 + 0x45ea03b8,DAT_45ea04d4 + 0x45ea03b6,DAT_45ea04d0 + 0x45ea03e3,
+                 DAT_45ea04cc + 0x45ea0d20,0x2b6);
+  }
+  free(local_1948);
+  if (local_2c != *piVar6) {
+                    /* WARNING: Subroutine does not return */
+    __stack_chk_fail();
+  }
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 45eb1ce0 : %s: %s(%d) > firstscreen is not running  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 45eb1d08 : %s: %s(%d) > firstscreen ui-type changed to %s  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 45eb1f38 : %s: %s(%d) > set last livetv %s  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 45eb1f58 : memory/app-context-manager/last_livetv  (2 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 45eb2014 : %s: %s(%d) > app booting state changed (%d)  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 45eb2040 : app_booting_mode  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 45eb2080 : autorun_last_app  (2 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 45eb2094 : %s: %s(%d) > app booting enabled (%d) appid (%s)  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 45eb20c8 : %s: %s(%d) > app booting disabled (%d)  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 45eb22b4 : db/first_screen/type  (2 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION task_mgr_init @ 45e9fe84 (ref from 45e9fef4) (GhidraScript)  
+INFO  DecompileStrings.java> 
+undefined4 task_mgr_init(int param_1)
+
+{
+  int iVar1;
+  undefined4 uVar2;
+  int iVar3;
+  
+  iVar3 = DAT_45ea0060 + 0x45e9fe8e;
+  if (param_1 == 0) {
+    return 0xffffffff;
+  }
+  iVar1 = aul_listen_app_launch_signal_v2(*(undefined4 *)(iVar3 + DAT_45ea0064),param_1);
+  if (iVar1 == 0) {
+    iVar1 = aul_listen_app_dead_signal(*(undefined4 *)(iVar3 + DAT_45ea0068),param_1);
+  }
+  else {
+    __dlog_print(0,6,DAT_45ea00a8 + 0x45e9ff6c,DAT_45ea00a4 + 0x45e9ff6a,DAT_45ea00a0 + 0x45e9ff97,
+                 DAT_45ea009c + 0x45ea08c4,0x799);
+    iVar1 = aul_listen_app_dead_signal(*(undefined4 *)(iVar3 + DAT_45ea0068),param_1);
+  }
+  if (iVar1 == 0) {
+    iVar1 = aul_listen_app_status_signal(*(undefined4 *)(iVar3 + DAT_45ea006c),param_1);
+  }
+  else {
+    __dlog_print(0,6,DAT_45ea00b8 + 0x45e9ffa2,DAT_45ea00b4 + 0x45e9ffa0,DAT_45ea00b0 + 0x45e9ffcd,
+                 DAT_45ea00ac + 0x45ea08fa,0x79c);
+    iVar1 = aul_listen_app_status_signal(*(undefined4 *)(iVar3 + DAT_45ea006c),param_1);
+  }
+  if (iVar1 != 0) {
+    __dlog_print(0,6,DAT_45ea00c8 + 0x45e9ffd8,DAT_45ea00c4 + 0x45e9ffd6,DAT_45ea00c0 + 0x45ea0003,
+                 DAT_45ea00bc + 0x45ea0930,0x79f);
+  }
+  aul_launch_init(0);
+  iVar1 = aul_extension_set_operation_changed_callback(DAT_45ea0070 + 0x45e9fed0,param_1);
+  if (iVar1 != 0) {
+    __dlog_print(0,6,DAT_45ea00d8 + 0x45ea0002,DAT_45ea00d4 + 0x45ea0000,DAT_45ea00d0 + 0x45ea002d,
+                 DAT_45ea00cc + 0x45ea095a,0x7a3);
+  }
+  uVar2 = g_hash_table_new(*(undefined4 *)(iVar3 + DAT_45ea0078),
+                           *(undefined4 *)(iVar3 + DAT_45ea0074));
+  *(undefined4 *)(param_1 + 0x20) = uVar2;
+  init_handler(param_1);
+  init_task_list(param_1);
+  iVar3 = vconf_get_str(DAT_45ea007c + 0x45e9fef8);
+  *(int *)(DAT_45ea0080 + 0x45e9ff00) = iVar3;
+  if (iVar3 == 0) {
+    __dlog_print(0,6,DAT_45ea00f8 + 0x45ea0054,DAT_45ea00f4 + 0x45ea0052,DAT_45ea00f0 + 0x45ea0081,
+                 DAT_45ea00ec + 0x45ea09ae,0x7ad);
+  }
+  util_vconf_add_handler(DAT_45ea0088 + 0x45e9ff12,DAT_45ea0084 + 0x45e9ff10,param_1);
+  vconf_notify_key_changed(DAT_45ea0090 + 0x45e9ff20,DAT_45ea008c + 0x45e9ff1e,param_1);
+  vconf_notify_key_changed(DAT_45ea0098 + 0x45e9ff2e,DAT_45ea0094 + 0x45e9ff2c,param_1);
+  iVar3 = context_ready(param_1);
+  if (iVar3 < 0) {
+    __dlog_print(0,6,DAT_45ea00e8 + 0x45ea002c,DAT_45ea00e4 + 0x45ea002a,DAT_45ea00e0 + 0x45ea0057,
+                 DAT_45ea00dc + 0x45ea0984,0x7b8);
+  }
+  task_mgr_set_current_fullscreen_appid(param_1);
+  return 0;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION init_config @ 45ea0a14 (ref from 45ea0a94) (GhidraScript)  
+INFO  DecompileStrings.java> 
+void init_config(undefined4 *param_1)
+
+{
+  int iVar1;
+  int iVar2;
+  undefined4 uVar3;
+  int iVar4;
+  undefined4 uVar5;
+  undefined4 uVar6;
+  int iVar7;
+  undefined4 uVar8;
+  
+  iVar1 = DAT_45ea0af0;
+  iVar4 = DAT_45ea0aec;
+  iVar7 = DAT_45ea0ae8 + 0x45ea0a22;
+  if (param_1 == (undefined4 *)0x0) {
+    uVar3 = g_assertion_message_expr
+                      (0,DAT_45ea0b08 + 0x45ea0abe,0x597,DAT_45ea0b04 + 0x45ea1480,
+                       DAT_45ea0b00 + 0x45ea0ab2);
+  }
+  else {
+    *param_1 = 0;
+    iVar2 = DAT_45ea0af4;
+    uVar6 = *(undefined4 *)(iVar7 + iVar4);
+    uVar5 = *(undefined4 *)(iVar7 + iVar1);
+    uVar3 = g_hash_table_new(uVar5,uVar6);
+    param_1[1] = uVar3;
+    param_1[2] = 0;
+    param_1[3] = 0;
+    param_1[4] = 0;
+    param_1[5] = 0;
+    param_1[6] = 0;
+    uVar3 = g_hash_table_new(uVar5,uVar6);
+    iVar4 = DAT_45ea0af8;
+    param_1[7] = uVar3;
+    uVar8 = *(undefined4 *)(iVar7 + iVar4);
+    uVar3 = g_hash_table_new_full(uVar5,uVar6,uVar8,0);
+    param_1[8] = uVar3;
+    uVar3 = g_hash_table_new_full(uVar5,uVar6,0,0);
+    param_1[9] = uVar3;
+    util_init_system_info();
+    uVar3 = g_hash_table_new_full(uVar5,uVar6,uVar8,0);
+    *(undefined4 *)(iVar2 + 0x45ea0a9c) = uVar3;
+    iVar4 = vconf_get_str(DAT_45ea0afc + 0x45ea0a98);
+    *(int *)(iVar2 + 0x45ea0a4c) = iVar4;
+    uVar3 = 0;
+    if (iVar4 != 0) {
+      return;
+    }
+  }
+  __dlog_print(uVar3,6,DAT_45ea0b18 + 0x45ea0ae4,DAT_45ea0b14 + 0x45ea0ae2,DAT_45ea0b10 + 0x45ea0b11
+               ,DAT_45ea0b0c + 0x45ea1496,0x5aa);
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 45eb22cc : %s: %s(%d) > failed to get firstscreen appid from vconf  (2 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 45eb238c : %s: %s(%d) > firstscreen appid : %s  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 45eb23b0 : smarthub_key  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 45eb2668 : %s: %s(%d) > failed to get firstscreen appid  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 45eb2880 : %s: %s(%d) > %s is livetv app  (2 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION task_from_json_object @ 45ea1174 (ref from 45ea14aa) (GhidraScript)  
+INFO  DecompileStrings.java> 
+void task_from_json_object(undefined4 param_1,undefined4 param_2)
+
+{
+  undefined4 uVar1;
+  int iVar2;
+  undefined4 uVar3;
+  undefined4 uVar4;
+  int *piVar5;
+  undefined4 uVar6;
+  int iVar7;
+  int iVar8;
+  int iVar9;
+  undefined4 local_38;
+  undefined4 local_34;
+  undefined4 local_30;
+  int local_2c;
+  
+  iVar7 = DAT_45ea1504 + 0x45ea118e;
+  piVar5 = *(int **)(DAT_45ea14fc + 0x45ea1186 + DAT_45ea1500);
+  local_30 = 0;
+  local_2c = *piVar5;
+  uVar1 = json_object_get_string_member(param_1,iVar7);
+  __dlog_print(0,3,DAT_45ea1514 + 0x45ea11c4,DAT_45ea1510 + 0x45ea11c0,DAT_45ea150c + 0x45ea11eb,
+               DAT_45ea1508 + 0x45ea1be8,0x22c,uVar1);
+  iVar2 = json_object_has_member(param_1,iVar7);
+  uVar1 = 0;
+  if (iVar2 != 0) {
+    uVar1 = json_object_get_string_member(param_1,iVar7);
+  }
+  iVar7 = DAT_45ea1518 + 0x45ea11de;
+  iVar2 = json_object_has_member(param_1,iVar7);
+  if (iVar2 == 0) {
+    iVar2 = 0;
+  }
+  else {
+    iVar2 = json_object_get_string_member(param_1,iVar7);
+  }
+  iVar8 = DAT_45ea151c + 0x45ea11f2;
+  iVar7 = json_object_has_member(param_1,iVar8);
+  if (iVar7 == 0) {
+    iVar7 = 0;
+  }
+  else {
+    iVar7 = json_object_get_string_member(param_1,iVar8);
+  }
+  iVar9 = DAT_45ea1520 + 0x45ea1208;
+  iVar8 = json_object_has_member(param_1,iVar9);
+  if (iVar8 == 0) {
+    local_34 = 3;
+  }
+  else {
+    json_object_get_string_member(param_1,iVar9);
+    local_34 = task_to_prio();
+  }
+  iVar9 = DAT_45ea1524 + 0x45ea1220;
+  iVar8 = json_object_has_member(param_1,iVar9);
+  if (iVar8 == 0) {
+    local_38 = 1;
+  }
+  else {
+    json_object_get_string_member(param_1,iVar9);
+    local_38 = task_to_type();
+  }
+  iVar9 = DAT_45ea1528 + 0x45ea1238;
+  iVar8 = json_object_has_member(param_1,iVar9);
+  if (iVar8 != 0) {
+    uVar4 = json_object_get_member(param_1,iVar9);
+    iVar8 = json_node_get_node_type();
+    if (iVar8 == 1) {
+      uVar4 = json_node_get_array(uVar4);
+      json_array_foreach_element(uVar4,DAT_45ea1594 + 0x45ea14c2,&local_30);
+    }
+    else {
+      iVar8 = json_node_get_node_type();
+      if (iVar8 == 0) {
+        FUN_45e9989c(0,0xffffffff,uVar4,&local_30);
+      }
+    }
+  }
+  iVar9 = DAT_45ea152c + 0x45ea124c;
+  iVar8 = json_object_has_member(param_1,iVar9);
+  if (iVar8 == 0) {
+    uVar4 = 0;
+  }
+  else {
+    uVar4 = json_object_get_boolean_member(param_1,iVar9);
+  }
+  iVar9 = DAT_45ea1530 + 0x45ea1262;
+  iVar8 = json_object_has_member(param_1,iVar9);
+  if (iVar8 == 0) {
+    uVar3 = 0;
+  }
+  else {
+    uVar3 = json_object_get_boolean_member(param_1,iVar9);
+  }
+  iVar9 = DAT_45ea1534 + 0x45ea1278;
+  iVar8 = json_object_has_member(param_1,iVar9);
+  if (iVar8 == 0) {
+    if (iVar2 == 0) {
+      uVar6 = 0;
+      goto LAB_45ea132a;
+    }
+    iVar8 = context_check_is_livetv(iVar2);
+    uVar6 = 0;
+    if (iVar8 != 0) {
+      uVar6 = 1;
+      __dlog_print(0,4,DAT_45ea1590 + 0x45ea14b0,DAT_45ea158c + 0x45ea14ae,DAT_45ea1588 + 0x45ea14d5
+                   ,DAT_45ea1584 + 0x45ea1ed2,0x25e,iVar2);
+    }
+LAB_45ea1296:
+    g_hash_table_lookup(param_2,iVar2);
+    iVar8 = g_strdup();
+    if (iVar8 != 0) {
+      iVar9 = g_strcmp0(iVar8,DAT_45ea1538 + 0x45ea12ae);
+      if ((((iVar9 == 0) || (iVar9 = g_strcmp0(iVar8,DAT_45ea1560 + 0x45ea140a), iVar9 == 0)) ||
+          (iVar9 = g_strcmp0(iVar8,DAT_45ea1564 + 0x45ea141a), iVar9 == 0)) ||
+         (((iVar9 = g_strcmp0(iVar8,DAT_45ea1568 + 0x45ea142a), iVar9 == 0 ||
+           (iVar9 = g_strcmp0(iVar8,DAT_45ea156c + 0x45ea143a), iVar9 == 0)) ||
+          (iVar9 = g_strcmp0(iVar8,DAT_45ea1570 + 0x45ea144a), iVar9 == 0)))) {
+        __dlog_print(0,3,DAT_45ea1548 + 0x45ea12e2,DAT_45ea1544 + 0x45ea12de,
+                     DAT_45ea1540 + 0x45ea1307,DAT_45ea153c + 0x45ea1d04,0x277,iVar2,iVar8,uVar6);
+      }
+      else {
+        __dlog_print(0,5,DAT_45ea1580 + 0x45ea147e,DAT_45ea157c + 0x45ea147a,
+                     DAT_45ea1578 + 0x45ea14a3,DAT_45ea1574 + 0x45ea1ea0,0x272,iVar2,iVar8,uVar6);
+      }
+      goto LAB_45ea12e8;
+    }
+  }
+  else {
+    uVar6 = json_object_get_boolean_member(param_1,iVar9);
+    if (iVar2 != 0) goto LAB_45ea1296;
+LAB_45ea132a:
+    iVar2 = iVar7;
+    if (iVar7 == 0) {
+      __dlog_print(0,6,DAT_45ea15a0 + 0x45ea14ea,DAT_45ea15a4 + 0x45ea14ee,DAT_45ea1598 + 0x45ea1513
+                   ,DAT_45ea159c + 0x45ea1f1e,0x26a,uVar1);
+    }
+  }
+  iVar8 = g_strdup(DAT_45ea154c + 0x45ea1338);
+  __dlog_print(0,3,DAT_45ea155c + 0x45ea1362,DAT_45ea1558 + 0x45ea135e,DAT_45ea1550 + 0x45ea1383,
+               DAT_45ea1554 + 0x45ea1d90,0x275,iVar2);
+LAB_45ea12e8:
+  uVar1 = task_create(uVar1,iVar2,iVar8,iVar7,local_34,local_38,uVar4,uVar3,uVar6,local_30);
+  g_free(iVar8);
+  if (local_2c != *piVar5) {
+                    /* WARNING: Subroutine does not return */
+    __stack_chk_fail(uVar1);
+  }
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 45eb28c0 : %s: %s(%d) > not allowed pkg type : %s - %s, livetv %d  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 45eb28f8 : %s: %s(%d) > apptype : %s, %s livetv %d  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 45eb2ad0 : %s: %s(%d) > app booting appid updated by PIG  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 45eb2b24 : http://samsung.com/tv/metadata/appbootingsupport  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 45eb3110 : %s: %s(%d) > failed to get livetv metadata:%s  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 45eb5580 : __reset_last_app_source  (3 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION FUN_45eacab8 @ 45eacab8 (ref from 45eacb00) (GhidraScript)  
+INFO  DecompileStrings.java> 
+void FUN_45eacab8(int *param_1)
+
+{
+  void *__ptr;
+  int iVar1;
+  int iVar2;
+  
+  iVar1 = DAT_45eacb80 + 0x45eacac4;
+  __ptr = (void *)vconf_get_str(iVar1);
+  if (__ptr == (void *)0x0) {
+    __dlog_print(0,6,DAT_45eacba0 + 0x45eacb42,DAT_45eacba4 + 0x45eacb44,DAT_45eacb9c + 0x45eacb71,
+                 DAT_45eacb98 + 0x45eacb6a,0x195,iVar1);
+    iVar1 = *param_1;
+  }
+  else {
+    iVar2 = DAT_45eacb84 + 0x45eacad6;
+    iVar1 = vconf_set_str(iVar2,__ptr);
+    if (iVar1 < 0) {
+      __dlog_print(0,6,DAT_45eacbb8 + 0x45eacb7a,DAT_45eacbb4 + 0x45eacb78,DAT_45eacbb0 + 0x45eacba3
+                   ,(int)&DAT_45eacb9c + DAT_45eacbac,0x192,iVar2);
+    }
+    free(__ptr);
+    iVar1 = *param_1;
+  }
+  if (iVar1 == 0) {
+    iVar1 = DAT_45eacba8 + 0x45eacb52;
+  }
+  else {
+    iVar1 = *(int *)(iVar1 + 4);
+  }
+  __dlog_print(0,4,DAT_45eacb94 + 0x45eacb12,DAT_45eacb90 + 0x45eacb0e,DAT_45eacb8c + 0x45eacb3d,
+               DAT_45eacb88 + 0x45eacb36,0x19b,iVar1);
+  context_set_booting_appid_vconf(iVar1);
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> TOTAL FUNCS DECOMPILED: 21 (GhidraScript)  
+INFO  ANALYZING changes made by post scripts: file://~/build/samsung/CleanFrame/.local/q90t/bin/libapp-context-manager-common.so (HeadlessAnalyzer)  
+INFO  REPORT: Post-analysis succeeded for file: file://~/build/samsung/CleanFrame/.local/q90t/bin/libapp-context-manager-common.so (HeadlessAnalyzer)  
+INFO  /libapp-context-manager-common.so: file created (george) (LocalFileSystem)  
+INFO  REPORT: Save succeeded for: /libapp-context-manager-common.so (libcommon:/libapp-context-manager-common.so) (HeadlessAnalyzer)  
+INFO  REPORT: Import succeeded (HeadlessAnalyzer)  

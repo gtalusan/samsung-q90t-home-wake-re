@@ -1,0 +1,206 @@
+openjdk version "25.0.5.0.2" 2026-10-22
+OpenJDK Runtime Environment Homebrew (build 25.0.5.0.2)
+OpenJDK 64-Bit Server VM Homebrew (build 25.0.5.0.2, mixed mode)
+INFO  Using log config file: jar:file:/opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: ~/Library/ghidra/ghidra_12.2_PUBLIC/application.log (LoggingInitialization)  
+INFO  Loading user preferences: ~/Library/ghidra/ghidra_12.2_PUBLIC/preferences (Preferences)  
+INFO  Loading previous preferences: ~/.ghidra/.ghidra_9.1.2_PUBLIC/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (538 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Loaded 25 trusted CA certificates from the OS trust store. (DefaultTrustManagerFactory)  
+INFO  Loaded 110 trusted CA certificates from the Java default trust store. (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (6078 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 60 extension points (19 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    ~/build/samsung/CleanFrame/.local/q90t
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/Decompiler/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/FunctionID/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/FileFormats/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/8051/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/VersionTracking/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/BSim/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/Atmel/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/Swift/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/DATA/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Debug/Debugger/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/JVM/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/PIC/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/PDB/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/BytePatterns/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/PyGhidra/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/Base/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Creating temporary project: /tmp/cf-ghidra-proj2/libc2 (HeadlessAnalyzer)  
+INFO  Creating project: /tmp/cf-ghidra-proj2/libc2 (DefaultProject)  
+INFO  REPORT: Processing input files:  (HeadlessAnalyzer)  
+INFO       project: /tmp/cf-ghidra-proj2/libc2 (HeadlessAnalyzer)  
+INFO  IMPORTING: file://~/build/samsung/CleanFrame/.local/q90t/bin/libapp-context-manager-common.so (HeadlessAnalyzer)  
+INFO  Using Loader: Executable and Linking Format (ELF) (ProgramLoader)  
+INFO  Using Language/Compiler: ARM:LE:32:v8:default (ProgramLoader)  
+INFO  Using Library Search Path: [., /System/Library/dyld/dyld_shared_cache_arm64e, /System/Library/dyld/dyld_shared_cache_x86_64, /System/Library/dyld/dyld_shared_cache_x86_64h, /System/Cryptexes/OS/System/Library/dyld/dyld_shared_cache_arm64e, /System/Cryptexes/OS/System/Library/dyld/dyld_shared_cache_x86_64, /System/Cryptexes/OS/System/Library/dyld/dyld_shared_cache_x86_64h, ~/Library/Java/Extensions, /Library/Java/Extensions, /Network/Library/Java/Extensions, /System/Library/Java/Extensions, /usr/lib/java] (ProgramLoader)  
+INFO  Additional info:
+Loading file://~/build/samsung/CleanFrame/.local/q90t/bin/libapp-context-manager-common.so?MD5=7e48cb4820ec6ac14cf74519aeba7657...
+Setting block .init_array to read-only
+Setting block .fini_array to read-only
+Setting block .jcr to read-only
+Setting block .data.rel.ro to read-only
+Setting block .dynamic to read-only
+------------------------------------------------
+
+Linking the External Programs of 'libapp-context-manager-common.so' to imported libraries...
+  [libglib-2.0.so.0] -> not found in project
+  [libgobject-2.0.so.0] -> not found in project
+  [libgio-2.0.so.0] -> not found in project
+  [libjson-glib-1.0.so.0] -> not found in project
+  [libecore_input.so.1] -> not found in project
+  [libvd-win-util.so.0] -> not found in project
+  [libvirtualscreen-linker.so.0] -> not found in project
+  [libtzplatform-config-2.0.so.2] -> not found in project
+  [libaul.so.0] -> not found in project
+  [libbundle.so.0] -> not found in project
+  [libvconf.so.0] -> not found in project
+  [libdlog.so.0] -> not found in project
+  [libecore_wl2.so.1] -> not found in project
+  [libecore.so.1] -> not found in project
+  [libpthread.so.0] -> not found in project
+  [libeina.so.1] -> not found in project
+  [libaul-ex.so.0] -> not found in project
+  [libcapi-appfw-app-operation-tv.so.0] -> not found in project
+  [libaul-extension.so.0] -> not found in project
+  [libwas_db_api.so] -> not found in project
+  [libcapi-system-info.so.0] -> not found in project
+  [libsyspopup_caller.so.0.1.0] -> not found in project
+  [libwas_launcher_api.so] -> not found in project
+  [libtvs-ht.so] -> not found in project
+  [libpkgmgr-info.so.0] -> not found in project
+  [libdeviced.so.1] -> not found in project
+  [libautoinput.so.0] -> not found in project
+  [libttrace.so.1] -> not found in project
+  [libSLP-db-util.so.0] -> not found in project
+  [libsqlite3.so.0] -> not found in project
+  [libcapi-system-system-settings.so.0] -> not found in project
+  [libCLogger.so] -> not found in project
+  [libnotification.so.0] -> not found in project
+  [libgcc_s.so.1] -> not found in project
+  [libc.so.6] -> not found in project
+  [ld-linux.so.3] -> not found in project
+------------------------------------------------
+
+Resolving External Symbols of [/libapp-context-manager-common.so] - 272 unresolved symbols, no external libraries configured - skipping
+ (ProgramLoader)  
+INFO  IMPORTING: Loaded 0 additional files (HeadlessAnalyzer)  
+INFO  ANALYZING all memory and code: file://~/build/samsung/CleanFrame/.local/q90t/bin/libapp-context-manager-common.so (HeadlessAnalyzer)  
+INFO  DWARF external debug information found: [BuildIdDebugInfo [buildId=[-78, -122, -109, 99, -71, -9, -45, -34, -107, -115, -104, -13, -128, 121, 74, 59, -57, -120, -3, -15], objectType=DEBUGINFO, ]] (ExternalDebugFileSectionProvider)  
+INFO  Unable to find DWARF information, skipping DWARF analysis (DWARFAnalyzer)  
+WARN  WARNING! Repairing body of function at 45e9d4b0 (ClearFlowAndRepairCmd)  
+WARN  WARNING! Removing function with bad body at 45ea8a48 (ClearFlowAndRepairCmd)  
+WARN  Decompiling 45e98b68, pcode error at 45eca148: Unable to disassemble EXTERNAL block location: 45eca148 (DecompileCallback)  
+WARN  Decompiling 45e98c0c, pcode error at 45eca190: Unable to disassemble EXTERNAL block location: 45eca190 (DecompileCallback)  
+INFO  Packed database cache: /var/tmp/george-ghidra/packed-db-cache (PackedDatabaseCache)  
+INFO  Applied data type archive: generic_clib (ApplyDataArchiveAnalyzer)  
+INFO  -----------------------------------------------------
+    ARM Constant Reference Analyzer            0.491 secs
+    ARM Symbol                                 0.001 secs
+    ASCII Strings                              0.131 secs
+    Apply Data Archives                        0.230 secs
+    Call Convention ID                         0.884 secs
+    Call-Fixup Installer                       0.130 secs
+    Create Address Tables                      0.019 secs
+    Create Address Tables - One Time           0.005 secs
+    Create Function                            0.146 secs
+    DWARF                                      0.002 secs
+    Data Reference                             0.614 secs
+    Decompiler Switch Analysis                 2.574 secs
+    Demangler GNU                              0.066 secs
+    Disassemble                                0.029 secs
+    Disassemble Entry Points                   0.883 secs
+    Embedded Media                             0.003 secs
+    External Entry References                  0.002 secs
+    Function ID                                0.020 secs
+    Function Start Pre Search                  0.005 secs
+    Function Start Search                      0.047 secs
+    Function Start Search After Code           0.026 secs
+    Function Start Search After Data           0.045 secs
+    Function Start Search delayed - One Time   0.004 secs
+    GCC Exception Handlers                     0.003 secs
+    Non-Returning Functions - Discovered       0.065 secs
+    Non-Returning Functions - Known            0.004 secs
+    Reference                                  0.754 secs
+    Shared Return Calls                        0.021 secs
+    Source Language Support                    0.002 secs
+    Stack                                      0.286 secs
+    Subroutine References                      0.113 secs
+    Subroutine References - One Time           0.000 secs
+    Variadic Function Signature Override       1.843 secs
+-----------------------------------------------------
+     Total Time   9 secs
+-----------------------------------------------------
+ (AutoAnalysisManager)  
+INFO  REPORT: Analysis succeeded for file: file://~/build/samsung/CleanFrame/.local/q90t/bin/libapp-context-manager-common.so (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: DecompileOne.java '45e9f8a8'  (HeadlessAnalyzer)  
+INFO  SCRIPT: ~/build/samsung/CleanFrame/.local/q90t/DecompileOne.java (HeadlessAnalyzer)  
+INFO  DecompileOne.java> ######## FUN_45e9f8a8 @ 45e9f8a8 (GhidraScript)  
+INFO  DecompileOne.java> 
+void FUN_45e9f8a8(undefined4 param_1,int param_2)
+
+{
+  bool bVar1;
+  int iVar2;
+  int iVar3;
+  undefined4 uVar4;
+  int iVar5;
+  int iVar6;
+  int iVar7;
+  
+  iVar6 = DAT_45e9f9f0;
+  if (param_2 == 0) {
+    __dlog_print(0,6,DAT_45e9fa3c + 0x45e9f9e4,DAT_45e9fa38 + 0x45e9f9e2,DAT_45e9fa34 + 0x45e9fa0f,
+                 DAT_45e9fa30 + 0x45ea02fc,0x40a);
+    return;
+  }
+  iVar2 = vconf_keynode_get_int();
+  iVar7 = DAT_45e9f9f8 + 0x45e9f8d4;
+  iVar6 = iVar6 + 0x45ea01fc;
+  iVar5 = DAT_45e9f9f4 + 0x45e9f90f;
+  __dlog_print(0,4,iVar7,DAT_45e9f9fc + 0x45e9f8da,iVar5,iVar6,0x40f,iVar2);
+  iVar3 = context_system_property_check(DAT_45e9fa00 + 0x45e9f8f2);
+  bVar1 = iVar3 != 0 && iVar2 != 0;
+  if (bVar1) {
+    context_system_property_add(DAT_45e9fa24 + 0x45e9f998);
+    __dlog_print(0,4,iVar7,DAT_45e9fa2c + 0x45e9f9ba,iVar5,iVar6,0x414,iVar2,
+                 *(undefined4 *)(DAT_45e9fa28 + 0x45e9f9e8));
+  }
+  else {
+    context_system_property_remove(DAT_45e9fa04 + 0x45e9f90e);
+    __dlog_print(0,4,iVar7,DAT_45e9fa08 + 0x45e9f922,iVar5,iVar6,0x418,iVar2);
+  }
+  iVar6 = DAT_45e9fa0c;
+  if ((bool)*(char *)(DAT_45e9fa0c + 0x45e9f96c) != bVar1) {
+    iVar2 = DAT_45e9fa18 + 0x45e9f954;
+    __dlog_print(0,4,DAT_45e9fa20 + 0x45e9f962,DAT_45e9fa1c + 0x45e9f95c,DAT_45e9fa14 + 0x45e9f987,
+                 DAT_45e9fa10 + 0x45ea0274,0x41c,bVar1);
+    uVar4 = context_get_last_source_key();
+    vconf_ignore_key_changed(uVar4,iVar2);
+    *(bool *)(iVar6 + 0x45e9f96c) = bVar1;
+    uVar4 = context_get_last_source_key();
+    vconf_notify_key_changed(uVar4,iVar2,param_2);
+    FUN_45e9f7c4(param_2);
+  }
+  return;
+}
+
+ (GhidraScript)  
+INFO  ANALYZING changes made by post scripts: file://~/build/samsung/CleanFrame/.local/q90t/bin/libapp-context-manager-common.so (HeadlessAnalyzer)  
+INFO  REPORT: Post-analysis succeeded for file: file://~/build/samsung/CleanFrame/.local/q90t/bin/libapp-context-manager-common.so (HeadlessAnalyzer)  
+INFO  /libapp-context-manager-common.so: file created (george) (LocalFileSystem)  
+INFO  REPORT: Save succeeded for: /libapp-context-manager-common.so (libc2:/libapp-context-manager-common.so) (HeadlessAnalyzer)  
+INFO  REPORT: Import succeeded (HeadlessAnalyzer)  

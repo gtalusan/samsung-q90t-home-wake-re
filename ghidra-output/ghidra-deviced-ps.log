@@ -1,0 +1,759 @@
+openjdk version "25.0.5.0.2" 2026-10-22
+OpenJDK Runtime Environment Homebrew (build 25.0.5.0.2)
+OpenJDK 64-Bit Server VM Homebrew (build 25.0.5.0.2, mixed mode)
+INFO  Using log config file: jar:file:/opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: ~/Library/ghidra/ghidra_12.2_PUBLIC/application.log (LoggingInitialization)  
+INFO  Loading user preferences: ~/Library/ghidra/ghidra_12.2_PUBLIC/preferences (Preferences)  
+INFO  Loading previous preferences: ~/.ghidra/.ghidra_9.1.2_PUBLIC/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (542 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Loaded 25 trusted CA certificates from the OS trust store. (DefaultTrustManagerFactory)  
+INFO  Loaded 110 trusted CA certificates from the Java default trust store. (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (6346 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 60 extension points (19 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    ~/build/samsung/CleanFrame/.local/q90t
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/Decompiler/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/FunctionID/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/FileFormats/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/8051/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/VersionTracking/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/BSim/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/Atmel/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/Swift/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/DATA/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Debug/Debugger/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/JVM/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/PIC/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/PDB/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/BytePatterns/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/PyGhidra/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/Base/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Creating temporary project: /tmp/cf-ghidra-proj/deviced (HeadlessAnalyzer)  
+INFO  Creating project: /tmp/cf-ghidra-proj/deviced (DefaultProject)  
+INFO  REPORT: Processing input files:  (HeadlessAnalyzer)  
+INFO       project: /tmp/cf-ghidra-proj/deviced (HeadlessAnalyzer)  
+INFO  IMPORTING: file://~/build/samsung/CleanFrame/.local/q90t/bin/deviced (HeadlessAnalyzer)  
+INFO  Using Loader: Executable and Linking Format (ELF) (ProgramLoader)  
+INFO  Using Language/Compiler: ARM:LE:32:v8:default (ProgramLoader)  
+INFO  Using Library Search Path: [., /System/Library/dyld/dyld_shared_cache_arm64e, /System/Library/dyld/dyld_shared_cache_x86_64, /System/Library/dyld/dyld_shared_cache_x86_64h, /System/Cryptexes/OS/System/Library/dyld/dyld_shared_cache_arm64e, /System/Cryptexes/OS/System/Library/dyld/dyld_shared_cache_x86_64, /System/Cryptexes/OS/System/Library/dyld/dyld_shared_cache_x86_64h, ~/Library/Java/Extensions, /Library/Java/Extensions, /Network/Library/Java/Extensions, /System/Library/Java/Extensions, /usr/lib/java] (ProgramLoader)  
+INFO  Additional info:
+Loading file://~/build/samsung/CleanFrame/.local/q90t/bin/deviced?MD5=7a3088ddc6c36130234ddc71e60d486e...
+Setting block .init_array to read-only
+Setting block .fini_array to read-only
+Setting block .jcr to read-only
+Setting block .data.rel.ro to read-only
+Setting block .dynamic to read-only
+------------------------------------------------
+
+Linking the External Programs of 'deviced' to imported libraries...
+  [librt.so.1] -> not found in project
+  [libecore.so.1] -> not found in project
+  [libefl.so.1] -> not found in project
+  [libeo.so.1] -> not found in project
+  [libedbus.so.1] -> not found in project
+  [libdbus-1.so.3] -> not found in project
+  [libpthread.so.0] -> not found in project
+  [libeina.so.1] -> not found in project
+  [libgio-2.0.so.0] -> not found in project
+  [libgobject-2.0.so.0] -> not found in project
+  [libglib-2.0.so.0] -> not found in project
+  [libtzplatform-config-2.0.so.2] -> not found in project
+  [libproc-stat.so.5] -> not found in project
+  [libvconf.so.0] -> not found in project
+  [libttrace.so.1] -> not found in project
+  [libsmart-deadlock.so] -> not found in project
+  [libcapi-system-info.so.0] -> not found in project
+  [libcapi-base-common.so.0] -> not found in project
+  [libfactory-interface.so] -> not found in project
+  [libfconfig.so] -> not found in project
+  [libdlog.so.0] -> not found in project
+  [liblwipc.so] -> not found in project
+  [libpower-defs.so.0] -> not found in project
+  [libtvsystem.so.0] -> not found in project
+  [libpower-control-c-glue.so.0] -> not found in project
+  [libpower-control.so.0] -> not found in project
+  [libdisplay-panel-c-glue.so.0] -> not found in project
+  [libdisplay-panel.so.0] -> not found in project
+  [libdl.so.2] -> not found in project
+  [libm.so.6] -> not found in project
+  [libudev.so.1] -> not found in project
+  [libc.so.6] -> not found in project
+  [ld-linux.so.3] -> not found in project
+  [libgcc_s.so.1] -> not found in project
+------------------------------------------------
+
+Resolving External Symbols of [/deviced] - 243 unresolved symbols, no external libraries configured - skipping
+ (ProgramLoader)  
+INFO  IMPORTING: Loaded 0 additional files (HeadlessAnalyzer)  
+INFO  ANALYZING all memory and code: file://~/build/samsung/CleanFrame/.local/q90t/bin/deviced (HeadlessAnalyzer)  
+INFO  DWARF external debug information found: [BuildIdDebugInfo [buildId=[-104, 30, 37, -5, -1, -27, 120, -90, -24, 112, 67, -43, 95, -113, -8, 93, -11, -4, -126, -112], objectType=DEBUGINFO, ], DebugLinkDebugInfo [filename=deviced.debug, crc=1564344813]] (ExternalDebugFileSectionProvider)  
+INFO  Unable to find DWARF information, skipping DWARF analysis (DWARFAnalyzer)  
+WARN  Decompiling 00016048, pcode error at 0005a3b8: Unable to disassemble EXTERNAL block location: 0005a3b8 (DecompileCallback)  
+WARN  Decompiling 00016018, pcode error at 0005a364: Unable to disassemble EXTERNAL block location: 0005a364 (DecompileCallback)  
+INFO  Packed database cache: /var/tmp/george-ghidra/packed-db-cache (PackedDatabaseCache)  
+INFO  Applied data type archive: generic_clib (ApplyDataArchiveAnalyzer)  
+INFO  -----------------------------------------------------
+    ARM Constant Reference Analyzer            0.630 secs
+    ARM Symbol                                 0.002 secs
+    ASCII Strings                              0.131 secs
+    Apply Data Archives                        0.247 secs
+    Call Convention ID                         0.221 secs
+    Call-Fixup Installer                       0.058 secs
+    Create Address Tables                      0.024 secs
+    Create Address Tables - One Time           0.023 secs
+    Create Function                            0.108 secs
+    DWARF                                      0.003 secs
+    Data Reference                             0.668 secs
+    Decompiler Switch Analysis                 2.831 secs
+    Demangler GNU                              0.085 secs
+    Disassemble Entry Points                   0.803 secs
+    Embedded Media                             0.003 secs
+    External Entry References                  0.000 secs
+    Function ID                                0.021 secs
+    Function Start Pre Search                  0.007 secs
+    Function Start Search                      0.071 secs
+    Function Start Search After Code           0.035 secs
+    Function Start Search After Data           0.037 secs
+    GCC Exception Handlers                     0.005 secs
+    Non-Returning Functions - Discovered       0.024 secs
+    Non-Returning Functions - Known            0.004 secs
+    Reference                                  0.654 secs
+    Shared Return Calls                        0.018 secs
+    Source Language Support                    0.002 secs
+    Stack                                      0.438 secs
+    Subroutine References                      0.035 secs
+    Subroutine References - One Time           0.000 secs
+    Variadic Function Signature Override       4.486 secs
+-----------------------------------------------------
+     Total Time   11 secs
+-----------------------------------------------------
+ (AutoAnalysisManager)  
+INFO  REPORT: Analysis succeeded for file: file://~/build/samsung/CleanFrame/.local/q90t/bin/deviced (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: DecompileStrings.java  (HeadlessAnalyzer)  
+INFO  SCRIPT: ~/build/samsung/CleanFrame/.local/q90t/DecompileStrings.java (HeadlessAnalyzer)  
+INFO  DecompileStrings.java> ===== STRING @ 00040384 : memory/boot/power_suspend  (5 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION is_state_change_available @ 0002a460 (ref from 0002a538) (GhidraScript)  
+INFO  DecompileStrings.java> 
+void is_state_change_available(void)
+
+{
+  int iVar1;
+  int iVar2;
+  int iVar3;
+  int iVar4;
+  uint uVar5;
+  int *piVar6;
+  int iVar7;
+  undefined4 uVar8;
+  uint uVar9;
+  
+  iVar1 = DAT_0002a598;
+  piVar6 = *(int **)(DAT_0002a588 + 0x2a470 + DAT_0002a58c);
+  iVar3 = *piVar6;
+  iVar7 = DAT_0002a590 + 0x2a490;
+  iVar4 = DAT_0002a594 + 0x2a564;
+  iVar2 = get_poweroff_info();
+  uVar5 = *(uint *)(iVar2 + 8) & 0x9fffffff;
+  uVar8 = *(undefined4 *)(iVar2 + 0x10);
+  uVar9 = uVar5;
+  __dlog_print(2,4,iVar7,DAT_0002a59c + 0x2a4e0,iVar1 + 0x2a4e2,iVar4,0x33,uVar8,uVar5);
+  if (*(uint *)(iVar2 + 0x10) < 2) {
+    if (*(uint *)(iVar2 + 0x10) == 0) {
+      uVar8 = 1;
+      goto LAB_0002a4f8;
+    }
+    iVar2 = is_force_poweroff_required(uVar5);
+    if (iVar2 == 0) {
+      iVar2 = vconf_get_int(DAT_0002a5a0 + 0x2a540);
+      if (iVar2 != 0) {
+        __dlog_print(2,6,iVar7,DAT_0002a5a4 + 0x2a568,iVar1 + 0x2a4e2,iVar4,0x46,uVar8,uVar9);
+      }
+      uVar8 = 1;
+      goto LAB_0002a4f8;
+    }
+  }
+  uVar8 = 0;
+LAB_0002a4f8:
+  if (iVar3 != *piVar6) {
+                    /* WARNING: Subroutine does not return */
+    __stack_chk_fail(uVar8);
+  }
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION power_get_poweroff_extra_info @ 00020cc0 (ref from 00020d6c) (GhidraScript)  
+INFO  DecompileStrings.java> 
+void power_get_poweroff_extra_info(undefined1 *param_1)
+
+{
+  undefined1 uVar1;
+  undefined1 uVar2;
+  int iVar3;
+  int iVar4;
+  char *pcVar5;
+  char *pcVar6;
+  int iVar7;
+  int iVar8;
+  int *piVar9;
+  int iVar10;
+  int iVar11;
+  int local_28;
+  int local_24;
+  int local_20;
+  int local_1c;
+  
+  piVar9 = *(int **)(DAT_0002122c + 0x20cd0 + DAT_00021230);
+  local_1c = *piVar9;
+  if (param_1 == (undefined1 *)0x0) goto LAB_00020d38;
+  if (*(char *)(DAT_00021234 + 0x20d7b) == '\0') {
+    iVar10 = DAT_00021240 + 0x20d68;
+    local_28 = -1;
+    local_20 = -1;
+    local_24 = 1;
+    iVar3 = vconf_get_int(iVar10,&local_28);
+    if (iVar3 != 0) {
+      __dlog_print(2,6,DAT_000212e0 + 0x210b0,DAT_000212dc + 0x210ac,DAT_000212d8 + 0x210bc,
+                   DAT_000212d4 + 0x210fc,0x7f,iVar10);
+    }
+    iVar10 = DAT_00021244 + 0x20d98;
+    *(bool *)(DAT_00021248 + 0x20da0) = local_28 != -1;
+    iVar3 = vconf_get_int(iVar10,&local_24);
+    if (iVar3 != 0) {
+      __dlog_print(2,6,DAT_000212d0 + 0x21064,DAT_000212cc + 0x21060,DAT_000212c8 + 0x21070,
+                   DAT_000212c4 + 0x210b0,0x86,iVar10);
+    }
+    iVar10 = DAT_0002124c + 0x20dcc;
+    *(bool *)(DAT_00021250 + 0x20dd5) = local_24 != 0;
+    iVar3 = vconf_get_int(iVar10,&local_20);
+    if (iVar3 != 0) {
+      __dlog_print(2,6,DAT_000212c0 + 0x21018,DAT_000212bc + 0x21014,DAT_000212b8 + 0x21024,
+                   DAT_000212b4 + 0x21064,0x8d,iVar10);
+    }
+    iVar3 = DAT_00021254;
+    iVar10 = DAT_00021258 + 0x20e04;
+    *(bool *)(DAT_00021254 + 0x20e02) = local_20 != -1;
+    pcVar5 = (char *)vconf_get_str(iVar10);
+    if (pcVar5 == (char *)0x0) {
+      iVar7 = DAT_000212a4 + 0x20fc0;
+      iVar4 = DAT_000212a8 + 0x21018;
+      iVar8 = DAT_000212ac + 0x20fb4;
+      iVar11 = DAT_000212b0 + 0x20fc4;
+      *(undefined1 *)(iVar3 + 0x20e03) = 0;
+      iVar3 = local_24;
+      iVar10 = local_20;
+      __dlog_print(2,4,iVar11,iVar8,iVar7,iVar4,0x9d,local_28,local_24,local_20,0);
+    }
+    else {
+      snprintf((char *)(iVar3 + 0x20e03),0x80,(char *)(DAT_0002125c + 0x20e2c),pcVar5);
+      iVar3 = local_24;
+      iVar10 = local_20;
+      pcVar6 = pcVar5;
+      __dlog_print(2,4,DAT_00021268 + 0x20e74,DAT_0002126c + 0x20e84,DAT_00021264 + 0x20e90,
+                   DAT_00021260 + 0x20ec8,0x9d,local_28,local_24,local_20,pcVar5);
+      free(pcVar5);
+      pcVar5 = pcVar6;
+    }
+    iVar11 = DAT_00021270 + 0x20ea8;
+    iVar4 = vconf_notify_key_changed(iVar11,DAT_00021274 + 0x20eac,0);
+    if (iVar4 == 0) {
+      iVar11 = DAT_00021278 + 0x20ec8;
+      iVar4 = vconf_notify_key_changed(iVar11,DAT_0002127c + 0x20ecc);
+      if (iVar4 == 0) {
+        iVar11 = DAT_00021280 + 0x20ee8;
+        iVar3 = vconf_notify_key_changed(iVar11,DAT_00021284 + 0x20eec);
+        if (iVar3 == 0) {
+          iVar11 = DAT_00021288 + 0x20f08;
+          iVar3 = vconf_notify_key_changed(iVar11,DAT_0002128c + 0x20f0c);
+          if (iVar3 == 0) {
+            __dlog_print(0,3,DAT_0002129c + 0x20f54,DAT_00021298 + 0x20f50,DAT_00021294 + 0x20f68,
+                         DAT_00021290 + 0x20fbc,0x72);
+            *(undefined1 *)(DAT_000212a0 + 0x20fe7) = 1;
+            goto LAB_00020d00;
+          }
+          __dlog_print(2,6,DAT_00021320 + 0x211d8,DAT_0002131c + 0x211d4,DAT_00021318 + 0x211e4,
+                       (int)&DAT_00021234 + DAT_00021314,0x6e,iVar11);
+        }
+        else {
+          __dlog_print(2,6,DAT_00021330 + 0x21224,DAT_0002132c + 0x21220,
+                       (int)&DAT_00021230 + DAT_00021328,(int)&DAT_00021280 + DAT_00021324,0x68,
+                       iVar11);
+        }
+      }
+      else {
+        __dlog_print(2,6,DAT_00021310 + 0x2118c,DAT_0002130c + 0x21188,DAT_00021308 + 0x21198,
+                     DAT_00021304 + 0x211e8,0x62,iVar11,iVar3,iVar10,pcVar5);
+      }
+    }
+    else {
+      __dlog_print(2,6,DAT_000212f0 + 0x210fc,DAT_000212ec + 0x210f8,DAT_000212e8 + 0x21108,
+                   DAT_000212e4 + 0x21158,0x5c,iVar11,iVar3,iVar10,pcVar5);
+    }
+    __dlog_print(2,6,DAT_00021300 + 0x21140,DAT_000212fc + 0x2113c,DAT_000212f8 + 0x21150,
+                 DAT_000212f4 + 0x21190,0xa4,iVar11);
+  }
+LAB_00020d00:
+  pcVar6 = (char *)(DAT_00021238 + 0x20d1b);
+  pcVar5 = (char *)(DAT_0002123c + 0x20d20);
+  uVar1 = *(undefined1 *)(DAT_00021238 + 0x20d18);
+  uVar2 = *(undefined1 *)(DAT_00021238 + 0x20d1a);
+  param_1[1] = *(undefined1 *)(DAT_00021238 + 0x20d19);
+  *param_1 = uVar1;
+  param_1[2] = uVar2;
+  snprintf(param_1 + 3,0x80,pcVar5,pcVar6);
+LAB_00020d38:
+  if (local_1c != *piVar9) {
+                    /* WARNING: Subroutine does not return */
+    __stack_chk_fail();
+  }
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 000403b4 : memory/boot/power_suspend_sel  (4 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 00040aa8 : %s: %s(%d) > standby_reboot doesn't work go to cold poweroff  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION powerdown_ap @ 00022130 (ref from 0002263c) (GhidraScript)  
+INFO  DecompileStrings.java> 
+void powerdown_ap(void)
+
+{
+  int iVar1;
+  int iVar2;
+  int iVar3;
+  uint uVar4;
+  int iVar5;
+  int iVar6;
+  int iVar7;
+  int *piVar8;
+  uint uVar9;
+  undefined4 uVar10;
+  uint uVar11;
+  uint local_118;
+  byte local_114;
+  byte local_113;
+  undefined4 local_90;
+  undefined4 uStack_8c;
+  undefined4 uStack_88;
+  undefined4 uStack_84;
+  undefined4 local_80;
+  undefined4 uStack_7c;
+  undefined4 uStack_78;
+  undefined4 local_74;
+  undefined4 uStack_70;
+  undefined1 local_6c;
+  int local_2c;
+  
+  iVar6 = DAT_00022664;
+  piVar8 = *(int **)(DAT_00022654 + 0x22144 + DAT_00022658);
+  local_2c = *piVar8;
+  iVar7 = DAT_0002265c + 0x22164;
+  local_118 = 0;
+  iVar5 = DAT_00022660 + 0x221e4;
+  powerdown();
+  iVar6 = iVar6 + 0x221c0;
+  __dlog_print(2,6,iVar7,DAT_00022668 + 0x22198,iVar6,iVar5,0x7e);
+  power_get_poweroff_extra_info(&local_114);
+  uVar9 = (uint)local_113;
+  iVar1 = config_is_factory_mode();
+  if (iVar1 != 0) {
+    __dlog_print(2,6,iVar7,DAT_0002266c + 0x221e4,iVar6,iVar5,0x88);
+    vconf_set_int(DAT_00022670 + 0x22200,2);
+    sync();
+    local_90 = *(undefined4 *)(DAT_00022674 + 0x22214);
+    uStack_8c = *(undefined4 *)(DAT_00022674 + 0x22218);
+    uStack_88 = *(undefined4 *)(DAT_00022674 + 0x2221c);
+    uStack_84 = *(undefined4 *)(DAT_00022674 + 0x22220);
+    local_80 = *(undefined4 *)(DAT_00022674 + 0x22224);
+    uStack_7c = *(undefined4 *)(DAT_00022674 + 0x22228);
+    uStack_78 = *(undefined4 *)(DAT_00022674 + 0x2222c);
+    local_74 = CONCAT22(local_74._2_2_,(short)*(undefined4 *)(DAT_00022674 + 0x22230));
+    print_log_console(&local_90);
+    tv_autotest_osd_mute(1);
+    tv_autotest_set_factory_reset_pattern(9);
+    __dlog_print(2,6,iVar7,DAT_00022678 + 0x22250,iVar6,iVar5,0x95);
+    local_90 = *(undefined4 *)(DAT_0002267c + 0x22274);
+    uStack_8c = *(undefined4 *)(DAT_0002267c + 0x22278);
+    uStack_88 = *(undefined4 *)(DAT_0002267c + 0x2227c);
+    uStack_84 = *(undefined4 *)(DAT_0002267c + 0x22280);
+    local_80 = *(undefined4 *)(DAT_0002267c + 0x22284);
+    uStack_7c = *(undefined4 *)(DAT_0002267c + 0x22288);
+    uStack_78 = *(undefined4 *)(DAT_0002267c + 0x2228c);
+    print_log_console(&local_90);
+LAB_00022288:
+    if (local_2c != *piVar8) {
+                    /* WARNING: Subroutine does not return */
+      __stack_chk_fail();
+    }
+    return;
+  }
+  iVar2 = config_get_always_instant_on_support();
+  iVar3 = get_poweroff_info();
+  iVar1 = -(local_114 ^ 1);
+  if ((uVar9 & (local_114 ^ 1)) == 0) {
+    iVar6 = DAT_000226b4 + 0x22530;
+  }
+  else {
+    if (iVar2 != 0) {
+      if (*(char *)(iVar3 + 0x1c) != '\0') {
+        __dlog_print(2,6,iVar7,DAT_000226b8 + 0x2256c,iVar6,iVar5,0xa7);
+        local_90 = *(undefined4 *)(DAT_000226bc + 0x22584);
+        uStack_8c = *(undefined4 *)(DAT_000226bc + 0x22588);
+        uStack_88 = *(undefined4 *)(DAT_000226bc + 0x2258c);
+        uStack_84 = *(undefined4 *)(DAT_000226bc + 0x22590);
+        local_80 = *(undefined4 *)(DAT_000226bc + 0x22594);
+        uStack_7c = *(undefined4 *)(DAT_000226bc + 0x22598);
+        uStack_78 = *(undefined4 *)(DAT_000226bc + 0x2259c);
+        local_74 = CONCAT22(local_74._2_2_,(short)*(undefined4 *)(DAT_000226bc + 0x225a0));
+        print_log_console(&local_90);
+        flush_log_console();
+        sync();
+        pi_request_reboot(0x6a);
+        __dlog_print(2,6,iVar7,DAT_000226c0 + 0x225c8,iVar6,iVar5,0xaf);
+        local_90 = *(undefined4 *)(DAT_000226c4 + 0x225e4);
+        uStack_8c = *(undefined4 *)(DAT_000226c4 + 0x225e8);
+        uStack_88 = *(undefined4 *)(DAT_000226c4 + 0x225ec);
+        uStack_84 = *(undefined4 *)(DAT_000226c4 + 0x225f0);
+        local_80 = *(undefined4 *)(DAT_000226c4 + 0x225f4);
+        uStack_7c = *(undefined4 *)(DAT_000226c4 + 0x225f8);
+        uStack_78 = *(undefined4 *)(DAT_000226c4 + 0x225fc);
+        local_74 = *(undefined4 *)(DAT_000226c4 + 0x22600);
+        uStack_70 = *(undefined4 *)(DAT_000226c4 + 0x22604);
+        local_6c = (undefined1)*(undefined4 *)(DAT_000226c4 + 0x22608);
+        print_log_console(&local_90);
+        goto LAB_00022288;
+      }
+      uVar4 = *(uint *)(iVar3 + 4) & 0x9fffffff;
+      uVar11 = (uint)(uVar4 == 0x10);
+      uVar10 = 1;
+      __snprintf_chk(&local_90,100,1,100,DAT_00022698 + 0x223c0,uVar9,iVar1,1,uVar11);
+      print_log_console(&local_90);
+      if (uVar4 != 0x10) {
+        iVar3 = DAT_0002269c + 0x22408;
+        iVar2 = vconf_get_int(iVar3,&local_118);
+        if (iVar2 == 0) {
+          __snprintf_chk(&local_90,100,1,100,DAT_000226a0 + 0x22430,local_118,iVar1,uVar10,uVar11);
+          print_log_console(&local_90);
+          if (local_118 < 2) {
+            uVar9 = local_118;
+            __dlog_print(2,6,iVar7,DAT_000226a4 + 0x22478,iVar6,iVar5,0xcd,local_118);
+            __snprintf_chk(&local_90,100,1,100,DAT_000226a8 + 0x22498,local_118);
+            print_log_console(&local_90);
+            local_118 = local_118 + 1;
+            iVar1 = vconf_set_int(iVar3);
+            if (iVar1 == 0) {
+              print_log_console(DAT_000226c8 + 0x22614);
+              sync();
+              flush_log_console();
+              pi_request_reboot(0x32);
+              __dlog_print(2,6,iVar7,DAT_000226cc + 0x22644,iVar6,iVar5,0xe0);
+            }
+            else {
+              __dlog_print(2,6,iVar7,DAT_000226ac + 0x224e4,iVar6,iVar5,0xd5,uVar9);
+              local_90 = *(undefined4 *)(DAT_000226b0 + 0x22500);
+              uStack_8c = *(undefined4 *)(DAT_000226b0 + 0x22504);
+              uStack_88 = *(undefined4 *)(DAT_000226b0 + 0x22508);
+              uStack_84 = *(undefined4 *)(DAT_000226b0 + 0x2250c);
+              local_80 = *(undefined4 *)(DAT_000226b0 + 0x22510);
+              uStack_7c = *(undefined4 *)(DAT_000226b0 + 0x22514);
+              uStack_78 = *(undefined4 *)(DAT_000226b0 + 0x22518);
+              local_74 = *(undefined4 *)(DAT_000226b0 + 0x2251c);
+              uStack_70 = *(undefined4 *)(DAT_000226b0 + 0x22520);
+              local_6c = (undefined1)*(undefined4 *)(DAT_000226b0 + 0x22524);
+              print_log_console(&local_90);
+            }
+          }
+        }
+      }
+      goto LAB_00022314;
+    }
+    iVar6 = DAT_00022680 + 0x222d4;
+  }
+  __snprintf_chk(&local_90,100,1,100,iVar6,uVar9,iVar1,iVar2,
+                 (*(uint *)(iVar3 + 4) & 0x9fffffff) == 0x10);
+  print_log_console(&local_90);
+LAB_00022314:
+  print_log_console(DAT_00022684 + 0x22320);
+  iVar6 = config_get_ew_option(0);
+  if ((iVar6 != 0) && (iVar6 = need_ew_boot(), iVar6 != 0)) {
+    sync();
+    set_ew_boot_mode();
+  }
+  sync();
+                    /* WARNING: Subroutine does not return */
+  reboot(0x4321fedc);
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 00040bac : %s: %s(%d) > Serdes Error in background standby,Going standby reboot  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION restart_ap @ 000226d0 (ref from 000227b0) (GhidraScript)  
+INFO  DecompileStrings.java> 
+void restart_ap(void)
+
+{
+  int iVar1;
+  int iVar2;
+  
+  iVar1 = get_poweroff_info();
+  powerdown();
+  print_log_console(DAT_00022840 + 0x226f4);
+  sync();
+  iVar2 = config_get_product_type();
+  if ((iVar2 != 0) || (*(int *)(iVar1 + 8) != 0x1e)) {
+                    /* WARNING: Subroutine does not return */
+    reboot(0x1234567);
+  }
+  if (*(int *)(iVar1 + 0x18) == 1) {
+    iVar1 = pi_request_reboot(0x62);
+    if (-1 < iVar1) goto LAB_0002271c;
+    __dlog_print(2,6,DAT_00022874 + 0x22834,DAT_00022870 + 0x22830,(int)&DAT_00022844 + DAT_0002286c
+                 ,DAT_00022868 + 0x22890,0x107);
+    iVar1 = (int)&DAT_00022840 + DAT_00022878;
+  }
+  else {
+    __dlog_print(2,4,DAT_00022860 + 0x227bc,DAT_0002285c + 0x227b8,DAT_00022858 + 0x227cc,
+                 DAT_00022854 + 0x22818,0x110);
+    iVar1 = DAT_00022864 + 0x227c8;
+  }
+  print_log_console(iVar1);
+  flush_log_console();
+  pi_request_reboot(0x32);
+LAB_0002271c:
+  __dlog_print(2,6,DAT_00022850 + 0x22764,DAT_0002284c + 0x22760,DAT_00022848 + 0x22770,
+               DAT_00022844 + 0x227bc,0x11b,0xffffffff);
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 00041650 : %s: %s(%d) > power_suspend : %d, instant_on : %d, save_error_log : %d, request_cold_poweroff(%s), interval(%d)  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION power_get_cold_poweroff_request @ 00024f10 (ref from 00024fbc) (GhidraScript)  
+INFO  DecompileStrings.java> 
+void power_get_cold_poweroff_request(int param_1)
+
+{
+  undefined4 uVar1;
+  int *piVar2;
+  byte bVar3;
+  byte bVar4;
+  byte local_114;
+  byte local_113;
+  byte local_112;
+  char local_111 [129];
+  undefined1 auStack_90 [100];
+  int local_2c;
+  
+  piVar2 = *(int **)(DAT_0002504c + 0x24f20 + DAT_00025050);
+  local_2c = *piVar2;
+  power_get_poweroff_extra_info(&local_114);
+  if (local_111[0] == '\0') {
+    bVar3 = (local_114 | local_112) ^ 1;
+  }
+  else {
+    bVar3 = 0;
+  }
+  if (local_111[0] == '\0') {
+    bVar3 = bVar3 & local_113;
+    bVar4 = bVar3 ^ 1;
+  }
+  else {
+    bVar4 = 1;
+  }
+  uVar1 = config_get_poweroff_interval_reset();
+  __dlog_print(2,4,DAT_00025060 + 0x24fcc,DAT_0002505c + 0x24fc4,DAT_00025058 + 0x24fd4,
+               DAT_00025054 + 0x25100,0x9e,bVar3,local_113,-(local_112 ^ 1),local_111,uVar1);
+  if (param_1 != 0) {
+    __snprintf_chk(auStack_90,100,1,100,DAT_00025064 + 0x25008,bVar3,local_113,-(local_112 ^ 1),
+                   local_111,uVar1);
+    print_log_console(auStack_90);
+  }
+  if (local_2c != *piVar2) {
+                    /* WARNING: Subroutine does not return */
+    __stack_chk_fail(bVar4);
+  }
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 00042dbc : %s: %s(%d) > failed to get memory/boot/power_suspend  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 00043a3c : %s: %s(%d) > Power state changed to <Background Standby>  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION standby_trans @ 0002c30c (ref from 0002c35c) (GhidraScript)  
+INFO  DecompileStrings.java> 
+undefined4 standby_trans(void)
+
+{
+  int *piVar1;
+  int iVar2;
+  int iVar3;
+  int iVar4;
+  int iVar5;
+  undefined4 *puVar6;
+  
+  puVar6 = (undefined4 *)(DAT_0002c46c + 0x2c320);
+  iVar2 = DAT_0002c470 + 0x2c3e0;
+  iVar4 = DAT_0002c474 + 0x2c36e;
+  iVar5 = DAT_0002c478 + 0x2c364;
+  iVar3 = DAT_0002c47c + 0x2c36c;
+  *(undefined4 *)(DAT_0002c46c + 0x2c324) = *puVar6;
+  *puVar6 = 4;
+  __dlog_print(2,4,iVar3,iVar5,iVar4,iVar2,0x3d3);
+  if (*(code **)(DAT_0002c480 + 0x2c3fc) != (code *)0x0) {
+    (**(code **)(DAT_0002c480 + 0x2c3fc))(0);
+  }
+  broadcast_state_changed_signal(*(undefined4 *)(DAT_0002c484 + 0x2c3a4),4);
+  piVar1 = (int *)get_poweroff_info();
+  if (*piVar1 == 2) {
+    __dlog_print(2,4,DAT_0002c494 + 0x2c410,DAT_0002c490 + 0x2c40c,DAT_0002c48c + 0x2c422,
+                 (int)&DAT_0002c4a0 + DAT_0002c488,0x3b8);
+    return 0;
+  }
+  iVar2 = pi_set_system_power(0);
+  if (iVar2 < 0) {
+    __dlog_print(2,6,DAT_0002c4a4 + 0x2c460,DAT_0002c4a0 + 0x2c45c,DAT_0002c49c + 0x2c472,
+                 DAT_0002c498 + 0x2c4f0,0x3be);
+    return 0;
+  }
+  return 0;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 00044404 : memory/volt/last_service_app_booting  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION set_AppBoot_type @ 0002de38 (ref from 0002df18) (GhidraScript)  
+INFO  DecompileStrings.java> 
+void set_AppBoot_type(char *param_1)
+
+{
+  int iVar1;
+  void *__ptr;
+  int iVar2;
+  
+  if (param_1 == (char *)0x0) {
+    __dlog_print(2,6,DAT_0002e070 + 0x2dfd0,DAT_0002e074 + 0x2dfd4,DAT_0002e068 + 0x2dfe2,
+                 DAT_0002e06c + 0x2dfb4,0x4c);
+    return;
+  }
+  iVar2 = DAT_0002e028 + 0x2de5c;
+  iVar1 = vconf_set_str(iVar2,param_1);
+  if (iVar1 == 0) {
+    if ((*param_1 == 'y') &&
+       (__ptr = (void *)vconf_get_str(DAT_0002e050 + 0x2df20), __ptr != (void *)0x0)) {
+      iVar2 = DAT_0002e054 + 0x2df38;
+      iVar1 = vconf_set_str(iVar2,__ptr);
+      if (iVar1 != 0) {
+        __dlog_print(2,6,DAT_0002e080 + 0x2e01c,DAT_0002e084 + 0x2e024,DAT_0002e078 + 0x2e02a,
+                     DAT_0002e07c + 0x2dffc,0x61,iVar2,__ptr);
+      }
+      __dlog_print(0,3,DAT_0002e060 + 0x2df84,DAT_0002e064 + 0x2df88,DAT_0002e058 + 0x2df92,
+                   DAT_0002e05c + 0x2df64,99,__ptr);
+      free(__ptr);
+    }
+  }
+  else {
+    __dlog_print(2,6,DAT_0002e048 + 0x2df0c,DAT_0002e04c + 0x2df10,DAT_0002e040 + 0x2df1a,
+                 DAT_0002e044 + 0x2deec,0x55,iVar2);
+  }
+  __dlog_print(0,3,DAT_0002e038 + 0x2deb8,DAT_0002e03c + 0x2dec4,DAT_0002e030 + 0x2deca,
+               DAT_0002e02c + 0x2de8c,0x69,DAT_0002e034 + 0x2deb0,param_1);
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 00044fdc : set_cold_poweroff  (2 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION set_cold_poweroff @ 00031540 (ref from 0003158c) (GhidraScript)  
+INFO  DecompileStrings.java> 
+void set_cold_poweroff(void)
+
+{
+  int iVar1;
+  int iVar2;
+  int iVar3;
+  int iVar4;
+  int iVar5;
+  
+  iVar4 = DAT_000315e4 + 0x31564;
+  iVar3 = DAT_000315e8 + 0x318d0;
+  iVar2 = DAT_000315ec + 0x315aa;
+  iVar5 = DAT_000315f4 + 0x31598;
+  __dlog_print(2,6,iVar4,DAT_000315f0 + 0x31584,iVar2,iVar3,499);
+  iVar1 = vconf_set_str(iVar5,DAT_000315f8 + 0x315a8);
+  if (iVar1 != 0) {
+    __dlog_print(2,6,iVar4,DAT_000315fc + 0x315dc,iVar2,iVar3,0x1f7,iVar5);
+  }
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 000477d0 : com.samsung/featureconf/power.outdoor_mode  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION config_is_outdoor_mode_support @ 0003b314 (ref from 0003b33c) (GhidraScript)  
+INFO  DecompileStrings.java> 
+void config_is_outdoor_mode_support(void)
+
+{
+  int iVar1;
+  int iVar2;
+  int *piVar3;
+  
+  piVar3 = *(int **)(DAT_0003b410 + 0x3b324 + DAT_0003b414);
+  iVar2 = *piVar3;
+  iVar1 = system_info_get_custom_bool(DAT_0003b418 + 0x3b344);
+  if (iVar1 == 0) {
+    __dlog_print(2,4,DAT_0003b428 + 0x3b3a4,DAT_0003b424 + 0x3b39c,DAT_0003b420 + 0x3b3ad,
+                 DAT_0003b41c + 0x3b518,0x1cf,0);
+  }
+  else {
+    __dlog_print(2,6,DAT_0003b438 + 0x3b404,DAT_0003b434 + 0x3b400,DAT_0003b430 + 0x3b415,
+                 DAT_0003b42c + 0x3b57c,0x1cb);
+  }
+  if (iVar2 != *piVar3) {
+                    /* WARNING: Subroutine does not return */
+    __stack_chk_fail(0);
+  }
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 000477fc : %s: %s(%d) > failed to get com.samsung/featureconf/power.outdoor_mode  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 000478a4 : com.samsung/featureconf/projector_feature_support  (2 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION config_is_projector_model @ 0003b578 (ref from 0003b5ac) (GhidraScript)  
+INFO  DecompileStrings.java> 
+void config_is_projector_model(void)
+
+{
+  int iVar1;
+  int iVar2;
+  int *piVar3;
+  int iVar4;
+  
+  piVar3 = *(int **)(DAT_0003b674 + 0x3b58c + DAT_0003b678);
+  iVar2 = *piVar3;
+  iVar4 = DAT_0003b67c + 0x3b5b0;
+  iVar1 = system_info_get_custom_bool(iVar4);
+  if (iVar1 != 0) {
+    __dlog_print(2,6,DAT_0003b68c + 0x3b608,DAT_0003b688 + 0x3b604,DAT_0003b684 + 0x3b615,
+                 (int)&DAT_0003b7bc + DAT_0003b680,0x1e9,iVar4);
+  }
+  __dlog_print(2,4,DAT_0003b69c + 0x3b650,DAT_0003b698 + 0x3b648,DAT_0003b694 + 0x3b65d,
+               DAT_0003b690 + 0x3b808,0x1ec,0);
+  if (iVar2 != *piVar3) {
+                    /* WARNING: Subroutine does not return */
+    __stack_chk_fail(0);
+  }
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> TOTAL FUNCS DECOMPILED: 10 (GhidraScript)  
+INFO  ANALYZING changes made by post scripts: file://~/build/samsung/CleanFrame/.local/q90t/bin/deviced (HeadlessAnalyzer)  
+INFO  REPORT: Post-analysis succeeded for file: file://~/build/samsung/CleanFrame/.local/q90t/bin/deviced (HeadlessAnalyzer)  
+INFO  /deviced: file created (george) (LocalFileSystem)  
+INFO  REPORT: Save succeeded for: /deviced (deviced:/deviced) (HeadlessAnalyzer)  
+INFO  REPORT: Import succeeded (HeadlessAnalyzer)  

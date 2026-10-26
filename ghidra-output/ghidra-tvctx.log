@@ -1,0 +1,2789 @@
+openjdk version "25.0.5.0.2" 2026-10-22
+OpenJDK Runtime Environment Homebrew (build 25.0.5.0.2)
+OpenJDK 64-Bit Server VM Homebrew (build 25.0.5.0.2, mixed mode)
+INFO  Using log config file: jar:file:/opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: ~/Library/ghidra/ghidra_12.2_PUBLIC/application.log (LoggingInitialization)  
+INFO  Loading user preferences: ~/Library/ghidra/ghidra_12.2_PUBLIC/preferences (Preferences)  
+INFO  Loading previous preferences: ~/.ghidra/.ghidra_9.1.2_PUBLIC/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (533 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Loaded 25 trusted CA certificates from the OS trust store. (DefaultTrustManagerFactory)  
+INFO  Loaded 110 trusted CA certificates from the Java default trust store. (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (6394 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 60 extension points (19 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    ~/build/samsung/CleanFrame/.local/q90t
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/Decompiler/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/FunctionID/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/FileFormats/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/8051/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/VersionTracking/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/BSim/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/Atmel/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/Swift/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/DATA/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Debug/Debugger/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/JVM/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Processors/PIC/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/PDB/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/BytePatterns/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/PyGhidra/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/Base/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.2/libexec/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Creating temporary project: /tmp/cf-ghidra-proj/tvctx (HeadlessAnalyzer)  
+INFO  Creating project: /tmp/cf-ghidra-proj/tvctx (DefaultProject)  
+INFO  REPORT: Processing input files:  (HeadlessAnalyzer)  
+INFO       project: /tmp/cf-ghidra-proj/tvctx (HeadlessAnalyzer)  
+INFO  IMPORTING: file://~/build/samsung/CleanFrame/.local/q90t/bin/tvctx-manager (HeadlessAnalyzer)  
+INFO  Using Loader: Executable and Linking Format (ELF) (ProgramLoader)  
+INFO  Using Language/Compiler: ARM:LE:32:v8:default (ProgramLoader)  
+INFO  Using Library Search Path: [., /System/Library/dyld/dyld_shared_cache_arm64e, /System/Library/dyld/dyld_shared_cache_x86_64, /System/Library/dyld/dyld_shared_cache_x86_64h, /System/Cryptexes/OS/System/Library/dyld/dyld_shared_cache_arm64e, /System/Cryptexes/OS/System/Library/dyld/dyld_shared_cache_x86_64, /System/Cryptexes/OS/System/Library/dyld/dyld_shared_cache_x86_64h, ~/Library/Java/Extensions, /Library/Java/Extensions, /Network/Library/Java/Extensions, /System/Library/Java/Extensions, /usr/lib/java] (ProgramLoader)  
+INFO  Additional info:
+There were too many messages to display.
+2736 messages have been truncated.
+
+Loading file://~/build/samsung/CleanFrame/.local/q90t/bin/tvctx-manager?MD5=6f2a70f7d40732ad8525a1d0872f7d36...
+ELF Relocation Failure: R_ARM_COPY (20, 0x14) at 0003b470 (Symbol = _ZTV8TSTvMode) - Runtime copy not supported (40-bytes)
+ELF Relocation Failure: R_ARM_COPY (20, 0x14) at 0003b498 (Symbol = __stack_chk_guard) - Runtime copy not supported (4-bytes)
+Unable to perform relocation: Type = 2 (0x2) at 42bb641c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 2 (0x2) at 42bb6420 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 2 (0x2) at 42bb6424 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 2 (0x2) at 42bb6428 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 2 (0x2) at 42bb642c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 2 (0x2) at 42bb6430 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 2 (0x2) at 42bb643c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 2 (0x2) at 42bb6448 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 2 (0x2) at 42bb6464 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 2 (0x2) at 42bb649c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 2 (0x2) at 42bb64a8 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 2 (0x2) at 42bb64ec (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 2 (0x2) at 42bb6518 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 2 (0x2) at 42bb6588 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 42be9050 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 42be9068 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 42be9078 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 42be9084 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 42be9090 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 42be9098 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 42be90c0 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 42be90ec (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 45ec9018 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 45ec9270 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 45ec9438 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 45ec962c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 45ec96d4 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 45ec972c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 45ec9780 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 431e7058 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 431e70c8 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 431e7110 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 431e7118 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 431e711c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 431e7140 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 431e7160 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 431e71ac (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 431e71b8 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 431e71bc (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 431e71c8 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 431e71d4 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 431e71f4 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 431e7224 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 431e7240 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 431e7254 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 431e72a0 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 431e72b4 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 431e72b8 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 431e72e8 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 431e7344 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 431e7348 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 432b5204 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 432b53c4 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 430d20e4 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 430d2294 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 430d23e4 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 430d251c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 430d2520 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 430d252c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 430d25b8 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 430d271c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 430d27e0 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 430d27f8 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 430d28b8 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 430d2988 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 430d2a7c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 430d2b6c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 430d2b8c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 430d2bb0 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 430d2d74 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 430d2e00 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 430d2fc4 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 438a9fc0 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 438a9fe8 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 438a9ff8 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4600d0b4 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4600d0d0 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4600d110 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4600d180 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 4600d1e0 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 462c200c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 462c2018 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 462c2064 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4339500c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 43395020 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 43395034 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4339503c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 43395088 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 433950ac (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 433950fc (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4398401c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4398406c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 43984138 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 43984230 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 43984264 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4398427c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 439842cc (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 43984388 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 439843cc (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 43984478 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 439844e0 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 43984508 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 43984510 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 439845cc (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 439845f8 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 43984610 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 43984620 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 438f71f8 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 433b6080 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 433b609c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 433b60b0 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 433b6110 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 433b6120 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 433b6134 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 433b6138 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 42e2300c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 42e23038 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 42e23074 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 42e23098 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 42e230d4 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 42e230ec (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 2 (0x2) at 42e230f8 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4674400c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46744014 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46744030 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46744034 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46744040 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4674404c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 46744058 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 43c431cc (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 43c4320c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 43c4327c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 43c432e0 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 43c432e8 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 43c43368 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 43c433e0 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 43c434b4 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 43c434dc (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 43c43544 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 43c435c8 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 43c435f4 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 43c4371c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 43c43730 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 43c4387c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 43c43af4 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 46dc30a0 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4642207c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46422090 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4642209c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 464220a8 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 464220d0 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46422148 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46422154 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 464221f8 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46422304 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 4642230c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 434850bc (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 42f41048 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 45c8779c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 45c87a64 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 45c88070 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 45c88170 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 45c884ec (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46d4b024 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46d4b028 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46d4b3bc (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46d4b444 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 46d4b454 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 46a0688c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 46b470d4 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4658d7a8 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4658de7c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4658df40 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 4658df94 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 2 (0x2) at 460f3f14 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 2 (0x2) at 460f3f1c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 2 (0x2) at 460f3f20 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 2 (0x2) at 460f3f24 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f408c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f4094 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f40a0 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f40a8 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f40ac (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f40b4 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f40d4 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f40d8 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f40dc (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f40e0 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f4114 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f411c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f4124 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f4140 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f4144 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f414c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f4154 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f4168 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f4170 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f4174 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f417c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f419c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f41a4 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f41c0 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f41cc (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f41e0 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f41e4 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f41e8 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f41f0 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f420c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f421c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f4224 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f4228 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f422c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f4230 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f4240 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f424c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f4278 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f4280 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f42b4 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f42c4 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f42cc (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f42f8 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f4304 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f4308 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f4310 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f4318 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f4348 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f4358 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 460f435c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 460f436c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 460f4370 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 460f4374 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 460f4378 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 460f437c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 460f4384 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 460f4388 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 460f438c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 460f439c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 460f43a8 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 460f43bc (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 456d9154 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 43e9300c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 43e93078 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 43e9307c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 43e930e0 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 43e93160 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 43e93180 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 43fd1100 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 43932058 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 463bb0ac (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 2 (0x2) at 46a42158 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 2 (0x2) at 46a42160 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 46a4217c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 46b07138 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 43a0204c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 43a02064 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 45de50e8 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4605c20c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 4605c258 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 2 (0x2) at 42d46144 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 2 (0x2) at 42d46ad0 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 2 (0x2) at 42d482ac (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 2 (0x2) at 42d482b0 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 42d48e30 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 42d4901c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 42d490cc (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 42d49184 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 42d491ec (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 42d49344 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 42d49480 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 42d49544 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 42d49610 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 42d497b0 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 42d498b8 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 42d49a3c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 42d49a84 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 42d49b3c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 42d49b40 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 2 (0x2) at 42d49b44 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 2 (0x2) at 42d49cac (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 2 (0x2) at 42d4a038 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 42d4a220 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 42d4a4c4 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4102ffc0 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4102ffc4 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4102ffcc (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4102ffd0 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4102ffd4 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 4102ffe0 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 4102fffc (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 446b30c0 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46f0300c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46f03024 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46f0302c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 46f03084 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 44650538 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 42c15248 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 2 (0x2) at 42c15260 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 2 (0x2) at 42c15264 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 2 (0x2) at 42c15284 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 43bcf884 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 46492088 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 462230c0 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 460b30b4 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 2 (0x2) at 46a87f00 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 2 (0x2) at 46a87f08 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 2 (0x2) at 46a87f0c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 2 (0x2) at 46a87f10 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a8809c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a880a4 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a880b0 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a880b8 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a880bc (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a880c8 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a880ec (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a880f0 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a880f4 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a88124 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a88128 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a88130 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a88138 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a8814c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a88150 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a8815c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a88164 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a88170 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a88178 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a8817c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a8818c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a88198 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a881ac (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a881b4 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a881d8 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a881e8 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a881f8 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a88204 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a88208 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a8820c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a88228 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a88240 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a88244 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a8824c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a88254 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a88264 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a88270 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a882bc (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a882d0 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a88308 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a88324 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a8832c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a88368 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a8837c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a88380 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a88388 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a88390 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a88398 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a883b4 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a883c4 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 46a883c8 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 46a883e0 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 46a883e4 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 46a883f0 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 46a883f8 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 46a883fc (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 46a88400 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 46a88404 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 46a88408 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 46a8841c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 46a8842c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 46a88440 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 445c830c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 445c8330 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 445c8340 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 445c8374 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 445c8484 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 445c84cc (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 445c84f4 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 445c8504 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 445c850c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 445c85e0 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 445c86dc (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 445c8754 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 445c87dc (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 445c8874 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 445c88ac (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 2 (0x2) at 445c8908 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 4386e228 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 4386e240 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 4386e244 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 46473080 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4383700c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 43837018 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 43837060 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 43837088 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 438370ac (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 43837124 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4383715c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 438371ec (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 43837340 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 438377bc (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 43837804 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 43837810 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 43837834 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 455650b4 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 455650c0 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 455651ec (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 45565210 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 45674f08 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 45674f10 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 45674f9c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 45674ff0 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 45675010 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 45675020 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 45675038 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 44eeb01c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 44eeb1a8 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 44eeb1b0 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 44eeb28c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 44eeb388 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 44eeb3bc (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 44eeb404 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4324f00c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4324f01c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 4324f090 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 433550cc (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4337304c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 43373064 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 43373088 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 42c33010 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 42c3301c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 42c33034 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 42c33040 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 42c33048 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 42c3305c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 42c33064 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 42c33074 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 42c3308c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 42c330a0 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 42c330a8 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 2 (0x2) at 42e953e8 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 2 (0x2) at 42e953fc (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 4330ffec (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 432e2378 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 432e2394 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 2 (0x2) at 432e23f4 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 432e23f8 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 2 (0x2) at 432e23fc (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 2 (0x2) at 432e2414 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 432e2428 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4410a00c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4410a018 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4410a02c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4410a034 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4410a038 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4410a040 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4410a044 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4410a04c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4410a064 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4410a0b8 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4410a0bc (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4410a0dc (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4410a0f0 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4410a11c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4410a120 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4478305c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 44783094 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4434f128 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4434f1d0 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 4434f258 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 439c50b8 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 43643080 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 4377c40c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 439a912c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 439a9144 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 2 (0x2) at 436830cc (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 436830dc (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 2 (0x2) at 42dff3d0 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 2 (0x2) at 42dff3d4 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4333c010 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4333c03c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4333c094 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4333c0b0 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4333c0d8 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4333c0e4 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4333c11c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 4333c14c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 4333c15c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 4333c174 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 4333c17c (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 2 (0x2) at 43d46254 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 43d46298 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 43cb0a94 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 42dd2080 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 22 (0x16) at 42dd2088 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 2 (0x2) at 42dd20b0 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 42dd20f4 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 464d9094 (Symbol = ) - Block is non-existent
+Unable to perform relocation: Type = 21 (0x15) at 43435144 (Symbol = ) - Block is non-existent
+ (ProgramLoader)  
+INFO  IMPORTING: Loaded 0 additional files (HeadlessAnalyzer)  
+INFO  ANALYZING all memory and code: file://~/build/samsung/CleanFrame/.local/q90t/bin/tvctx-manager (HeadlessAnalyzer)  
+INFO  DWARF external debug information found: [BuildIdDebugInfo [buildId=[44, 62, -52, 113, 76, 57, -109, 87, 27, -47, 127, 8, 9, 74, -118, 50, 77, 17, 45, -50], objectType=DEBUGINFO, ]] (ExternalDebugFileSectionProvider)  
+INFO  Unable to find DWARF information, skipping DWARF analysis (DWARFAnalyzer)  
+INFO  Packed database cache: /var/tmp/george-ghidra/packed-db-cache (PackedDatabaseCache)  
+INFO  Applied data type archive: generic_clib (ApplyDataArchiveAnalyzer)  
+INFO  No functions detected that make variadic function calls with format strings containing format specifiers (FormatStringAnalyzer)  
+INFO  -----------------------------------------------------
+    ARM Constant Reference Analyzer            0.313 secs
+    ARM Symbol                                 0.001 secs
+    ASCII Strings                              0.120 secs
+    Apply Data Archives                        0.222 secs
+    Call Convention ID                         1.536 secs
+    Call-Fixup Installer                       0.041 secs
+    Create Address Tables                      0.011 secs
+    Create Address Tables - One Time           0.002 secs
+    Create Function                            0.109 secs
+    DWARF                                      0.003 secs
+    Data Reference                             0.182 secs
+    Decompiler Switch Analysis                 2.086 secs
+    Demangler GNU                              0.060 secs
+    Disassemble                                0.034 secs
+    Disassemble Entry Points                   0.379 secs
+    Embedded Media                             0.002 secs
+    External Entry References                  0.000 secs
+    Function ID                                0.022 secs
+    Function Start Pre Search                  0.006 secs
+    Function Start Search                      0.062 secs
+    Function Start Search After Code           0.015 secs
+    Function Start Search After Data           0.023 secs
+    Function Start Search delayed - One Time   0.007 secs
+    GCC Exception Handlers                     0.005 secs
+    Non-Returning Functions - Discovered       0.014 secs
+    Non-Returning Functions - Known            0.002 secs
+    Reference                                  0.382 secs
+    Shared Return Calls                        0.017 secs
+    Source Language Support                    0.002 secs
+    Stack                                      0.165 secs
+    Subroutine References                      0.172 secs
+    Variadic Function Signature Override       0.022 secs
+-----------------------------------------------------
+     Total Time   6 secs
+-----------------------------------------------------
+ (AutoAnalysisManager)  
+INFO  REPORT: Analysis succeeded for file: file://~/build/samsung/CleanFrame/.local/q90t/bin/tvctx-manager (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: DecompileStrings.java  (HeadlessAnalyzer)  
+INFO  SCRIPT: ~/build/samsung/CleanFrame/.local/q90t/DecompileStrings.java (HeadlessAnalyzer)  
+INFO  DecompileStrings.java> ===== STRING @ 00022b4c : launch_livetv_by_wakeup_reason  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION FUN_00016824 @ 00016824 (ref from 0001685a) (GhidraScript)  
+INFO  DecompileStrings.java> 
+void FUN_00016824(int param_1,int param_2)
+
+{
+  if (param_2 == 0) {
+    __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > NULL data",DAT_0001687c,DAT_00016878,0x3db);
+  }
+  else if ((5 < param_1) && ((param_1 < 0x11 || (param_1 == 0x3f)))) {
+    event_filter_handle("power.livetv",*(undefined4 *)(param_2 + 0x2c),param_2);
+    return;
+  }
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 00022c94 : reset_coldboot_app_booting_key  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION FUN_000170c8 @ 000170c8 (ref from 000170fe) (GhidraScript)  
+INFO  DecompileStrings.java> 
+void FUN_000170c8(void)
+
+{
+  int iVar1;
+  
+  iVar1 = vconf_set_str("db/volt/last_service_app_booting","");
+  if (iVar1 != 0) {
+    __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > failed to set %s",DAT_00017118,DAT_00017114,0x437
+                 ,"db/volt/last_service_app_booting");
+  }
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 000230d0 : activate_booting_app_below_firstscreen  (5 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION FUN_00019010 @ 00019010 (ref from 000190a0) (GhidraScript)  
+INFO  DecompileStrings.java> 
+undefined4 FUN_00019010(int param_1)
+
+{
+  int iVar1;
+  undefined4 uVar2;
+  int iVar3;
+  
+  if ((param_1 == 0) || (DAT_0003b534 == 0)) {
+    __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > null param",DAT_00019170,DAT_0001916c,0x3f9);
+    return 0;
+  }
+  iVar1 = context_system_property_check("product:wall");
+  if ((iVar1 == 0) && (iVar1 = context_system_property_check("shop_mode"), iVar1 == 0)) {
+    iVar1 = context_system_property_check("fs_autostart");
+    if (iVar1 == 0) {
+      __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > fs autostart is off, resume app directly",
+                   DAT_00019170,DAT_0001916c,0x409);
+      uVar2 = 0;
+    }
+    else {
+      iVar1 = bundle_create();
+      if (iVar1 == 0) {
+        __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > failed to create bundle",DAT_00019170,
+                     DAT_0001916c,0x40f);
+        uVar2 = 0;
+      }
+      else {
+        bundle_add_str(iVar1,"__K_RELOCATE_BELOW",param_1);
+        iVar3 = aul_launch_app(DAT_0003b534,iVar1);
+        bundle_free(iVar1);
+        if (iVar3 < 0) {
+          __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > failed to launch fs %d",DAT_00019170,
+                       DAT_0001916c,0x417,iVar3);
+          uVar2 = 0;
+        }
+        else {
+          __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > activate %s below fs",DAT_00019170,
+                       DAT_0001916c,0x41a,param_1);
+          uVar2 = 1;
+        }
+      }
+    }
+  }
+  else {
+    uVar2 = 0;
+  }
+  return uVar2;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 00023448 : set_app_booting_appid_for_background_standby  (12 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION FUN_0001b828 @ 0001b828 (ref from 0001b8c8) (GhidraScript)  
+INFO  DecompileStrings.java> 
+void FUN_0001b828(uint param_1,int param_2)
+
+{
+  undefined4 uVar1;
+  int iVar2;
+  int iVar3;
+  int iVar4;
+  int iVar5;
+  char *pcVar6;
+  int iVar7;
+  undefined4 uVar8;
+  uint uVar9;
+  char *pcVar10;
+  char local_35;
+  int local_34;
+  int local_30;
+  int local_2c;
+  
+  iVar2 = DAT_0001bb98;
+  uVar1 = DAT_0001bb94;
+  local_2c = __stack_chk_guard;
+  iVar3 = context_check_mask(0x400);
+  uVar9 = param_1;
+  __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > power off called:%x",uVar1,iVar2,0x6e2,param_1);
+  context_set(0x8000000,param_2);
+  pcVar6 = *(char **)(param_2 + 0x38);
+  local_34 = 0;
+  local_30 = 0;
+  local_35 = '\0';
+  iVar4 = vconf_get_int("db/menu/app_booting",&local_30);
+  if (iVar4 != 0) {
+    __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > failed to get %s",uVar1,iVar2 + 0x14,0x6a5,
+                 "db/menu/app_booting");
+    goto LAB_0001b8e2;
+  }
+  if (local_30 == 0) {
+    uVar8 = 0x6aa;
+    pcVar6 = "%s: %s(%d) > app booting disabled";
+LAB_0001b8cc:
+    __dlog_print(0,5,"tvctx-manager",pcVar6,uVar1,iVar2 + 0x14,uVar8,uVar9);
+    goto LAB_0001b8e2;
+  }
+  iVar4 = system_info_get_value_bool(0x1e8,&local_35);
+  if (iVar4 == 0) {
+    iVar4 = system_info_get_value_int(0x2c7,&local_34);
+    if (iVar4 != 0) {
+      uVar8 = 0x6b3;
+      pcVar6 = "%s: %s(%d) > SYSTEM_INFO_KEY_APP_BOOT_SUPPORT_AFTER_RESET get failed";
+      goto LAB_0001b9a0;
+    }
+    iVar4 = context_system_property_check("portland_on_portrait");
+    if (iVar4 != 0) {
+      uVar8 = 0x6b8;
+      pcVar6 = "%s: %s(%d) > on portrait";
+      goto LAB_0001b8cc;
+    }
+    iVar5 = device_power_get_ambient_mode();
+    iVar7 = iVar2 + 0x14;
+    iVar4 = iVar5;
+    __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > cur ambient mode %d",uVar1,iVar7,0x6bd,iVar5);
+    if (0 < iVar5) goto LAB_0001b8e2;
+    if (iVar5 != 0) {
+      __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > device_power_get_ambient_mode failed",uVar1,
+                   iVar7,0x6c2,iVar4);
+    }
+    iVar4 = local_34;
+    __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > appboot %d, appboot_after_reset %d",uVar1,iVar7,
+                 0x6c5,local_35,local_34);
+    if ((local_35 == '\0') || (local_34 != 1)) goto LAB_0001b8e2;
+    iVar5 = context_system_property_check("autorun_last_app");
+    if ((iVar5 == 0) ||
+       ((pcVar6 == (char *)0x0 || (iVar5 = context_check_is_livetv(pcVar6), iVar5 != 0)))) {
+      uVar8 = context_get_last_service();
+      __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > last source : %s, app-source : %s",uVar1,iVar7,
+                   0x6d2,uVar8,pcVar6);
+      goto LAB_0001b8e2;
+    }
+    pcVar10 = pcVar6;
+    __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > saving last appsource %s for recovery",uVar1,
+                 iVar7,0x6cb,pcVar6,iVar4);
+    iVar4 = vconf_set_str("db/volt/last_service_app_booting",pcVar6);
+    if (iVar4 != 0) {
+      __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > failed to set %s",uVar1,iVar7,0x6cd,
+                   "db/volt/last_service_app_booting");
+      goto LAB_0001b8e2;
+    }
+  }
+  else {
+    uVar8 = 0x6af;
+    pcVar6 = "%s: %s(%d) > SYSTEM_INFO_KEY_APP_BOOTING_SUPPORT get failed";
+LAB_0001b9a0:
+    __dlog_print(0,6,"tvctx-manager",pcVar6,uVar1,iVar2 + 0x14,uVar8);
+LAB_0001b8e2:
+    pcVar10 = "db/volt/last_service_app_booting";
+    __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > reset %s",uVar1,iVar2 + 0x14,0x6d6,
+                 "db/volt/last_service_app_booting");
+    iVar4 = vconf_set_str("db/volt/last_service_app_booting","");
+    if (iVar4 != 0) {
+      pcVar10 = "db/volt/last_service_app_booting";
+      __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > failed to set %s",uVar1,iVar2 + 0x14,0x6d8,
+                   "db/volt/last_service_app_booting");
+    }
+  }
+  if ((param_1 & 0x40000000) == 0) goto LAB_0001b94e;
+  __dlog_print(0,3,"tvctx-manager","%s: %s(%d) > suspend mode received",uVar1,iVar2,0x6e7,pcVar10);
+  DAT_0003b56c = 0;
+  if (iVar3 == 0) {
+    context_unset(0x20000000,param_2);
+    event_filter_handle("power.suspend",*(undefined4 *)(param_2 + 0x2c),param_2);
+    iVar4 = context_system_property_check("portland_on_portrait");
+    if (iVar4 != 0) {
+      tzplatform_mkpath(7,"/app-boot-manager");
+      FUN_0001b6ac();
+      context_set(0x20000000,param_2);
+      goto LAB_0001b94e;
+    }
+LAB_0001bac0:
+    if ((*(int *)(param_2 + 0x38) == 0) ||
+       ((iVar4 = context_check_is_livetv(), iVar4 == 0 &&
+        (iVar4 = context_find_running_task_byappid(*(undefined4 *)(param_2 + 0x38),param_2),
+        iVar4 == 0)))) {
+      __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > source app stopped or empty, launch livetv",
+                   uVar1,iVar2,0x6f4);
+      event_filter_handle("power.livetv",*(undefined4 *)(param_2 + 0x2c),param_2);
+    }
+    tzplatform_mkpath(7,"/app-boot-manager");
+    FUN_0001b6ac();
+    context_set(0x20000000,param_2);
+    if (iVar3 == 0) goto LAB_0001b94e;
+  }
+  else {
+    context_unset(0x400,param_2);
+    context_unset(0x20000000,param_2);
+    event_filter_handle("power.suspend",*(undefined4 *)(param_2 + 0x2c),param_2);
+    iVar4 = context_system_property_check("portland_on_portrait");
+    if (iVar4 == 0) goto LAB_0001bac0;
+    tzplatform_mkpath(7,"/app-boot-manager");
+    FUN_0001b6ac();
+    context_set(0x20000000,param_2);
+  }
+  context_set(0x400,param_2);
+LAB_0001b94e:
+  if (local_2c != __stack_chk_guard) {
+                    /* WARNING: Subroutine does not return */
+    __stack_chk_fail(0);
+  }
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 00023698 : __activate_livetv  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION __activate_livetv @ 0001da38 (ref from 0001dab2) (GhidraScript)  
+INFO  DecompileStrings.java> 
+/* __activate_livetv(manager_ctxt*) */
+
+void __activate_livetv(manager_ctxt *param_1)
+
+{
+  int iVar1;
+  
+  if (((*(int *)(param_1 + 0x34) == 0) ||
+      (iVar1 = *(int *)(*(int *)(param_1 + 0x34) + 4), iVar1 == 0)) ||
+     (iVar1 = g_strcmp0(iVar1,"org.tizen.tv-viewer"), iVar1 != 0)) {
+    event_filter_handle("power.livetv",*(undefined4 *)(param_1 + 0x2c),param_1);
+  }
+  else {
+    iVar1 = bundle_create();
+    if (iVar1 != 0) {
+      bundle_add(iVar1,&DAT_00027a48,"activate");
+      task_mgr_manual_launch("org.tizen.tv-viewer",iVar1,1,param_1);
+      bundle_free(iVar1);
+      return;
+    }
+    __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > out of memory",DAT_0001dacc,DAT_0001dac8,0x480);
+  }
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 000236ac : __handle_livetv_booting_on_wakeup  (2 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION __handle_livetv_booting_on_wakeup @ 0001dad0 (ref from 0001dae8) (GhidraScript)  
+INFO  DecompileStrings.java> 
+/* __handle_livetv_booting_on_wakeup(manager_ctxt*) */
+
+void __handle_livetv_booting_on_wakeup(manager_ctxt *param_1)
+
+{
+  undefined4 uVar1;
+  undefined4 uVar2;
+  int iVar3;
+  undefined4 uVar4;
+  
+  uVar2 = DAT_0001db64;
+  uVar1 = DAT_0001db60;
+  uVar4 = *(undefined4 *)(param_1 + 0x38);
+  __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > (%s) go to livetv",DAT_0001db64,DAT_0001db60,0x46a,
+               uVar4);
+  if ((*(int *)(param_1 + 0x34) == 0) || (*(int *)(*(int *)(param_1 + 0x34) + 4) == 0)) {
+    __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > no livetv is running",uVar2,uVar1,0x471,uVar4);
+    return;
+  }
+  context_set_booting_appid_vconf();
+  iVar3 = FUN_00019010(*(undefined4 *)(*(int *)(param_1 + 0x34) + 4));
+  if (iVar3 == 0) {
+    event_filter_handle("power.livetv",*(undefined4 *)(param_1 + 0x2c),param_1);
+    return;
+  }
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 000236d0 : __handle_app_booting_on_wakeup  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION __handle_app_booting_on_wakeup @ 0001db68 (ref from 0001db9a) (GhidraScript)  
+INFO  DecompileStrings.java> 
+/* __handle_app_booting_on_wakeup(manager_ctxt*) */
+
+void __handle_app_booting_on_wakeup(manager_ctxt *param_1)
+
+{
+  size_t sVar1;
+  ssize_t sVar2;
+  int iVar3;
+  uint uVar4;
+  uint uVar5;
+  int *piVar6;
+  char *pcVar7;
+  undefined4 uVar8;
+  undefined4 *puVar9;
+  socklen_t local_16c;
+  int local_168;
+  timeval local_164;
+  char acStack_15c [64];
+  sockaddr local_11c [6];
+  undefined4 uStack_b0;
+  fd_set local_ac;
+  int local_2c;
+  
+  local_2c = __stack_chk_guard;
+  __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > %s is alive resume app source",DAT_0001de40,
+               DAT_0001de44,0x461,*(undefined4 *)(param_1 + 0x38));
+  __snprintf_chk(acStack_15c,0x40,1,0x40,"%d:%s",0x11,*(undefined4 *)(param_1 + 0x38));
+  if (DAT_0003b464 != 0xffffffff) goto LAB_0001dbde;
+  local_11c[0].sa_family = 1;
+  strncpy(local_11c[0].sa_data,"/tmp/perfmonsock",0x6b);
+  uVar4 = socket(1,1,0);
+  if ((int)uVar4 < 0) {
+    prctl(0x29a,"perfmon Client: No socket created:",0x22);
+    goto LAB_0001dbde;
+  }
+  uVar5 = fcntl(uVar4,3,0);
+  if ((int)uVar5 < 0) {
+    pcVar7 = "perfmon Client:socket fcntl get fail:";
+    uVar8 = 0x25;
+  }
+  else {
+    iVar3 = fcntl(uVar4,4,uVar5 | 0x800);
+    if (-1 < iVar3) {
+      iVar3 = connect(uVar4,local_11c,0x6e);
+      if (iVar3 < 0) {
+        piVar6 = __errno_location();
+        if (*piVar6 != 0x73) {
+          DAT_0003b464 = 0xffffffff;
+          prctl(0x29a,"perfmon Client:connect error",0x1c);
+          usleep(10000);
+          iVar3 = connect(uVar4,local_11c,0x6e);
+          if (-1 < iVar3) goto LAB_0001dd32;
+          pcVar7 = "perfmon Client:connect error count out";
+          uVar8 = 0x26;
+          if (*piVar6 != 0x73) goto LAB_0001dd14;
+        }
+        puVar9 = &uStack_b0;
+        local_164.tv_sec = 1;
+        local_164.tv_usec = 0;
+        do {
+          puVar9 = puVar9 + 1;
+          *puVar9 = 0;
+        } while (puVar9 != local_ac.fds_bits + 0x1f);
+        iVar3 = __fdelt_chk(uVar4);
+        local_ac.fds_bits[iVar3] = 1 << (uVar4 & 0x1f) | local_ac.fds_bits[iVar3];
+        iVar3 = select(uVar4 + 1,(fd_set *)0x0,&local_ac,(fd_set *)0x0,&local_164);
+        if (iVar3 < 1) {
+          pcVar7 = "perfmon Client:connect timeout";
+          uVar8 = 0x1e;
+        }
+        else {
+          local_16c = 4;
+          getsockopt(uVar4,1,4,&local_168,&local_16c);
+          pcVar7 = "perfmon Client:connect delayed error";
+          uVar8 = 0x24;
+          if (local_168 == 0) {
+            prctl(0x29a,"perfmon Client:connect delayed",0x1e);
+            DAT_0003b464 = uVar4;
+            goto LAB_0001dbde;
+          }
+        }
+        DAT_0003b464 = 0xffffffff;
+        prctl(0x29a,pcVar7,uVar8);
+        close(uVar4);
+      }
+      else {
+LAB_0001dd32:
+        DAT_0003b464 = uVar4;
+      }
+      goto LAB_0001dbde;
+    }
+    pcVar7 = "perfmon Client:socket fcntl fail:";
+    uVar8 = 0x21;
+  }
+LAB_0001dd14:
+  prctl(0x29a,pcVar7,uVar8);
+  close(uVar4);
+LAB_0001dbde:
+  uVar4 = DAT_0003b464;
+  if ((int)DAT_0003b464 < 1) {
+    prctl(0x29a,"perfmon Client:try connect",0x1a);
+    DAT_0003b468 = DAT_0003b468 + -1;
+  }
+  else {
+    sVar1 = strlen(acStack_15c);
+    sVar2 = send(uVar4,acStack_15c,sVar1 + 1,0x4000);
+    if (sVar2 < 0) {
+      prctl(0x29a,"perfmon Client:cannot Notify_performance_annotate",0x31);
+      DAT_0003b468 = DAT_0003b468 + -1;
+      close(DAT_0003b464);
+      DAT_0003b464 = 0xffffffff;
+    }
+    else {
+      sVar1 = strlen(acStack_15c);
+      prctl(0x29a,acStack_15c,sVar1);
+      close(DAT_0003b464);
+      DAT_0003b464 = 0xffffffff;
+    }
+  }
+  iVar3 = FUN_00019010(*(undefined4 *)(param_1 + 0x38));
+  if (iVar3 == 0) {
+    event_filter_handle("power.app",*(undefined4 *)(param_1 + 0x2c),param_1);
+  }
+  if (local_2c != __stack_chk_guard) {
+                    /* WARNING: Subroutine does not return */
+    __stack_chk_fail();
+  }
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 0002373c : check_app_booting_validation  (6 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION FUN_0001e0f8 @ 0001e0f8 (ref from 0001e158) (GhidraScript)  
+INFO  DecompileStrings.java> 
+void FUN_0001e0f8(undefined4 param_1,int param_2,undefined4 param_3)
+
+{
+  int iVar1;
+  void *pvVar2;
+  int iVar3;
+  uint uVar4;
+  undefined4 uVar5;
+  bool bVar6;
+  bool bVar7;
+  bool bVar8;
+  undefined4 uVar9;
+  int local_30;
+  int local_2c;
+  
+  local_2c = __stack_chk_guard;
+  iVar1 = context_is_oobe_running(param_3);
+  if (iVar1 != 0) {
+    __dlog_print(0,5,"tvctx-manager","%s: %s(%d) > app-booting blocked by OOBE",DAT_0001e40c,
+                 DAT_0001e408,0x3b7);
+    uVar4 = 0;
+    goto LAB_0001e16e;
+  }
+  pvVar2 = (void *)vconf_get_str("memory/menu/network/airplay_status");
+  uVar4 = 0;
+  if (pvVar2 != (void *)0x0) {
+    iVar1 = g_strcmp0(pvVar2,"running");
+    free(pvVar2);
+    if (iVar1 == 0) {
+      __dlog_print(0,5,"tvctx-manager","%s: %s(%d) > app-booting blocked by airplay",DAT_0001e40c,
+                   DAT_0001e408,0x3bc);
+      goto LAB_0001e16e;
+    }
+  }
+  local_30 = 0;
+  iVar1 = context_system_property_check("bizapp_boot_support");
+  if ((iVar1 != 0) &&
+     (vconf_get_int("db/menu/system/smartfeatures/autorunsignage",&local_30), local_30 != 0)) {
+    pvVar2 = (void *)vconf_get_str("db/menu/system/smartfeatures/autorun-defaultapp");
+    iVar1 = g_strcmp0(pvVar2,"");
+    uVar5 = DAT_0001e40c;
+    if (iVar1 != 0) {
+      iVar1 = DAT_0001e410 + -0x20;
+      __dlog_print(0,3,"tvctx-manager","%s: %s(%d) > autorun bizapp on wakeup (%s)",DAT_0001e40c,
+                   DAT_0001e410,0x3ac,pvVar2);
+      free(pvVar2);
+      __dlog_print(0,5,"tvctx-manager","%s: %s(%d) > app-booting blocked by bizapp boot",uVar5,iVar1
+                   ,0x3c1);
+      goto LAB_0001e16e;
+    }
+    free(pvVar2);
+  }
+  iVar1 = DAT_0001e568;
+  uVar5 = DAT_0001e564;
+  switch(param_1) {
+  case 2:
+  case 6:
+  case 7:
+  case 8:
+  case 9:
+  case 10:
+  case 0xb:
+  case 0xc:
+  case 0xd:
+  case 0xe:
+  case 0xf:
+  case 0x10:
+  case 0x3e:
+  case 0x3f:
+  case 0x5b:
+    uVar5 = DAT_0001e40c;
+    goto LAB_0001e28a;
+  default:
+switchD_0001e1a4_caseD_3:
+    uVar5 = DAT_0001e40c;
+LAB_0001e2ee:
+    iVar1 = DAT_0001e408;
+    uVar9 = 1;
+    __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > app_booting %d, power_state %d",uVar5,
+                 DAT_0001e408,0x3c7,1,param_2);
+    iVar3 = device_power_get_ambient_mode();
+    if (iVar3 == 0) {
+      uVar4 = aul_app_get_status("org.tizen.webappservice-commui");
+      __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > pin status %d",uVar5,iVar1,0x3ce,uVar4,param_2)
+      ;
+      bVar6 = uVar4 == 0;
+      bVar7 = uVar4 == 3;
+      bVar8 = uVar4 != 2;
+      if (uVar4 == 2 || (bVar6 || bVar7)) {
+        uVar4 = 1;
+      }
+      if (!bVar6 && (bVar8 && !bVar7)) {
+        uVar4 = 0;
+      }
+      uVar4 = uVar4 ^ 1;
+    }
+    else {
+      __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > app booting blocked by ambient mode",uVar5,
+                   iVar1 + 0xa4,0x377,uVar9,param_2);
+    }
+    goto LAB_0001e16e;
+  case 0x1e:
+    if (param_2 != 2) goto switchD_0001e1a4_caseD_3;
+    __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > skip app-booting, reason %d",DAT_0001e564,
+                 DAT_0001e568,0x35c,0x1e);
+    break;
+  case 0x29:
+    if (param_2 != 0) goto LAB_0001e2ee;
+LAB_0001e28a:
+    iVar1 = DAT_0001e414;
+    break;
+  case 0x2b:
+    local_30 = 0;
+    iVar1 = vconf_get_int("memory/appfw/temp_youtube_wakeup",&local_30);
+    uVar5 = DAT_0001e564;
+    if (iVar1 != 0) {
+      __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > failed to get %s",DAT_0001e564,DAT_0001e560,
+                   0x332,"memory/appfw/temp_youtube_wakeup");
+    }
+    iVar1 = DAT_0001e568;
+    if (local_30 == 0) goto LAB_0001e2ee;
+    __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > wakeup by youtube casting",uVar5,DAT_0001e568,
+                 0x362);
+    iVar3 = vconf_set_int("memory/appfw/temp_youtube_wakeup",0);
+    if (iVar3 != 0) {
+      __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > failed to set %s",uVar5,iVar1 + 0x50,0x33d,
+                   "memory/appfw/temp_youtube_wakeup");
+    }
+  }
+  __dlog_print(0,4,"tvctx-manager",
+               "%s: %s(%d) > app booting blocked by wakeup reason %d (power state %d)",uVar5,iVar1,
+               0x36c,param_1,param_2);
+  __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > app_booting %d, power_state %d",uVar5,DAT_0001e408,
+               0x3c7,0,param_2);
+LAB_0001e16e:
+  if (local_2c != __stack_chk_guard) {
+                    /* WARNING: Subroutine does not return */
+    __stack_chk_fail(uVar4);
+  }
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 0002375c : __is_bizapp_booting  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 00023770 : check_wakeup_reason_validation_for_app_booting  (3 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 000237e0 : check_ambient_mode_validation_for_app_booting  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 00023dd8 : power.livetv  (5 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION FUN_0001a87c @ 0001a87c (ref from 0001ac60) (GhidraScript)  
+INFO  DecompileStrings.java> 
+void FUN_0001a87c(int param_1,int param_2)
+
+{
+  uint uVar1;
+  undefined4 uVar2;
+  int iVar3;
+  int iVar4;
+  char *pcVar5;
+  void *__ptr;
+  uint uVar6;
+  uint uVar7;
+  undefined4 uVar8;
+  undefined4 uVar9;
+  undefined4 uVar10;
+  int local_30;
+  int local_2c;
+  
+  uVar2 = DAT_0001ac40;
+  uVar8 = DAT_0001ac3c;
+  local_2c = __stack_chk_guard;
+  local_30 = 0;
+  if (param_2 == 0) {
+    uVar8 = 0x5e3;
+    pcVar5 = "%s: %s(%d) > invalid arg";
+LAB_0001ac7a:
+    __dlog_print(0,6,"tvctx-manager",pcVar5,DAT_0001adac,DAT_0001ada8,uVar8);
+    uVar6 = 0xffffffff;
+    goto LAB_0001a8ea;
+  }
+  if (*(int *)(param_1 + 0x10) == 0 && *(int *)(param_1 + 0x14) == 1) {
+    __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > enter ambient mode",DAT_0001ac3c,DAT_0001ac40,
+                 0x5e8);
+    uVar6 = device_power_get_ambient_type();
+    if ((uVar6 & 8) == 0) {
+      iVar3 = FUN_00018a6c();
+      uVar6 = 0;
+      if (iVar3 == 0) {
+        if ((*(int *)(param_2 + 0x34) == 0) ||
+           (iVar3 = *(int *)(*(int *)(param_2 + 0x34) + 4), iVar3 == 0)) {
+          __dlog_print(0,5,"tvctx-manager","%s: %s(%d) > null livetv, app source : %s",uVar8,uVar2,
+                       0x5fa,*(undefined4 *)(param_2 + 0x38));
+        }
+        else {
+          __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > last livetv : %s, app source : %s",uVar8,
+                       uVar2,0x5f8,iVar3,*(undefined4 *)(param_2 + 0x38));
+        }
+        DAT_0003b54c = 0;
+        ecore_timer_add(0,0x3fd00000,0x1d87d,param_2);
+        event_filter_handle("ambient_fullpower.state",*(undefined4 *)(param_2 + 0x2c),param_2);
+      }
+      else {
+        __dlog_print(0,5,"tvctx-manager","%s: %s(%d) > ignore ambient mode event on CCW rotation",
+                     uVar8,uVar2,0x5f2);
+      }
+    }
+    else {
+      uVar6 = 0;
+      __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > ignore ambient type sero",uVar8,uVar2,0x5ec);
+    }
+    goto LAB_0001a8ea;
+  }
+  uVar6 = 0;
+  uVar7 = (uint)(*(int *)(param_1 + 0x10) != 0);
+  if (*(int *)(param_1 + 0x14) != 0) {
+    uVar7 = 0;
+  }
+  if (uVar7 == 0) goto LAB_0001a8e6;
+  if (DAT_0003b550 << 0x1c < 0) {
+    __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > ignore ambient type sero",DAT_0001ac3c,
+                 DAT_0001ac40,0x60b);
+    goto LAB_0001a8ea;
+  }
+  iVar3 = context_system_property_check("product:wall");
+  if (iVar3 != 0) goto LAB_0001a8e6;
+  iVar3 = screen_manager_get_ambientapp_terminate_reason(&local_30);
+  uVar2 = DAT_0001ac40;
+  uVar8 = DAT_0001ac3c;
+  if (iVar3 != 0) {
+    uVar8 = 0x615;
+    pcVar5 = "%s: %s(%d) > failed to get ambient terminate reason";
+    goto LAB_0001ac7a;
+  }
+  iVar3 = local_30;
+  __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > exit from ambient mode (%d)",DAT_0001ac3c,
+               DAT_0001ac40,0x619,local_30);
+  uVar1 = 0;
+  if (local_30 == 0) {
+    event_filter_handle("ambient_exit_by_pause.state",*(undefined4 *)(param_2 + 0x2c),param_2);
+    iVar3 = task_mgr_check_visible("com.samsung.tv.mybixby",0,0,param_2);
+    if (iVar3 != 0) {
+      __ptr = (void *)vconf_get_str("memory/appfw/current_fullscreen_appid");
+      iVar3 = g_strcmp0(__ptr,"com.samsung.tv.mybixby");
+      if (iVar3 != 0) {
+        event_filter_handle("partial_mybixby_pause",*(undefined4 *)(param_2 + 0x2c),param_2);
+      }
+      free(__ptr);
+      uVar6 = uVar1;
+      goto LAB_0001a8ea;
+    }
+  }
+  else if (local_30 == 1) {
+    iVar4 = context_system_property_check("autorun_last_app");
+    if (((iVar4 == 0) || (*(int *)(param_2 + 0x38) == 0)) ||
+       (iVar4 = context_check_is_livetv(), iVar4 != 0)) {
+      __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > not app source, activate livetv",uVar8,uVar2,
+                   0x634,iVar3);
+LAB_0001abde:
+      iVar3 = DAT_0003b550;
+      iVar4 = context_system_property_check("product:wall");
+      if (iVar4 == 0) {
+LAB_0001abf4:
+        if ((-1 < iVar3 << 0x1d) ||
+           (iVar3 = context_system_property_check("fs_autostart"), iVar3 != 0)) {
+          if (DAT_0003b534 == 0) {
+            uVar10 = 0x63c;
+            pcVar5 = "%s: %s(%d) > null firstscreen appid";
+          }
+          else {
+            if (uVar6 == 0) {
+              if (*(int *)(param_2 + 0x34) == 0) {
+                pcVar5 = "org.tizen.tv-viewer";
+              }
+              else {
+                pcVar5 = *(char **)(*(int *)(param_2 + 0x34) + 4);
+                if (pcVar5 == (char *)0x0) {
+                  pcVar5 = "org.tizen.tv-viewer";
+                }
+              }
+            }
+            else {
+              pcVar5 = *(char **)(param_2 + 0x38);
+            }
+            iVar3 = bundle_create();
+            if (iVar3 != 0) {
+              bundle_add_str(iVar3,"__K_RELOCATE_BELOW",pcVar5);
+              iVar4 = aul_launch_app_async(DAT_0003b534,iVar3);
+              if (iVar4 < 0) {
+                __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > failed to launch %d",uVar8,uVar2,
+                             0x653,iVar4);
+              }
+              bundle_free(iVar3);
+              uVar6 = uVar1;
+              goto LAB_0001a8ea;
+            }
+            uVar10 = 0x64b;
+            pcVar5 = "%s: %s(%d) > out of memory";
+          }
+          __dlog_print(0,6,"tvctx-manager",pcVar5,uVar8,uVar2,uVar10);
+          uVar6 = 0xffffffff;
+          goto LAB_0001a8ea;
+        }
+        if (uVar6 != 0) goto LAB_0001aad8;
+      }
+      pcVar5 = "power.livetv";
+    }
+    else {
+      uVar10 = *(undefined4 *)(param_2 + 0x38);
+      __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > last app source: %s",uVar8,uVar2,0x625,uVar10);
+      iVar3 = context_find_running_task_byappid(*(undefined4 *)(param_2 + 0x38),param_2);
+      if (iVar3 == 0) {
+        uVar9 = 0x632;
+        pcVar5 = "%s: %s(%d) > source app stopped or empty, activate livetv";
+LAB_0001ad06:
+        __dlog_print(0,4,"tvctx-manager",pcVar5,uVar8,uVar2,uVar9,uVar10);
+        goto LAB_0001abde;
+      }
+      iVar3 = context_system_property_check("product:frame32");
+      if (((iVar3 != 0) && (iVar3 = context_system_property_check("sensor_portrait"), iVar3 != 0))
+         && (iVar3 = context_check_is_landscape_only(*(undefined4 *)(param_2 + 0x38)), iVar3 != 0))
+      {
+        pcVar5 = "%s: %s(%d) > last app source is landscape only app. don\'t activate.";
+        uVar9 = 0x62b;
+        goto LAB_0001ad06;
+      }
+      __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > activate last app source",uVar8,uVar2,0x62e,
+                   uVar10);
+      iVar3 = DAT_0003b550;
+      iVar4 = context_system_property_check("product:wall");
+      uVar6 = uVar7;
+      if (iVar4 == 0) goto LAB_0001abf4;
+LAB_0001aad8:
+      pcVar5 = "power.app";
+    }
+    event_filter_handle(pcVar5,*(undefined4 *)(param_2 + 0x2c),param_2);
+    uVar6 = uVar1;
+    goto LAB_0001a8ea;
+  }
+LAB_0001a8e6:
+  uVar6 = 0;
+LAB_0001a8ea:
+  if (local_2c != __stack_chk_guard) {
+                    /* WARNING: Subroutine does not return */
+    __stack_chk_fail(uVar6);
+  }
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 00023ef8 : db/eden/last_used_livetv  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION FUN_00016934 @ 00016934 (ref from 00016988) (GhidraScript)  
+INFO  DecompileStrings.java> 
+void FUN_00016934(undefined4 param_1,undefined4 param_2,int param_3)
+
+{
+  undefined4 uVar1;
+  undefined4 uVar2;
+  int iVar3;
+  void *__ptr;
+  
+  uVar1 = DAT_00016a28;
+  iVar3 = context_system_property_check("no_epg");
+  uVar2 = DAT_00016a2c;
+  if (iVar3 != 0) {
+    __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > EPG N/A",DAT_00016a2c,uVar1,0x389);
+    iVar3 = context_system_property_check("no_virtual_service");
+    if (iVar3 != 0) {
+      event_filter_handle("not_available",*(undefined4 *)(param_3 + 0x2c),param_3);
+      return;
+    }
+  }
+  __ptr = (void *)vconf_get_str("db/eden/last_used_livetv");
+  iVar3 = g_strcmp0(__ptr,"NONE");
+  if (iVar3 == 0) {
+    __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > last livetv is NONE",uVar2,uVar1,0x395);
+    free(__ptr);
+    return;
+  }
+  __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > last livetv is %s",uVar2,uVar1,0x39a,__ptr);
+  event_filter_handle("key.epg",*(undefined4 *)(param_3 + 0x2c),param_3);
+  free(__ptr);
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 00023f14 : %s: %s(%d) > last livetv is NONE  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 00023f38 : %s: %s(%d) > last livetv is %s  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 000242fc : db/volt/last_service_app_booting  (7 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 00024ef0 : autorun_last_app  (7 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION context_get_last_source_appid @ 0001d7f4 (ref from 0001d7fc) (GhidraScript)  
+INFO  DecompileStrings.java> 
+char * context_get_last_source_appid(int param_1)
+
+{
+  int iVar1;
+  char *pcVar2;
+  
+  iVar1 = context_system_property_check("autorun_last_app");
+  if (((iVar1 == 0) || (*(int *)(param_1 + 0x38) == 0)) ||
+     (iVar1 = context_check_is_livetv(), iVar1 != 0)) {
+    if (*(int *)(param_1 + 0x34) == 0) {
+      pcVar2 = "org.tizen.tv-viewer";
+    }
+    else {
+      pcVar2 = *(char **)(*(int *)(param_1 + 0x34) + 4);
+      if (pcVar2 == (char *)0x0) {
+        pcVar2 = "org.tizen.tv-viewer";
+      }
+    }
+  }
+  else {
+    iVar1 = context_find_running_task_byappid(*(undefined4 *)(param_1 + 0x38),param_1);
+    if (iVar1 == 0) {
+      pcVar2 = (char *)0x0;
+    }
+    else {
+      pcVar2 = *(char **)(param_1 + 0x38);
+    }
+  }
+  __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > appid : %s",DAT_0001d878,DAT_0001d874,0x566,pcVar2)
+  ;
+  return pcVar2;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION FUN_0001e910 @ 0001e910 (ref from 0001ea60) (GhidraScript)  
+INFO  DecompileStrings.java> 
+void FUN_0001e910(char *param_1,manager_ctxt *param_2)
+
+{
+  int iVar1;
+  undefined4 uVar2;
+  int iVar3;
+  undefined4 uVar4;
+  uint uVar5;
+  char *pcVar6;
+  uint uVar7;
+  undefined4 uVar8;
+  int local_38;
+  undefined4 local_34;
+  float local_30;
+  int local_2c;
+  
+  uVar2 = DAT_0001ed48;
+  iVar1 = DAT_0001ed44;
+  uVar7 = (uint)param_1 & 0x9fffffff;
+  uVar8 = 5;
+  local_2c = __stack_chk_guard;
+  __dlog_print(0,4,"tvctx-manager",
+               "%s: %s(%d) > option : %d power off reason : %d no signal reason : %d",DAT_0001ed48,
+               DAT_0001ed44,0x48b,param_1,uVar7,5);
+  context_system_property_remove("power_key_delayed");
+  context_system_property_remove("on_wakeup");
+  task_mgr_set_multiview_support_vconf();
+  event_filter_handle("power.standby",*(undefined4 *)(param_2 + 0x2c),param_2);
+  DAT_0003b56c = 1;
+  context_unset(0x2000,param_2);
+  context_set_timeout(0x20000000,1000,param_2);
+  context_set(0x20000,param_2);
+  local_38 = 0;
+  iVar3 = vconf_get_int("memory/menu/network/screenmirroring/smsrc_status",&local_38);
+  if (iVar3 != 0) {
+    param_1 = "memory/menu/network/screenmirroring/smsrc_status";
+    __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > failed to get %s",uVar2,iVar1 + 0x20,0x166,
+                 "memory/menu/network/screenmirroring/smsrc_status");
+  }
+  if (local_38 == 1) {
+    __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > Screen Mirroring is active",uVar2,iVar1,0x49d,
+                 param_1);
+  }
+  else {
+    uVar4 = context_get_last_service();
+    iVar3 = g_strcmp0(uVar4,"app-source");
+    if ((iVar3 != 0) && (iVar3 = g_strcmp0(uVar4,"org.tizen.tv-viewer"), iVar3 != 0)) {
+      event_filter_handle("power.clear",*(undefined4 *)(param_2 + 0x2c),param_2);
+    }
+  }
+  iVar3 = context_system_property_check("product:portland");
+  if (iVar3 == 0) {
+LAB_0001ea5c:
+    iVar3 = context_system_property_check("autorun_last_app");
+    if (iVar3 == 0) {
+      uVar5 = device_power_get_ambient_type();
+      if ((uVar5 & 7) >> 2 == 0 && uVar7 != 0x1a) {
+        __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > autorun last app is off, activate livetv",
+                     uVar2,iVar1,0x4d5);
+        __activate_livetv(param_2);
+      }
+      else {
+        __dlog_print(0,5,"tvctx-manager","%s: %s(%d) > skip activate livetv",uVar2,iVar1,0x4d3);
+      }
+    }
+  }
+  else {
+    iVar3 = display_rotator_get_status(&local_38);
+    if (iVar3 != 0) {
+      __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > display_rotator_get_status failed",uVar2,iVar1,
+                   0x4a3);
+      goto LAB_0001ea3e;
+    }
+    iVar3 = task_mgr_check_visible("org.tizen.tv.swu",0,0,param_2);
+    if (iVar3 == 0) {
+      pcVar6 = (char *)device_power_get_wakeup_reason();
+      param_1 = pcVar6;
+      __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > wakeup reason : %d",uVar2,iVar1,0x4ad,pcVar6);
+      if (pcVar6 != (char *)0x32) {
+        iVar3 = context_system_property_check("power_off_in_portrait");
+        if (iVar3 != 0) {
+          iVar3 = FUN_00016634(&local_38);
+          if (iVar3 == 0) {
+            if (local_38 != 1) {
+              context_system_property_check("portland_power_locked");
+              goto LAB_0001eb34;
+            }
+            __dlog_print(0,3,"tvctx-manager","%s: %s(%d) > status:%d orientation:%d angle:%f",uVar2,
+                         DAT_0001ed40,0xa4,1,local_34,uVar8,(double)local_30);
+            __dlog_print(0,5,"tvctx-manager","%s: %s(%d) > poweroff while rotate to landscape",uVar2
+                         ,iVar1,0x4b9);
+            context_system_property_add("portland_back_to_portrait");
+          }
+          else {
+            __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > start to turn off in portrait",uVar2,
+                         iVar1,0x4b6,param_1);
+            util_rotate_portrait("XF86PowerOff");
+          }
+          iVar3 = context_system_property_check("portland_power_locked");
+          if (iVar3 == 0) {
+            __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > assume power off by other process",uVar2,
+                         iVar1,0x4bf);
+            util_portland_lock_power_state_standby();
+          }
+        }
+LAB_0001eb34:
+        iVar3 = context_system_property_check("power_off_in_portrait");
+        if ((iVar3 != 0) || (iVar3 = FUN_00016698(&local_38), iVar3 != 0)) {
+          if (pcVar6 == (char *)0x29) {
+            __dlog_print(0,5,"tvctx-manager","%s: %s(%d) > skip AOD for mirroring",uVar2,iVar1,0x4c6
+                        );
+          }
+          else {
+            context_launch_aod_app("activate","power_standby",param_2);
+          }
+          goto LAB_0001ea3e;
+        }
+        goto LAB_0001ea5c;
+      }
+      pcVar6 = "%s: %s(%d) > background standby. don\'t rotate.";
+      uVar8 = 0x4af;
+    }
+    else {
+      pcVar6 = "%s: %s(%d) > do nothing with SWU";
+      uVar8 = 0x4a8;
+    }
+    __dlog_print(0,6,"tvctx-manager",pcVar6,uVar2,iVar1,uVar8,param_1);
+  }
+LAB_0001ea3e:
+  if (local_2c != __stack_chk_guard) {
+                    /* WARNING: Subroutine does not return */
+    __stack_chk_fail(0);
+  }
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION FUN_00018408 @ 00018408 (ref from 0001885c) (GhidraScript)  
+INFO  DecompileStrings.java> 
+void FUN_00018408(int param_1,undefined4 param_2,int param_3)
+
+{
+  int iVar1;
+  int iVar2;
+  int iVar3;
+  undefined4 uVar4;
+  char *pcVar5;
+  undefined4 uVar6;
+  undefined4 uVar7;
+  int local_44;
+  int local_40;
+  int local_3c;
+  int local_38;
+  int local_34;
+  int local_2c;
+  
+  local_2c = __stack_chk_guard;
+  local_3c = 0;
+  local_40 = 0;
+  local_44 = 0;
+  iVar1 = context_check_mask(0x8000000,param_3);
+  if (iVar1 == 0) goto LAB_00018492;
+  iVar1 = context_system_property_check("product:frame_tv");
+  if (iVar1 != 0) {
+    __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > ignore power key - on sleepy",DAT_00018770,
+                 DAT_0001876c,0x1f8);
+    goto LAB_000184be;
+  }
+  iVar1 = context_check_mask(0x20000,param_3);
+  if (iVar1 != 0) goto LAB_00018492;
+  if (*(uint *)(param_1 + 8) < DAT_0003b524) {
+    __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > ignore power key - duplicated(%ld:%ld)",
+                 DAT_00018a54,DAT_00018a64,0x1ff,DAT_0003b524,*(uint *)(param_1 + 8));
+    goto LAB_000184be;
+  }
+  iVar1 = context_system_property_check("welcome_mode_supported");
+  if (iVar1 == 0) {
+LAB_00018492:
+    context_system_property_remove("on_wakeup");
+    iVar1 = device_power_get_state();
+    if (iVar1 != 2) {
+      iVar1 = context_system_property_check("always_instant_on");
+      if (iVar1 == 0) {
+        context_set_timeout(0x8000000,5000,param_3);
+      }
+      else {
+        context_set_timeout(0x8000000,0x8fc,param_3);
+      }
+      iVar1 = vconf_get_bool("memory/ephotel/hotelmenu/hotelfactorymode",&local_44);
+      if (iVar1 != 0) {
+        __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > failed to get %s",DAT_00018a54,DAT_00018a58,
+                     0x34d,"memory/ephotel/hotelmenu/hotelfactorymode");
+      }
+      iVar2 = context_system_property_check("product:frame_tv");
+      iVar1 = local_44;
+      if (iVar2 != 0) {
+        local_38 = 0;
+        vconf_get_int("memory/menu/network/screenmirroring/smsrc_status",&local_38);
+        iVar2 = device_power_get_ambient_mode();
+        if (DAT_0003b510 == 0) {
+          if ((param_1 == 0) ||
+             (iVar3 = key_handler_is_panel_key_event(*(undefined4 *)(param_1 + 0x14)), iVar3 == 0))
+          {
+            if (local_38 == 1 && iVar2 == 0) {
+              __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > on tv2mobile - skip art-app",
+                           DAT_00018a54,DAT_00018a60,0x31c);
+              goto LAB_00018684;
+            }
+            if (iVar1 == 0) {
+              __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > on frametv - launch art app",
+                           DAT_00018770,DAT_00018774,0x352);
+              event_filter_handle("power.frametv",*(undefined4 *)(param_3 + 0x2c),param_3);
+              goto LAB_000184be;
+            }
+            uVar4 = 0x31e;
+            pcVar5 = "%s: %s(%d) > on factory app - skip art-app";
+            uVar6 = DAT_00018770;
+            uVar7 = DAT_00018778;
+          }
+          else {
+            uVar4 = 0x31a;
+            pcVar5 = "%s: %s(%d) > panel power key should work as normal TV on Frame TV";
+            uVar6 = DAT_00018a54;
+            uVar7 = DAT_00018a60;
+          }
+          __dlog_print(0,4,"tvctx-manager",pcVar5,uVar6,uVar7,uVar4);
+        }
+        else {
+          __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > on CAM upgrade(%d) - skip art-app",
+                       DAT_00018a54,DAT_00018a60,0x318,DAT_0003b510);
+        }
+      }
+LAB_00018684:
+      iVar1 = context_system_property_check("power_off_in_portrait");
+      if (iVar1 != 0) {
+        iVar2 = display_rotator_get_status(&local_38);
+        iVar1 = DAT_00018a68;
+        uVar6 = DAT_00018a54;
+        if (iVar2 == 0) {
+          __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > status:%d orientation:%d angle:%f",
+                       DAT_00018a54,DAT_00018a68,0x2df,local_38,local_34);
+          if (local_38 == 0) {
+            if (local_34 == 1) goto LAB_00018810;
+          }
+          else if (local_38 == 1) {
+            __dlog_print(0,3,"tvctx-manager","%s: %s(%d) > status:%d orientation:%d angle:%f",uVar6,
+                         iVar1 + 0x14,0x2ea,1,local_34);
+LAB_00018810:
+            util_portland_lock_power_state_standby();
+          }
+        }
+        else {
+          __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > failed to get status",DAT_00018a54,
+                       DAT_00018a5c,0x2fb);
+        }
+      }
+      iVar1 = context_system_property_check("welcome_mode_supported");
+      if (iVar1 == 0) {
+        __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > call device_power_request_poweroff",
+                     DAT_00018770,DAT_00018774,0x378);
+        device_power_request_poweroff(3);
+      }
+      else {
+        vconf_get_int("db/FactoryApp/Aging",&local_3c);
+        if (local_3c == 0) {
+          system_info_get_value_int(0x27a7,&local_40);
+          if (local_40 == 1) {
+            if (local_44 == 0) {
+              __dlog_print(0,4,"tvctx-manager",
+                           "%s: %s(%d) > virtual standby mode, just set state standby.",DAT_00018a54
+                           ,DAT_00018a58,0x36a);
+              device_power_set_state(2,1);
+            }
+            else {
+              __dlog_print(0,4,"tvctx-manager",
+                           "%s: %s(%d) > virtual standby with factory app, just call poweroff.",
+                           DAT_00018a54,DAT_00018a58,0x367);
+              device_power_request_poweroff(3);
+            }
+          }
+          else {
+            iVar1 = context_system_property_check("autorun_last_app");
+            if (iVar1 == 0) {
+              __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > last_app_source(%s) is freed",
+                           DAT_00018a54,DAT_00018a58,0x371,*(undefined4 *)(param_3 + 0x38));
+              g_free(*(undefined4 *)(param_3 + 0x38));
+              *(undefined4 *)(param_3 + 0x38) = 0;
+            }
+            event_filter_handle("power.close",*(undefined4 *)(param_3 + 0x2c),param_3);
+          }
+        }
+        else {
+          __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > aging_mode is enabled, just call poweroff",
+                       DAT_00018770,DAT_00018774,0x35f);
+          device_power_request_poweroff(3);
+        }
+      }
+      goto LAB_000184be;
+    }
+    uVar6 = *(undefined4 *)(param_1 + 0x10);
+    iVar1 = g_strcmp0(uVar6,"XF86LFDPowerOff");
+    if ((iVar1 == 0) || (iVar1 = g_strcmp0(uVar6,"XF86DiscretPowerOff"), iVar1 == 0))
+    goto LAB_000184be;
+    iVar1 = context_system_property_check("product:frame_tv");
+    if (iVar1 == 0) {
+      __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > request power on",DAT_00018770,DAT_00018774,
+                   0x342);
+      util_set_power_state_normal(1,0);
+      goto LAB_000184be;
+    }
+    iVar1 = context_check_mask(0x20000,param_3);
+    if (iVar1 != 0) {
+      __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > request power on",DAT_00018a54,DAT_00018a58,
+                   0x33c);
+      util_set_power_state_normal(1,0);
+      goto LAB_000184be;
+    }
+    pcVar5 = "%s: %s(%d) > ignore power key - power state changed while longpress";
+    uVar7 = 0x33f;
+    uVar6 = DAT_00018a58;
+  }
+  else {
+    iVar1 = context_system_property_check("on_power_animation");
+    if (iVar1 == 0) {
+      __dlog_print(0,4,"tvctx-manager",
+                   "%s: %s(%d) > handle power key - on sleepy but welcomemode is not visible",
+                   DAT_00018770,DAT_0001876c,0x20e);
+      goto LAB_00018492;
+    }
+    iVar1 = context_system_property_check("on_wakeup");
+    if (iVar1 != 0) {
+      __dlog_print(0,4,"tvctx-manager",
+                   "%s: %s(%d) > re-launch welcome-mode after welcome animation finished",
+                   DAT_00018770,DAT_0001876c,0x206);
+      context_set_timeout(0x8000000,0xa28,param_3);
+      context_system_property_add("power_key_delayed");
+      goto LAB_000184be;
+    }
+    pcVar5 = "%s: %s(%d) > ignore power key - on sleepy";
+    uVar7 = 0x20a;
+    uVar6 = DAT_00018a64;
+  }
+  __dlog_print(0,4,"tvctx-manager",pcVar5,DAT_00018a54,uVar6,uVar7);
+LAB_000184be:
+  if (local_2c != __stack_chk_guard) {
+                    /* WARNING: Subroutine does not return */
+    __stack_chk_fail();
+  }
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION FUN_0001ed4c @ 0001ed4c (ref from 0001efb6) (GhidraScript)  
+INFO  DecompileStrings.java> 
+void FUN_0001ed4c(int param_1,manager_ctxt *param_2)
+
+{
+  int iVar1;
+  undefined4 uVar2;
+  int iVar3;
+  undefined4 uVar4;
+  void *__ptr;
+  int local_30;
+  int local_2c;
+  
+  uVar2 = DAT_0001f0c8;
+  iVar1 = DAT_0001f0c4;
+  local_2c = __stack_chk_guard;
+  __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > power state changed : %d",DAT_0001f0c8,DAT_0001f0c4
+               ,0x4fa,param_1);
+  context_system_property_remove("power_key_delayed");
+  context_system_property_remove("on_wakeup");
+  task_mgr_set_multiview_support_vconf();
+  if (param_1 == 1) {
+    event_filter_handle("power.pictureoff",*(undefined4 *)(param_2 + 0x2c),param_2);
+    context_set_timeout(0x20000000,1000,param_2);
+    context_set(0x2000,param_2);
+  }
+  else if (param_1 == 2) {
+    DAT_0003b56c = 1;
+    context_unset(0x2000,param_2);
+    context_set(0x20000,param_2);
+    local_30 = 0;
+    iVar3 = context_system_property_check("virtual_standby_support");
+    if (iVar3 == 0) {
+      __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > virtual standby is not supported",uVar2,
+                   iVar1 + 0x14,0x4e7);
+    }
+    else {
+      iVar3 = vconf_get_int("db/menu/system/power_control/Vstandby_Status",&local_30);
+      if (iVar3 == 0) {
+        __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > virtual standby on(%d)",uVar2,iVar1 + 0x14,
+                     0x4f0,local_30);
+        if (local_30 == 1) {
+          FUN_0001e910(0,param_2);
+        }
+      }
+      else {
+        __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > failed to get %s",uVar2,iVar1 + 0x14,0x4ec,
+                     "db/menu/system/power_control/Vstandby_Status");
+      }
+    }
+  }
+  else if (param_1 == 0) {
+    DAT_0003b524 = util_get_time_in_millis();
+    iVar3 = context_system_property_check("welcome_mode_supported");
+    if (iVar3 == 0) {
+      context_unset(0x8000000,param_2);
+    }
+    else {
+      context_set_timeout(0x8000000,0x514,param_2);
+      context_system_property_add("on_wakeup");
+      ecore_timer_add(0,0x40080000,0x18359,0);
+    }
+    context_unset(0x20022400,param_2);
+    event_filter_handle("power.normal",*(undefined4 *)(param_2 + 0x2c),param_2);
+    if (DAT_0003b56c != 0) {
+      iVar3 = context_system_property_check("autorun_last_app");
+      if (iVar3 != 0) {
+        uVar4 = device_power_get_wakeup_reason();
+        iVar3 = FUN_0001e0f8(uVar4,0,param_2);
+        if (((iVar3 == 0) ||
+            (iVar3 = context_system_property_check("portland_on_portrait"), iVar3 != 0)) ||
+           (iVar3 = FUN_00018a6c(), iVar3 != 0)) {
+          __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > ignore app-booting, wakeup reason(%d)",
+                       uVar2,iVar1,0x522,uVar4);
+          FUN_00016824(uVar4,param_2);
+        }
+        else if (((*(int *)(param_2 + 0x38) == 0) || (iVar3 = context_check_is_livetv(), iVar3 != 0)
+                 ) || ((iVar3 = context_find_running_task_byappid
+                                          (*(undefined4 *)(param_2 + 0x38),param_2), iVar3 == 0 ||
+                       (iVar3 = context_check_support_current_orientation
+                                          (*(undefined4 *)(param_2 + 0x38)), iVar3 == 0)))) {
+          __ptr = (void *)vconf_get_str("memory/appfw/current_fullscreen_appid");
+          if (__ptr != (void *)0x0) {
+            iVar3 = g_strcmp0(__ptr,"");
+            if ((iVar3 != 0) && (iVar3 = context_check_is_livetv(__ptr), iVar3 == 0)) {
+              __handle_livetv_booting_on_wakeup(param_2);
+            }
+            free(__ptr);
+          }
+        }
+        else {
+          __handle_app_booting_on_wakeup(param_2);
+        }
+      }
+      tzplatform_mkpath(7,"/app-boot-manager");
+      FUN_0001b6ac();
+      FUN_0001b60c();
+    }
+    iVar3 = g_file_test("/tmp/storaged_ready",0x10);
+    if (iVar3 == 0) {
+      __dlog_print(0,5,"tvctx-manager","%s: %s(%d) > storaged not ready",uVar2,iVar1,0x52d);
+    }
+    else {
+      FUN_0001bec8(param_2);
+    }
+    FUN_0001c100();
+    FUN_000170c8();
+    DAT_0003b56c = 0;
+  }
+  else {
+    __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > not handled power state : %d",uVar2,iVar1,0x540,
+                 param_1);
+  }
+  if (local_2c != __stack_chk_guard) {
+                    /* WARNING: Subroutine does not return */
+    __stack_chk_fail(0);
+  }
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION FUN_0001e56c @ 0001e56c (ref from 0001e5d4) (GhidraScript)  
+INFO  DecompileStrings.java> 
+undefined4 FUN_0001e56c(undefined4 param_1,manager_ctxt *param_2)
+
+{
+  undefined4 uVar1;
+  undefined4 uVar2;
+  int iVar3;
+  
+  uVar2 = DAT_0001e690;
+  uVar1 = DAT_0001e68c;
+  __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > early wakeup reason : %d",DAT_0001e690,DAT_0001e68c
+               ,0x711,param_1);
+  context_unset(0x20000400,param_2);
+  context_set_timeout(0x8000000,3000,param_2);
+  event_filter_handle("power.earlywakeup",*(undefined4 *)(param_2 + 0x2c),param_2);
+  iVar3 = context_system_property_check("autorun_last_app");
+  if (((iVar3 == 0) || (iVar3 = context_system_property_check("portland_on_portrait"), iVar3 != 0))
+     || (iVar3 = FUN_00018a6c(), iVar3 != 0)) {
+    FUN_0001b60c();
+    return 0;
+  }
+  iVar3 = FUN_0001e0f8(param_1,2,param_2);
+  if (iVar3 == 0) {
+    __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > ignore app-booting, wakeup reason(%d)",uVar2,
+                 uVar1,0x724,param_1);
+    FUN_00016824(param_1,param_2);
+    FUN_0001b60c();
+    return 0;
+  }
+  if (((*(int *)(param_2 + 0x38) == 0) || (iVar3 = context_check_is_livetv(), iVar3 != 0)) ||
+     ((iVar3 = context_find_running_task_byappid(*(undefined4 *)(param_2 + 0x38),param_2),
+      iVar3 == 0 ||
+      (iVar3 = context_check_support_current_orientation(*(undefined4 *)(param_2 + 0x38)),
+      iVar3 == 0)))) {
+    __handle_livetv_booting_on_wakeup(param_2);
+    FUN_0001b60c();
+    return 0;
+  }
+  __handle_app_booting_on_wakeup(param_2);
+  FUN_0001b60c();
+  return 0;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 00024f04 : %s: %s(%d) > last_app_source(%s) is freed  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 00025df4 : %s: %s(%d) > firstscreen appid is null  (2 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION cp_app_handle_task_by_cp_key @ 00020b2c (ref from 00020dc8) (GhidraScript)  
+INFO  DecompileStrings.java> 
+void cp_app_handle_task_by_cp_key
+               (undefined4 param_1,int param_2,undefined4 param_3,undefined4 param_4,int param_5,
+               int param_6)
+
+{
+  int iVar1;
+  undefined4 uVar2;
+  int iVar3;
+  undefined4 uVar4;
+  undefined4 uVar5;
+  undefined4 uVar6;
+  char *pcVar7;
+  undefined4 local_30;
+  int local_2c;
+  
+  local_30 = 0;
+  local_2c = __stack_chk_guard;
+  iVar1 = cp_app_is_cp_key_precondition_satisfied(&local_30,param_6);
+  if (iVar1 != 0) {
+    switch(param_4) {
+    case 0:
+      if (param_2 == 0) {
+        __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > FATAL: null appid",DAT_00020e7c,DAT_00020e78,
+                     0x21b);
+      }
+      else {
+        iVar1 = bundle_create();
+        if (iVar1 == 0) {
+          __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > bundle_create failed",DAT_00020e7c,
+                       DAT_00020e88,0x183);
+          task_mgr_manual_launch(param_2,0,local_30,param_6);
+        }
+        else {
+          if (param_5 == 1) {
+            bundle_add(iVar1,"__K_CONTEXT_MGR_RC_TYPE",&DAT_000291b0);
+          }
+          else {
+            bundle_add(iVar1,"__K_CONTEXT_MGR_RC_TYPE",&DAT_000291cc);
+          }
+          uVar2 = FUN_00016fac(&DAT_00026fbc);
+          iVar3 = g_strcmp0(param_1,uVar2);
+          if (iVar3 == 0) {
+            bundle_add(iVar1,"callerid","com.samsung.netflix.key");
+          }
+          task_mgr_manual_launch(param_2,iVar1,local_30,param_6);
+          bundle_free(iVar1);
+        }
+      }
+      break;
+    case 1:
+      FUN_0001f82c(param_1,param_3);
+      uVar2 = local_30;
+      iVar1 = util_check_b2b_edit_blocked("apps_editable");
+      if (iVar1 == 0) {
+        if (param_2 == 0) {
+          pcVar7 = "%s: %s(%d) > FATAL: null appid";
+          uVar4 = 0x1ae;
+          uVar2 = DAT_00020e84;
+        }
+        else {
+          iVar1 = bundle_create();
+          if (iVar1 != 0) {
+            if (DAT_0003b588 == 0) {
+              __dlog_print(0,5,"tvctx-manager","%s: %s(%d) > firstscreen appid is null",DAT_00020e7c
+                           ,DAT_00020e80,0x19f);
+            }
+            else {
+              bundle_add(iVar1,"__K_RELOCATE_BELOW");
+            }
+            bundle_add(iVar1,"Sub_Menu","detail");
+            bundle_add(iVar1,"widget_id",param_2);
+            task_mgr_manual_launch("com.samsung.tv.store",iVar1,uVar2,param_6);
+            bundle_free(iVar1);
+            break;
+          }
+          pcVar7 = "%s: %s(%d) > bundle_create failed";
+          uVar4 = 0x198;
+          uVar2 = DAT_00020e80;
+        }
+        __dlog_print(0,6,"tvctx-manager",pcVar7,DAT_00020e7c,uVar2,uVar4);
+      }
+      else {
+        event_filter_handle("not_available",*(undefined4 *)(param_6 + 0x2c),param_6);
+      }
+      break;
+    case 3:
+      __dlog_print(0,5,"tvctx-manager","%s: %s(%d) > not supported",DAT_00020e7c,DAT_00020e78,0x222)
+      ;
+      uVar2 = local_30;
+      uVar4 = dcgettext(0,"TV_SID_APP_NO_AVAIL_COUNTRY_DISCONTINUED_NO_SUPPORTED",5);
+      task_mgr_launch_toast(uVar4,uVar2,3,0,param_6);
+      kpi_log_add("20_buttonerror",4,param_1);
+      break;
+    case 0xffffffff:
+    case 2:
+      __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > query again %s(%d)",DAT_00020e7c,DAT_00020e78,
+                   0x210,param_1,param_4);
+      uVar2 = local_30;
+      uVar4 = dcgettext(0,"COM_SID_ERROR_KR_ERROR",5);
+      uVar5 = dcgettext(0,"TV_SID_UNALBE_CONNECT_SAMSUNG_SERVER_AGAIN",5);
+      uVar6 = dcgettext(0,"SID_OK",5);
+      task_mgr_launch_btn_popup(uVar4,uVar5,1,uVar6,0,0,uVar2,param_6);
+      FUN_0001f82c(param_1,param_3);
+      break;
+    default:
+      __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > undefined status %d",DAT_00020e7c,DAT_00020e78,
+                   0x227,param_4);
+    }
+  }
+  if (local_2c != __stack_chk_guard) {
+                    /* WARNING: Subroutine does not return */
+    __stack_chk_fail();
+  }
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION FUN_0001a2a0 @ 0001a2a0 (ref from 0001a46a) (GhidraScript)  
+INFO  DecompileStrings.java> 
+void FUN_0001a2a0(void)
+
+{
+  undefined4 uVar1;
+  undefined4 uVar2;
+  int iVar3;
+  int iVar4;
+  int in_r3;
+  int in_stack_00000000;
+  undefined4 in_stack_00000004;
+  undefined4 in_stack_00000008;
+  int iVar5;
+  int local_2c;
+  int local_28;
+  int local_24;
+  
+  local_28 = 0;
+  local_24 = __stack_chk_guard;
+  local_2c = 0;
+  if ((in_r3 == 0) || (iVar3 = g_strcmp0(in_r3,"org.tizen.syspopup.signal"), iVar3 == 0)) {
+    if ((in_stack_00000000 != 0) &&
+       (iVar3 = g_strcmp0(in_stack_00000000,"syspopup_btn_pressed"), iVar3 == 0)) {
+      g_variant_get(in_stack_00000004,"(u&s)",&local_28,&local_2c);
+      uVar2 = DAT_0001a4ac;
+      uVar1 = DAT_0001a4a8;
+      iVar3 = local_28;
+      iVar5 = local_2c;
+      __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > btn %d (%s)",DAT_0001a4ac,DAT_0001a4a8,0x2e0,
+                   local_28,local_2c);
+      if ((local_28 == 0) && (local_2c != 0)) {
+        iVar4 = bundle_create();
+        if (iVar4 == 0) {
+          __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > bundle_create failed",uVar2,uVar1,0x2e5,
+                       iVar3,iVar5);
+        }
+        else {
+          if (DAT_0003b534 == 0) {
+            __dlog_print(0,5,"tvctx-manager","%s: %s(%d) > firstscreen appid is null",uVar2,uVar1,
+                         0x2ec,iVar3,iVar5);
+          }
+          else {
+            bundle_add(iVar4,"__K_RELOCATE_BELOW");
+          }
+          iVar3 = g_strcmp0(local_2c,"ctxmgr_disclaimer");
+          if (iVar3 == 0) {
+            __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > go to wizard",uVar2,uVar1,0x2ef);
+            bundle_add(iVar4,"type","NETWORK_TERMS_SETUP");
+            task_mgr_manual_launch("org.tizen.wizard",iVar4,1,in_stack_00000008);
+          }
+          else {
+            iVar3 = g_strcmp0(local_2c,"ctxmgr_network");
+            if (iVar3 == 0) {
+              __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > go to smarthub-connection-test",uVar2,
+                           uVar1,0x2f3);
+              bundle_add(iVar4,"ignore_menu_return",&DAT_000241e8);
+              task_mgr_manual_launch("org.tizen.smarthub-connection-test",iVar4,1,in_stack_00000008)
+              ;
+            }
+          }
+          bundle_free(iVar4);
+        }
+      }
+    }
+  }
+  else {
+    __dlog_print(0,3,"tvctx-manager","%s: %s(%d) > ignore (%s)",DAT_0001a4ac,DAT_0001a4a8,0x2da,
+                 in_r3);
+  }
+  if (local_24 != __stack_chk_guard) {
+                    /* WARNING: Subroutine does not return */
+    __stack_chk_fail();
+  }
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 000261bc : %s: %s(%d) > last livetv : %s, app source : %s  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 000261ec : %s: %s(%d) > null livetv, app source : %s  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 000262dc : %s: %s(%d) > source app stopped or empty, activate livetv  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 00026318 : %s: %s(%d) > null firstscreen appid  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 000263a0 : %s: %s(%d) > not app source, activate livetv  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 000269cc : db/menu/app_booting  (2 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 000269e0 : %s: %s(%d) > app booting disabled  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 00026a04 : %s: %s(%d) > SYSTEM_INFO_KEY_APP_BOOTING_SUPPORT get failed  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 00026bf0 : %s: %s(%d) > source app stopped or empty, launch livetv  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 00027068 : db/first_screen/type  (3 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION context_init_product @ 000214a8 (ref from 000217ba) (GhidraScript)  
+INFO  DecompileStrings.java> 
+void context_init_product(manager_ctxt *param_1)
+
+{
+  int iVar1;
+  char *pcVar2;
+  undefined4 uVar3;
+  undefined4 uVar4;
+  int local_60;
+  int local_5c;
+  int local_58;
+  int local_54;
+  int local_50;
+  int local_4c;
+  code *local_48;
+  int local_44;
+  int local_40;
+  int local_3c;
+  int local_38 [3];
+  int local_2c;
+  
+  local_2c = __stack_chk_guard;
+  local_3c = 0;
+  local_40 = 0;
+  local_44 = 0;
+  local_4c = 0;
+  local_50 = 0;
+  local_54 = 0;
+  local_58 = 0;
+  local_5c = 0;
+  local_48 = (code *)0x1;
+  context_init_pre();
+  iVar1 = TVServiceAPI::CreateSignalSubscriber
+                    ((_func_int_ESignalType_TSSignalData_void_ptr *)&LAB_0001924c_1,
+                     (ISignalSubscriber **)&DAT_0003b5b0);
+  if ((iVar1 != 0) || (DAT_0003b5b0 == (int *)0x0)) {
+    __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > failed to get signal subscriber instance",
+                 DAT_000221c0,DAT_000221b4,0xac8);
+    uVar4 = 0xffffffff;
+    goto LAB_00021bc6;
+  }
+  __init_sound_manager_handler(param_1);
+  __init_device_power_handler(param_1);
+  FUN_0001b048(param_1);
+  iVar1 = context_system_property_check("product:portland");
+  if (iVar1 == 0) {
+    uVar3 = DAT_000218a8;
+  }
+  else {
+    iVar1 = display_rotator_get_status(local_38);
+    uVar3 = DAT_00021f9c;
+    if (iVar1 != 0) {
+      __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > failed to get status %d",DAT_00021f9c,
+                   DAT_00021fa0,0x151,iVar1);
+    }
+    iVar1 = FUN_00016698(local_38);
+    if (iVar1 != 0) {
+      context_system_property_add("portland_on_portrait");
+    }
+    iVar1 = display_rotator_register_cb(0,0x1f0cd,param_1);
+    if (iVar1 != 0) {
+      __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > failed to register cb %d",uVar3,DAT_000221b8,
+                   0x158,iVar1);
+    }
+    ScreenController_Initialize_Ecore();
+    iVar1 = ScreenController_Register_Angle_Change(0x1a611,param_1,1);
+    if (iVar1 == 0) {
+      __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > failed to register angle change",uVar3,
+                   DAT_00021fa0,0x15c);
+    }
+    DAT_0003b596 = 0;
+  }
+  iVar1 = TVServiceAPI::CreateSourceControl(1,0,DAT_000218ac);
+  if ((iVar1 != 0) || (DAT_0003b53c == (int *)0x0)) {
+    uVar4 = 0xffffffff;
+    __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > failed to get source control instance",uVar3,
+                 DAT_000221b4,0xad6);
+    goto LAB_00021bc6;
+  }
+  iVar1 = (**(code **)(*DAT_0003b53c + 0x18))(DAT_0003b53c,&local_60);
+  if ((iVar1 < 1) || (local_60 == 0)) {
+    iVar1 = TVServiceAPI::CreateSourceControl(1,1,DAT_000218b0);
+    if (iVar1 == 0) goto LAB_00021c32;
+LAB_0002156c:
+    __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > failed to get source control sub instance",uVar3,
+                 DAT_000218b4,0xae4);
+  }
+  else {
+    context_set(2,param_1);
+    iVar1 = TVServiceAPI::CreateSourceControl(1,1,DAT_00021fa8);
+    if (iVar1 != 0) goto LAB_0002156c;
+LAB_00021c32:
+    if ((DAT_0003b538 == (int *)0x0) ||
+       (iVar1 = (**(code **)(*DAT_0003b538 + 0x18))(DAT_0003b538,&local_60), iVar1 < 1))
+    goto LAB_0002156c;
+    if (local_60 != 0) {
+      context_set(0x100000,param_1);
+    }
+  }
+  (**(code **)(*DAT_0003b5b0 + 8))(DAT_0003b5b0,0x3b,param_1,1,0,0);
+  (**(code **)(*DAT_0003b5b0 + 8))(DAT_0003b5b0,0x3c,param_1,1,0,0);
+  (**(code **)(*DAT_0003b5b0 + 8))(DAT_0003b5b0,0x3d,param_1,1,0,0);
+  (**(code **)(*DAT_0003b5b0 + 8))(DAT_0003b5b0,0x10,param_1,1,0,0);
+  (**(code **)(*DAT_0003b5b0 + 8))(DAT_0003b5b0,0x12,param_1,1,0,0);
+  (**(code **)(*DAT_0003b5b0 + 8))(DAT_0003b5b0,0x54,param_1,1,0,0);
+  (**(code **)(*DAT_0003b5b0 + 8))(DAT_0003b5b0,0x22,param_1,1,0,0);
+  (**(code **)(*DAT_0003b5b0 + 8))(DAT_0003b5b0,0x23,param_1,1,0,0);
+  (**(code **)(*DAT_0003b5b0 + 8))(DAT_0003b5b0,0x19,param_1,1,0,0);
+  (**(code **)(*DAT_0003b5b0 + 8))(DAT_0003b5b0,0x1a,param_1,1,0,0);
+  (**(code **)(*DAT_0003b5b0 + 8))(DAT_0003b5b0,0x1b,param_1,1,0,0);
+  (**(code **)(*DAT_0003b5b0 + 8))(DAT_0003b5b0,0x1c,param_1,1,0,0);
+  (**(code **)(*DAT_0003b5b0 + 8))(DAT_0003b5b0,0x1d,param_1,1,0,0);
+  (**(code **)(*DAT_0003b5b0 + 8))(DAT_0003b5b0,0x80,param_1,1,0,0);
+  DAT_0003b460 = util_config_get_int("timeoutHalt");
+  mbr_register_event_callback(0x19a19,param_1,2);
+  pcVar2 = (char *)mbr_mode();
+  if ((code *)pcVar2 == (code *)0x0) {
+    __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > get mbr:%d",uVar3,DAT_000218b8,0x1a1,0);
+  }
+  else {
+    pcVar2 = (char *)0x1;
+    __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > get mbr:%d",uVar3,DAT_00021f94,0x1a1,1);
+    context_set(0x10000,param_1);
+  }
+  svc_pvr_register_get_pvr_state_cb(&LAB_00019184_1,param_1);
+  cp_app_init(param_1);
+  util_listen_epop_enabled(0x19b6d,param_1);
+  __init_mls_event_handler(param_1);
+  DAT_0003b534 = vconf_get_str("db/first_screen/type");
+  if (DAT_0003b534 == 0) {
+    __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > failed to get firstscreen appid from vconf",uVar3
+                 ,DAT_000221b4,0xb07);
+  }
+  util_vconf_add_handler("memory/tv-viewer/viewer_state",0x19de5,param_1);
+  vconf_notify_key_changed("db/menu/support/use_mode",0x17a69,0);
+  iVar1 = vconf_get_int("db/menu/support/use_mode",&local_50);
+  if (iVar1 == 0) {
+    if (local_50 == 1) {
+      __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > on shop mode",uVar3,DAT_000221b4,0xb10);
+      context_system_property_add("shop_mode");
+    }
+  }
+  else {
+    __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > failed to get use mode",uVar3,DAT_00021fa4,0xb14)
+    ;
+  }
+  vconf_set_bool("memory/VDWebApp/partial",0);
+  vconf_notify_key_changed("memory/VDWebApp/partial",0x1a045,param_1);
+  vconf_notify_key_changed("memory/cec-service/stb_connected",0x17ac1,0);
+  iVar1 = vconf_get_int("memory/cec-service/stb_connected",&local_3c);
+  if (iVar1 == 0) {
+    if (local_3c == 1) {
+      context_system_property_add("cec-stb_connected");
+      __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > cec stb connected",uVar3,DAT_000221b4,0xb1f);
+    }
+  }
+  else {
+    __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > failed to get cec stb connected",uVar3,
+                 DAT_00021fa4,0xb22);
+  }
+  vconf_notify_key_changed("db/factory/exhibition_mode",0x1a105,0);
+  iVar1 = vconf_get_bool("db/factory/exhibition_mode",&local_40);
+  if (iVar1 == 0) {
+    if (local_40 == 1) {
+      context_system_property_add("exhibit_mode");
+      __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > exhibition mode",uVar3,DAT_000221b4,0xb29);
+    }
+  }
+  else {
+    __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > failed to get exhibition mode",uVar3,DAT_00021fa4
+                 ,0xb2c);
+  }
+  vconf_notify_key_changed("memory/context-manager/powerkey/ignore_power_key",0x17b25,0);
+  iVar1 = vconf_get_int("memory/context-manager/powerkey/ignore_power_key",&local_44);
+  if (iVar1 == 0) {
+    if (local_44 == 1) {
+      context_system_property_add("ignore_powerkey");
+      __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > ignore_powerkey",uVar3,DAT_000221b4,0xb33);
+    }
+  }
+  else {
+    __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > failed to get ignore_powerkey",uVar3,DAT_00021fa4
+                 ,0xb36);
+  }
+  vconf_notify_key_changed("memory/channel-search/channel-search-activate",&LAB_0001a18c_1,0);
+  iVar1 = vconf_get_bool("memory/channel-search/channel-search-activate",DAT_00021c60);
+  if (iVar1 != 0) {
+    pcVar2 = "memory/channel-search/channel-search-activate";
+    __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > failed to get %s",uVar3,DAT_00021fa4,0xb3b,
+                 "memory/channel-search/channel-search-activate");
+  }
+  util_vconf_add_handler("memory/tv-viewer/visible_banners",0x1b321,param_1);
+  util_vconf_add_handler("memory/tv-viewer/visible_video_banners",0x1b321,param_1);
+  vconf_notify_key_changed("memory/sysman/low_memory",0x17bad,0);
+  iVar1 = vconf_get_int("memory/sysman/low_memory",&local_48);
+  if (iVar1 == 0) {
+    if (1 < (int)local_48) {
+      context_system_property_add("low_memory");
+      pcVar2 = (char *)local_48;
+      __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > low memory state %d",uVar3,DAT_00021c64,0xb46,
+                   local_48);
+    }
+  }
+  else {
+    __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > failed to get low memory state",uVar3,
+                 DAT_00021fa4,0xb49);
+  }
+  vconf_notify_key_changed("memory/notification/current_state",0x1a1dd,param_1);
+  iVar1 = vconf_get_int("memory/notification/current_state",&local_4c);
+  if (iVar1 == 0) {
+    if (local_4c - 2U < 2) {
+      __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > cs-noti in partial UI running",uVar3,
+                   DAT_000221b4,0xb4f,pcVar2);
+      context_system_property_add("partial_notification");
+    }
+  }
+  else {
+    __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > failed to get cs-noti state",uVar3,DAT_00021fa4,
+                 0xb53,pcVar2);
+  }
+  vconf_notify_key_changed
+            ("db/menu/smart_hub/homedatacontrol/defaultdisclaimeragree",0x1fab5,param_1);
+  iVar1 = vconf_get_int("db/menu/smart_hub/homedatacontrol/defaultdisclaimeragree",&local_54);
+  if (iVar1 == 0) {
+    if (local_54 == 1) {
+      context_system_property_add("disclaimer_agree");
+      cp_app_get_all_saved_cp_app_info();
+      iVar1 = util_check_was_ready();
+      if (iVar1 == 0) {
+        FUN_00018ef8();
+      }
+      else {
+        cp_app_query_all_cp_app_info();
+      }
+    }
+  }
+  else {
+    __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > failed to get disclaimer agree state",uVar3,
+                 DAT_00021fa4,0xb62);
+  }
+  vconf_notify_key_changed("db/menu/smart_hub/ontvsetting/auto_start",&LAB_00017c10_1,param_1);
+  iVar1 = vconf_get_int("db/menu/smart_hub/ontvsetting/auto_start",&local_58);
+  if (iVar1 == 0) {
+    if (local_58 == 1) {
+      context_system_property_add("fs_autostart");
+    }
+  }
+  else {
+    __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > failed to get fs autostart option",uVar3,
+                 DAT_00021fa4,0xb6b);
+  }
+  local_38[0] = 0;
+  DAT_0003b5a0 = g_bus_get_sync(1,0,local_38);
+  if (local_38[0] == 0) {
+    if (DAT_0003b5a0 == 0) {
+      __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > null connection",uVar3,DAT_000221bc,0x308);
+    }
+    else {
+      pcVar2 = (char *)(FUN_0001a2a0 + 1);
+      DAT_0003b59c = (code *)g_dbus_connection_signal_subscribe
+                                       (DAT_0003b5a0,0,"org.tizen.syspopup.signal",0,
+                                        "/syspopup/dbus_handler",0,0,0x1a2a1,param_1,0);
+      if (DAT_0003b59c == (code *)0x0) {
+        __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > g_dbus_connection_signal_subscribe failed",
+                     uVar3,DAT_00021f98,0x311);
+        g_object_unref(DAT_0003b5a0);
+        DAT_0003b5a0 = 0;
+      }
+      else {
+        pcVar2 = (char *)DAT_0003b59c;
+        __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > register done %d",uVar3,DAT_00021f98,0x315,
+                     DAT_0003b59c);
+      }
+    }
+  }
+  else {
+    pcVar2 = *(char **)(local_38[0] + 8);
+    __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > g_bus_get_sync failed (%s)",uVar3,DAT_00021c68,
+                 0x303,pcVar2);
+    g_error_free(local_38[0]);
+  }
+  iVar1 = g_file_test("/tmp/storaged_ready",0x10);
+  if (iVar1 == 0) {
+    __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > set usb ready file monitor",uVar3,DAT_00021c64,
+                 0xb74,pcVar2);
+    local_38[0] = iVar1;
+    DAT_0003b574 = g_file_new_for_path("/tmp/storaged_ready");
+    DAT_0003b578 = g_file_monitor_file(DAT_0003b574,0,0,local_38);
+    if (local_38[0] != 0) {
+      g_assertion_message_error
+                (0,"/home/abuild/rpmbuild/BUILD/app-context-manager-tv-0.2/src/context-product.cpp",
+                 0x24a,DAT_00021c64 + 0x50,"error",local_38[0],0,0);
+    }
+    g_error_free(local_38[0]);
+    g_signal_connect_data(DAT_0003b578,"changed",&LAB_0001c0e8_1,param_1,0,0);
+    DAT_0003b570 = g_timeout_add_seconds(0x78,&LAB_0001beac_1,0);
+    iVar1 = context_system_property_check("welcome_mode_supported");
+  }
+  else {
+    FUN_0001bec8(param_1);
+    iVar1 = context_system_property_check("welcome_mode_supported");
+  }
+  if (iVar1 != 0) {
+    vconf_notify_key_changed("memory/welcome_mode/power_animation",0x17c69,param_1);
+    iVar1 = vconf_get_int("memory/welcome_mode/power_animation",&local_5c);
+    if (iVar1 == 0) {
+      if (local_5c != 0) {
+        context_system_property_add("on_power_animation");
+      }
+    }
+    else {
+      __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > failed to get welcome-mode animation status",
+                   uVar3,DAT_00021fa4,0xb7f);
+    }
+  }
+  util_vconf_add_handler("db/multi-assistant/default_assistant_appid",0x17579,0);
+  util_vconf_add_handler("db/comss/cisblock",&LAB_00017d44_1,0);
+  iVar1 = context_system_property_check("product:portland");
+  if (iVar1 != 0) {
+    util_vconf_add_handler("db/portland/turnoffmode",0x1761d,0);
+  }
+  context_init_post(param_1);
+  DAT_0003b594 = 1;
+  uVar4 = 0;
+LAB_00021bc6:
+  if (local_2c != __stack_chk_guard) {
+                    /* WARNING: Subroutine does not return */
+    __stack_chk_fail(uVar4);
+  }
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION cp_app_init_fs_appid @ 0001c518 (ref from 0001c51e) (GhidraScript)  
+INFO  DecompileStrings.java> 
+void cp_app_init_fs_appid(void)
+
+{
+  DAT_0003b588 = vconf_get_str("db/first_screen/type");
+  if (DAT_0003b588 == 0) {
+    __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > failed to get firstscreen appid from vconf",
+                 DAT_0001c56c,DAT_0001c568,0x254);
+    return;
+  }
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION FUN_0001f510 @ 0001f510 (ref from 0001f61c) (GhidraScript)  
+INFO  DecompileStrings.java> 
+void FUN_0001f510(int param_1,undefined4 param_2,int param_3)
+
+{
+  int iVar1;
+  char *pcVar2;
+  void *__ptr;
+  undefined4 uVar3;
+  undefined4 uVar4;
+  char *pcVar5;
+  undefined4 uVar6;
+  char *pcVar7;
+  char *pcVar8;
+  char *pcVar9;
+  char *pcVar10;
+  undefined1 auStack_38 [4];
+  int local_34;
+  int local_2c;
+  
+  local_2c = __stack_chk_guard;
+  if (param_1 == 0) {
+    pcVar2 = "%s: %s(%d) > invalid parameter";
+    uVar4 = 0x270;
+  }
+  else {
+    iVar1 = display_rotator_is_supported();
+    if (iVar1 != 0) {
+      iVar1 = context_is_aod_window_ready();
+      if (iVar1 == 0) {
+        FUN_000168a8(param_3);
+        goto LAB_0001f53e;
+      }
+      display_rotator_get_status(auStack_38);
+      if (local_34 == 0) {
+        util_rotate_landscape(*(undefined4 *)(param_1 + 0x10));
+        goto LAB_0001f53e;
+      }
+      if (local_34 != 1) {
+        __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > wrong orientation(%d)",DAT_0001f80c,
+                     DAT_0001f808,0x2b2,local_34);
+        goto LAB_0001f53e;
+      }
+      util_rotate_portrait(*(undefined4 *)(param_1 + 0x10));
+      context_system_property_add("rotate_to_portrait");
+      iVar1 = util_is_btmusic_playing(param_3);
+      if (iVar1 != 0) {
+        __dlog_print(0,4,"tvctx-manager",
+                     "%s: %s(%d) > While BT music playing, don\'t relocate below.",DAT_0001f80c,
+                     DAT_0001f808,0x288);
+        goto LAB_0001f53e;
+      }
+      pcVar2 = (char *)vconf_get_str("memory/appfw/current_fullscreen_appid");
+      __ptr = (void *)vconf_get_str("db/first_screen/type");
+      iVar1 = g_strcmp0(pcVar2,"");
+      if (iVar1 == 0) {
+        if (*(int *)(param_3 + 0x34) == 0) {
+          pcVar5 = "org.tizen.tv-viewer";
+        }
+        else {
+          pcVar5 = *(char **)(*(int *)(param_3 + 0x34) + 4);
+          if (pcVar5 == (char *)0x0) {
+            pcVar5 = "org.tizen.tv-viewer";
+          }
+        }
+      }
+      else {
+        pcVar5 = pcVar2;
+      }
+      iVar1 = g_strcmp0(pcVar5,__ptr);
+      if ((iVar1 == 0) || (iVar1 = g_strcmp0(pcVar5,"com.samsung.tv.bbplayer"), iVar1 == 0)) {
+        uVar4 = DAT_0001f808;
+        pcVar8 = "org.tizen.tv-viewer";
+        pcVar7 = "com.samsung.tv.aod";
+        __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > relocate %s below %s because base app is %s",
+                     DAT_0001f80c,DAT_0001f808,0x29a,"com.samsung.tv.aod","org.tizen.tv-viewer",
+                     pcVar5);
+        iVar1 = aul_extension_app_group_relocate_below_base_appid
+                          ("org.tizen.tv-viewer","com.samsung.tv.aod");
+        if (iVar1 < 0) {
+          uVar3 = 0x29d;
+          uVar6 = DAT_0001f80c;
+          goto LAB_0001f750;
+        }
+      }
+      else {
+        iVar1 = g_strcmp0(pcVar5,"org.tizen.epg");
+        uVar6 = DAT_0001f80c;
+        uVar4 = DAT_0001f808;
+        pcVar8 = pcVar5;
+        if (iVar1 == 0) {
+          pcVar10 = "org.tizen.tv-viewer";
+          pcVar9 = "com.samsung.tv.aod";
+          pcVar7 = "org.tizen.tv-viewer";
+          __dlog_print(0,4,"tvctx-manager",
+                       "%s: %s(%d) > relocate %s below %s and relocate %s below %s",DAT_0001f80c,
+                       DAT_0001f808,0x29f,"org.tizen.tv-viewer",pcVar5,"com.samsung.tv.aod",
+                       "org.tizen.tv-viewer");
+          iVar1 = aul_extension_app_group_relocate_below_base_appid(pcVar5,"org.tizen.tv-viewer");
+          if (iVar1 < 0) {
+            __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > failed to relocate below",DAT_0001f80c,
+                         uVar4,0x2a2,pcVar7,pcVar8,pcVar9,pcVar10);
+          }
+          iVar1 = aul_extension_app_group_relocate_below_base_appid
+                            ("org.tizen.tv-viewer","com.samsung.tv.aod");
+          if (iVar1 < 0) {
+            uVar3 = 0x2a5;
+            uVar6 = DAT_0001f80c;
+LAB_0001f750:
+            __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > failed to relocate below",uVar6,uVar4,
+                         uVar3,pcVar7,pcVar8);
+          }
+        }
+        else {
+          pcVar7 = "com.samsung.tv.aod";
+          __dlog_print(0,4,"tvctx-manager","%s: %s(%d) > relocate %s below %s",DAT_0001f80c,
+                       DAT_0001f808,0x2a8,"com.samsung.tv.aod",pcVar5);
+          iVar1 = aul_extension_app_group_relocate_below_base_appid(pcVar5,"com.samsung.tv.aod");
+          if (iVar1 < 0) {
+            uVar3 = 0x2ab;
+            goto LAB_0001f750;
+          }
+        }
+      }
+      free(pcVar2);
+      free(__ptr);
+      goto LAB_0001f53e;
+    }
+    pcVar2 = "%s: %s(%d) > display rotator not available";
+    uVar4 = 0x275;
+  }
+  __dlog_print(0,6,"tvctx-manager",pcVar2,DAT_0001f80c,DAT_0001f808,uVar4);
+LAB_0001f53e:
+  if (local_2c != __stack_chk_guard) {
+                    /* WARNING: Subroutine does not return */
+    __stack_chk_fail();
+  }
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 00027080 : %s: %s(%d) > failed to get firstscreen appid from vconf  (2 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 00027a50 : %s: %s(%d) > (%s) go to livetv  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 00027a70 : %s: %s(%d) > no livetv is running  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 00027dd4 : bizapp_boot_support  (2 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ----- FUNCTION util_init_system_info_product @ 000221c4 (ref from 0002234e) (GhidraScript)  
+INFO  DecompileStrings.java> 
+void util_init_system_info_product(undefined4 param_1)
+
+{
+  int iVar1;
+  undefined4 uVar2;
+  char local_21;
+  int local_20;
+  int local_1c;
+  
+  local_1c = __stack_chk_guard;
+  local_21 = '\0';
+  local_20 = 0;
+  traceBegin(0x40,0,"CM:\"util_init_system_info_product start\"");
+  FUN_000166f8(0x154,"epop_support",param_1);
+  FUN_000166f8(0x147,"religious_support",param_1);
+  FUN_0001817c(0x6e,0,1,"no_epg",param_1);
+  FUN_000166f8(0x14f,"welcome_mode_supported",param_1);
+  FUN_000166f8(0x1d2,"always_instant_on",param_1);
+  FUN_000166f8(0x1e8,"app_booting_mode",param_1);
+  FUN_000166f8(0x3d,"voice_recognition",param_1);
+  FUN_000166f8(0x2c2,"ambient_screen_support",param_1);
+  FUN_000166f8(0x247,"product:frame_tv",param_1);
+  FUN_000166f8(0x2e4,"product:wall",param_1);
+  FUN_000166f8(0x333,"product:portland",param_1);
+  FUN_00016780("com.samsung/featureconf/frame_portrait_mode_support","product:frame32",param_1);
+  FUN_000166f8(0x206,"picture_direct",param_1);
+  FUN_0001817c(0x48,0,1,"network:none",param_1);
+  FUN_000166f8(0x9c7c,"product:iwb",param_1);
+  FUN_000166f8(0x9c7e,"product:pensee",param_1);
+  FUN_0001817c(0x27a7,1,1,"virtual_standby_support",param_1);
+  FUN_00016780("com.samsung/featureconf/epfactory.b2b_admin_menu_support","b2b_admin_support",
+               param_1);
+  FUN_00016780("com.samsung/featureconf/appfw.bizapp_on_wakeup","bizapp_boot_support",param_1);
+  FUN_00016780("com.samsung/featureconf/multiview.support","multiview_support",param_1);
+  FUN_00016780("com.samsung/featureconf/product.smart_monitor_feature_support",
+               "product:smart_monitor",param_1);
+  system_info_get_custom_bool("com.samsung/featureconf/browser.support",&local_21);
+  if (local_21 != '\0') {
+    FUN_0001817c(0xe7,0,0,"preload_browser",param_1);
+  }
+  FUN_000166f8(0x1d3,"product:htv",param_1);
+  iVar1 = FUN_000166f8(0x2bf,"product:b2b_option",param_1);
+  if (iVar1 != 0) {
+    FUN_000166f8(0x272f,"apps_editable",param_1);
+    FUN_000166f8(0x2735,"ambient_editable",param_1);
+  }
+  iVar1 = system_info_get_value_int(0x27a1,&local_20);
+  if ((iVar1 == 0) &&
+     (__dlog_print(0,4,"tvctx-manager","%s: %s(%d) > hotel security setting:%d",DAT_000224fc,
+                   DAT_000224f8,0x7a,local_20), local_20 == 0)) {
+    FUN_0001817c(0x13b,1,1,"hotel_mode",param_1);
+  }
+  uVar2 = context_get_tv_mode();
+  switch(uVar2) {
+  case 1:
+    g_hash_table_insert(param_1,&DAT_00029d4c,1);
+    break;
+  case 2:
+    g_hash_table_insert(param_1,&DAT_00029d54,1);
+    break;
+  case 3:
+    g_hash_table_insert(param_1,&DAT_00028e00,1);
+    break;
+  case 4:
+    g_hash_table_insert(param_1,"ntsc_dvb",1);
+    break;
+  default:
+    __dlog_print(0,6,"tvctx-manager","%s: %s(%d) > failed to get tv mode(%d)",DAT_000224fc,
+                 DAT_000224f8,0x8e,uVar2);
+  }
+  traceEnd(0x40,0);
+  if (local_1c != __stack_chk_guard) {
+                    /* WARNING: Subroutine does not return */
+    __stack_chk_fail();
+  }
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 00027de8 : db/menu/system/smartfeatures/autorunsignage  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 00027e14 : db/menu/system/smartfeatures/autorun-defaultapp  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 00027e44 : %s: %s(%d) > autorun bizapp on wakeup (%s)  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 00027e70 : %s: %s(%d) > app-booting blocked by bizapp boot  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 00027ef0 : %s: %s(%d) > app booting blocked by ambient mode  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 00027f4c : %s: %s(%d) > app booting blocked by wakeup reason %d (power state %d)  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 00027f94 : %s: %s(%d) > app_booting %d, power_state %d  (2 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 000281f0 : %s: %s(%d) > background standby. don't rotate.  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 0002833c : %s: %s(%d) > skip activate livetv  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 00028360 : %s: %s(%d) > autorun last app is off, activate livetv  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 00029b5c : app_booting_mode  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 00029b84 : com.samsung/featureconf/frame_portrait_mode_support  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 00029be8 : com.samsung/featureconf/epfactory.b2b_admin_menu_support  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 00029c24 : com.samsung/featureconf/appfw.bizapp_on_wakeup  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 00029c68 : com.samsung/featureconf/multiview.support  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 00029c94 : com.samsung/featureconf/product.smart_monitor_feature_support  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> ===== STRING @ 00029cd4 : com.samsung/featureconf/browser.support  (1 xrefs) (GhidraScript)  
+INFO  DecompileStrings.java> TOTAL FUNCS DECOMPILED: 21 (GhidraScript)  
+INFO  ANALYZING changes made by post scripts: file://~/build/samsung/CleanFrame/.local/q90t/bin/tvctx-manager (HeadlessAnalyzer)  
+INFO  REPORT: Post-analysis succeeded for file: file://~/build/samsung/CleanFrame/.local/q90t/bin/tvctx-manager (HeadlessAnalyzer)  
+INFO  /tvctx-manager: file created (george) (LocalFileSystem)  
+INFO  REPORT: Save succeeded for: /tvctx-manager (tvctx:/tvctx-manager) (HeadlessAnalyzer)  
+INFO  REPORT: Import succeeded (HeadlessAnalyzer)  
