@@ -15,8 +15,9 @@ findings. Private identifiers in the raw logs are redacted (`<LAN>`).
 | --- | --- |
 | `docs/findings-home-wake.md` | The writeup: Home-key routing, the app-context system, app-booting eligibility gates, the booting-app recorder, wake handlers, deviced's standby poweroff |
 | `docs/field-notes-2026-10-25.md` | The experimental record: vconf experiments, wake observations, the standby wedge, and the final working configuration |
-| `ghidra/` | Headless Ghidra 12.2 scripts used (string-anchored decompile, function-string dumps, single-function decompile by address or symbol) |
+| `ghidra/` | Headless Ghidra 12.2 scripts used (string-anchored decompile, function-string dumps, single-function decompile by address or symbol, full-binary C export) |
 | `ghidra-output/` | Decompilation logs for `tvctx-manager`, `libapp-context-manager-common.so`, and `deviced` (addresses as analyzed) |
+| `reversed/` | Decompiled C for **every function** of the three binaries, one `.c` file per function (`<name>@<address>.c`), grouped per binary |
 
 ## Method notes
 

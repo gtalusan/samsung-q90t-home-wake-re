@@ -1,0 +1,9 @@
+/* libapp-context-manager-common.so : util_config_put_int@45e9eb48 */
+
+void util_config_put_int(undefined4 param_1,undefined4 param_2)
+
+{
+  FUN_45e9ea04(1,param_1,param_2);
+  return;
+}
+

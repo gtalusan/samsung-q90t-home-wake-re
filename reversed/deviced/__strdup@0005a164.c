@@ -1,0 +1,12 @@
+/* deviced : __strdup@0005a164 */
+
+/* WARNING: Control flow encountered bad instruction data */
+
+void __strdup(void)
+
+{
+                    /* WARNING: Bad instruction - Truncating control flow here */
+                    /* __strdup@@GLIBC_2.4 */
+  halt_baddata();
+}
+

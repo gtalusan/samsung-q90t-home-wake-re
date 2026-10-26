@@ -1,0 +1,12 @@
+/* deviced : __cxa_finalize@0005a3c0 */
+
+/* WARNING: Control flow encountered bad instruction data */
+
+void __cxa_finalize(void)
+
+{
+                    /* WARNING: Bad instruction - Truncating control flow here */
+                    /* __cxa_finalize@@GLIBC_2.4 */
+  halt_baddata();
+}
+
